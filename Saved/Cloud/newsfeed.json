@@ -1,0 +1,158 @@
+{
+	"news":
+	[
+		{
+			"id": "29ad1b2d5fca4a4eae40a2c23413cfb6",
+			"title": "New Release: Blackjack",
+			"excerpt": "Now available in the Marketplace! Dig in to this simple mobile game made entirely in Blueprints.",
+			"fulltext": "Now available for free in the Marketplace! Blueprints can be used to make just about any type of game. But there is nothing like a good ol’ game of cards. Black Jack anyone?",
+			"icon": "blackjack_sm.png",
+			"issued": "2014.06.18-12.00.00",
+			"url": "ue4://market/BlackJack_4.2"
+		},
+		{
+			"id": "a500039b61174f3fa6d758366c922b42",
+			"title": "Tutorial: Blueprint Character Movement",
+			"excerpt": "Tutorial on creating character movements with Blueprints",
+			"fulltext": "This tutorial describes a number of features in UE4 that make it easier to create character movement.",
+			"icon": "blueprint_icon_b.png",
+			"issued": "2014.06.16-12.00.00",
+			"url": "https://www.unrealengine.com/blog/new-blueprint-character-movement-features"
+		},
+		{
+			"id": "448aafa543fd4060bfd0fdb62d6f087f",
+			"title": "Blog: Transitioning from UE3 to UE4",
+			"excerpt": "An end users experience with transitioning to UE4",
+			"fulltext": "Matt Stafford from Pub Games describes his experience with transitioning game development from UE3 to UE4.",
+			"icon": "ue4transition_sm.png",
+			"issued": "2014.06.05-12.00.00",
+			"url": "https://www.unrealengine.com/blog/transitioning-from-ue3-to-ue4"
+		},
+		{
+			"id": "1e08e8172ee945418633d27a2f96905c",
+			"title": "Unreal Engine 4.2 Release",
+			"excerpt": "The latest version of Unreal Engine has been released today.",
+			"fulltext": "This update includes many cool new features, such as vehicles, camera animation system, new Blueprint features, as well as example content and lots of bug fixes!",
+			"icon": "ue4release_sm.png",
+			"issued": "2014.06.04-12.00.00",
+			"url": "https://www.unrealengine.com/blog/unreal-engine-42-release"
+		},
+		{
+			"id": "7ca5fe1827814377b74111a463784937",
+			"title": "Blog: Damage in UE4",
+			"excerpt": "Introduction to damage concepts in Unreal Engine",
+			"fulltext": "This is a quick primer on the damage functionality that is included with UE4's game framework in C++ and Blueprints",
+			"icon": "damageue4_icon_sm.png",
+			"issued": "2014.05.21-12.00.00",
+			"url": "https://www.unrealengine.com/blog/damage-in-ue4"
+		},
+		{
+			"id": "de7573ce22674b9980c4f92ed46fb4bd",
+			"title": "New Release: Stylized Rendering",
+			"excerpt": "This sample showcases the rendering flexibly of Unreal Engine 4.",
+			"fulltext": "This sample showcases the rendering flexibly of Unreal Engine 4.",
+			"icon": "stylized_40x40.png",
+			"issued": "2014.05.15-12.00.00",
+			"url": "ue4://market/Stylized_4.1"
+		},
+		{
+			"id": "f3fe1926b8a941a6ae805fac0bf7c2e7",
+			"title": "Unreal Engine 4.2 Preview",
+			"excerpt": "Vehicle support and more coming in 4.2",
+			"fulltext": "Get an in-depth look at the awesome vehicle support coming in 4.2, plus details on the camera animation system, user-defined structures for Blueprints and more!",
+			"icon": "vehicle_40x40.png",
+			"issued": "2014.05.15-12.00.00",
+			"url": "https://www.unrealengine.com/blog/unreal-engine-42-update-preview"
+		},
+		{
+			"id": "9618f3c6b0774e93a221f79cbf8de652",
+			"title": "New Release: Sci-Fi Hallway",
+			"excerpt": "Download the Sci-Fi Hallway for free, available now on Marketplace.",
+			"fulltext": "Download the Sci-Fi Hallway for free, available now on Marketplace.",
+			"icon": "scifi_icon_sm.png",
+			"issued": "2014.05.09-12.00.00",
+			"url": "ue4://market/SciFiHallway"
+		},
+		{
+			"id": "34250312258f4616a2417fc75ec37f3a",
+			"title": "The Future of Unreal Tournament",
+			"excerpt": "A new Unreal Tournament project between Epic, UE4 developers and the community starts now.",
+			"fulltext": "A new Unreal Tournament project between Epic, UE4 developers and the community starts now.",
+			"icon": "ut_icon_sm.png",
+			"issued": "2014.05.08-12.00.00",
+			"url": "https://www.unrealengine.com/blog/the-future-of-unreal-tournament-begins-today"
+		},
+		{
+			"id": "fe1f5e9e30214f94828f3cd1f12d0926",
+			"title": "Vote for Features on the UE4 Roadmap",
+			"excerpt": "View the UE4 roadmap and vote for features you want now.",
+			"fulltext": "View the UE4 roadmap and vote for features you want now.",
+			"icon": "roadmap_icon_sm.png",
+			"issued": "2014.05.07-12.00.00",
+			"url": "https://www.unrealengine.com/blog/sharing-the-unreal-engine-4-roadmap"
+		},
+		{
+			"id": "cb6333b8d6f849579e751f4e4174d665",
+			"title": "New! Managing Complexity In Blueprints",
+			"excerpt": "Harness the power of Blueprint with these organizational tips. ",
+			"fulltext": "Harness the power of Blueprint with these organizational tips. ",
+			"icon": "blueprint_icon_b.png",
+			"issued": "2014.05.05-12.00.00",
+			"url": "https://www.unrealengine.com/blog/managing-complexity-in-blueprints"
+		},
+		{
+			"id": "26a28b1e89204dec8019e91e96f8b701",
+			"title": "Physically Based Shading ",
+			"excerpt": "Check out this must-read post on PBR by Jordan Walker.",
+			"fulltext": "Check out this must-read post on PBR by Jordan Walker.",
+			"icon": "pbr_icon_sm.png",
+			"issued": "2014.05.01-12.00.00",
+			"url": "https://www.unrealengine.com/blog/physically-based-shading-in-ue4"
+		},
+		{
+			"id": "07ab13e70f7e4c468fe4a2628216720d",
+			"title": "The Subtle Magic of InterpTo ()",
+			"excerpt": "Whether you're working in C++ or Blueprint, you'll want this valuable function in your toolbox.",
+			"fulltext": "Whether you're working in C++ or Blueprint, you'll want this valuable function in your toolbox.",
+			"icon": "interpto_icon_sm.png",
+			"issued": "2014.04.25-12.00.00",
+			"url": "https://www.unrealengine.com/blog/the-subtle-magic-of-interpto"
+		},
+		{
+			"id": "412888eb6bb64c3ea2bc7cc028febb3a",
+			"title": "New! Cascade VFX Tutorial Series",
+			"excerpt": "Dig into this VFX tutorial series by Tim Elek. ",
+			"fulltext": "Dig into this VFX tutorial series by Tim Elek. ",
+			"icon": "particles_icon_sm.png",
+			"issued": "2014.04.09-12.00.00",
+			"url": "https://wiki.unrealengine.com/Visual_Effects:_Lesson_01:_Material_Particle_Color"
+		},
+		{
+			"id": "9a48655ec30b4b73a055d3166e1d8b6f",
+			"title": "Collision Filtering",
+			"excerpt": "Discover the basics of UE4's powerful collision system. ",
+			"fulltext": "Discover the basics of UE4's powerful collision system. ",
+			"icon": "collision_icon_sm.png",
+			"issued": "2014.04.17-12.00.00",
+			"url": "https://www.unrealengine.com/blog/collision-filtering"
+		},
+		{
+			"id": "fc63fba096cb487c834e777f80787d2e",
+			"title": "Elemental Demo - Free Download",
+			"excerpt": "New in Marketplace! The Elemental demonstration is included free download with the 4.1 update.",
+			"fulltext": "New in Marketplace! The Elemental demonstration is included free download with the 4.1 update.",
+			"icon": "elemental_icon.png",
+			"issued": "2014.04.24-12.00.00",
+			"url": "ue4://market/Elemental"
+		},
+		{
+			"id": "751ef56b788b445bb22f257168a7fe99",
+			"title": "New! Blueprint Tutorials",
+			"excerpt": "Learn the ins and outs of Blueprint visual scripting.",
+			"fulltext": "Learn the ins and outs of Blueprint visual scripting.",
+			"icon": "blueprint_icon_b.png",
+			"issued": "2014.04.21-09.00.00",
+			"url": "http://www.unrealengine.com/blog?category=Blueprints"
+		}
+	]
+}
