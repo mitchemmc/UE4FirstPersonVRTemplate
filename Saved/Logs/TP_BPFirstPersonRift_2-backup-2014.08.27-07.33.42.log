@@ -1,0 +1,221 @@
+Log file open, 08/27/14 07:31:14
+LogInit:Display: Running engine for game: TP_BPFirstPersonRift
+LogInit: Version: 4.4.1-2270799+++depot+UE4-Releases+4.4
+LogInit: API Version: 2255576
+LogInit: Compiled (64-bit): Aug 25 2014 14:19:12
+LogInit: Build Configuration: Development
+LogInit: Branch Name: ++depot+UE4-Releases+4.4
+LogInit: Command line:  /Temp/Autosaves/Game/Maps/UEDPCExample_Map -game -PIEVIACONSOLE -ResX=1280 -ResY=720  -Multiprocess 
+LogInit: Base directory: C:/Program Files/Unreal Engine/4.4/Engine/Binaries/Win64/
+LogInit: Rocket: 1
+[2014.08.26-21.31.14:813][  0]LogTaskGraph: Started task graph with 3 named threads and 4 total threads.
+[2014.08.26-21.31.14:845][  0]LogOnline:Warning: No default platform service specified for OnlineSubsystem
+[2014.08.26-21.31.14:856][  0]LogInit: Presizing for 0 objects not considered by GC, pre-allocating 0 bytes.
+[2014.08.26-21.31.14:863][  0]LogInit: Object subsystem initialized
+[2014.08.26-21.31.14:865][  0]LogInit: Selected Device Profile: [Windows]
+[2014.08.26-21.31.14:865][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2014.08.26-21.31.14:872][  0]LogInit: Computer: HOME
+[2014.08.26-21.31.14:872][  0]LogInit: User: McCaffrey
+[2014.08.26-21.31.14:874][  0]LogInit: CPU Page size=4096, Cores=4
+[2014.08.26-21.31.14:874][  0]LogInit: High frequency timer resolution =3.410076 MHz
+[2014.08.26-21.31.14:874][  0]LogMemory: Memory total: Physical=15.9GB (16GB approx) Virtual=131072.0GB
+[2014.08.26-21.31.14:874][  0]LogMemory: Platform Memory Stats for Windows
+[2014.08.26-21.31.14:874][  0]LogMemory: Process Physical Memory: 60.32 MB used, 60.32 MB peak
+[2014.08.26-21.31.14:874][  0]LogMemory: Process Virtual Memory: 36.32 MB used, 36.32 MB peak
+[2014.08.26-21.31.14:874][  0]LogMemory: Physical Memory: 4459.04 MB used, 16268.46 MB total
+[2014.08.26-21.31.14:874][  0]LogMemory: Virtual Memory: 268.03 MB used, 134217728.00 MB total
+[2014.08.26-21.31.14:926][  0]LogD3D11RHI: Found D3D11 adapter 0: NVIDIA GeForce GTX 770 (Feature Level 11_0)
+[2014.08.26-21.31.14:926][  0]LogD3D11RHI: Adapter has 1985MB of dedicated video memory, 0MB of dedicated system memory, and 2048MB of shared system memory, 2 output[s]
+[2014.08.26-21.31.14:943][  0]LogD3D11RHI: Found D3D11 adapter 1: Intel(R) HD Graphics 4600 (Feature Level 11_0)
+[2014.08.26-21.31.14:943][  0]LogD3D11RHI: Adapter has 32MB of dedicated video memory, 0MB of dedicated system memory, and 1760MB of shared system memory, 0 output[s]
+[2014.08.26-21.31.14:946][  0]LogD3D11RHI: Found D3D11 adapter 2: Microsoft Basic Render Driver (Feature Level 11_0)
+[2014.08.26-21.31.14:946][  0]LogD3D11RHI: Adapter has 0MB of dedicated video memory, 0MB of dedicated system memory, and 256MB of shared system memory, 0 output[s]
+[2014.08.26-21.31.14:946][  0]LogD3D11RHI: Chosen D3D11 Adapter Id = 0
+[2014.08.26-21.31.14:959][  0]LogRHI: Texture pool is 1361 MB (70% of 1945 MB)
+[2014.08.26-21.31.14:977][  0]LogD3D11RHI: Async texture creation enabled
+[2014.08.26-21.31.15:069][  0]LogContentStreaming: Texture pool size is 1000.000000MB
+[2014.08.26-21.31.16:246][  0]LogTargetPlatformManager:Display: Building Assets For Windows
+[2014.08.26-21.31.16:636][  0]LogTargetPlatformManager:Display: Building Assets For Windows
+[2014.08.26-21.31.16:676][  0]LogDerivedDataCache:Display: Max Cache Size: 512 MB
+[2014.08.26-21.31.16:711][  0]LogDerivedDataCache: Loaded boot cache 0.04s 39MB C:/Users/McCaffrey/AppData/Local/UnrealEngine/4.4/DerivedDataCache/Boot.ddc.
+[2014.08.26-21.31.16:711][  0]LogDerivedDataCache:Display: Loaded Boot cache: C:/Users/McCaffrey/AppData/Local/UnrealEngine/4.4/DerivedDataCache/Boot.ddc
+[2014.08.26-21.31.16:711][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file F:/Unreal/GitHub/TP_BPFirstPersonRift/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2014.08.26-21.31.16:711][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2014.08.26-21.31.16:725][  0]LogDerivedDataCache:Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/DDC.ddp.
+[2014.08.26-21.31.16:737][  0]LogDerivedDataCache: Using Local data cache path C:/Users/McCaffrey/AppData/Local/UnrealEngine/4.4/DerivedDataCache: Writable
+[2014.08.26-21.31.16:879][  0]LogMeshUtilities: No automatic mesh reduction module available
+[2014.08.26-21.31.16:879][  0]LogMeshUtilities: No automatic mesh merging module available
+[2014.08.26-21.31.17:156][  0]LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+[2014.08.26-21.31.17:887][  0]LogWindowsMoviePlayer: Unable to load movie: F:/Unreal/GitHub/TP_BPFirstPersonRift/Content/Movies/Default_Startup.mp4
+[2014.08.26-21.31.17:996][  0]LogStats:Warning: MetaData mismatch. Did you assign a stat to two groups? New //STATGROUP_Threads//FMonitoredProcess///Thread_18a0_0///////STATCAT_Advanced//// old //STATGROUP_Threads//FMonitoredProcess///Thread_a14_0///////STATCAT_Advanced////
+[2014.08.26-21.31.17:996][  0]SourceControl: Info Source control is disabled
+[2014.08.26-21.31.17:996][  0]SourceControl: Info Source control is disabled
+[2014.08.26-21.31.18:003][  0]SourceControl: Info Source control is disabled
+[2014.08.26-21.31.18:048][  0]LogObj: 20996 objects as part of root set at end of initial load.
+[2014.08.26-21.31.18:048][  0]LogUObjectAllocator: 3965960 out of 0 bytes used by permanent object pool.
+[2014.08.26-21.31.18:241][  0]LogAutomationTest:Warning: ERR: Transient text cannot be serialized "Testing Transient serialization detection".
+[2014.08.26-21.31.18:241][  0]LogEngine: Initializing Engine...
+[2014.08.26-21.31.18:242][  0]LogHMD:Warning: HMD Oculus Rift DK2, Monitor , res = 1920 x 1080, windowPos = {0, 0}
+[2014.08.26-21.31.18:242][  0]LogHMD: Oculus initialized.
+[2014.08.26-21.31.18:322][  0]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2014.08.26-21.31.18:332][  0]LogInit: FAudioDevice initialized.
+[2014.08.26-21.31.18:335][  0]LogInit: Texture streaming: Enabled
+[2014.08.26-21.31.18:395][  0]LogConsoleResponse:Display: 
+[2014.08.26-21.31.18:395][  0]LogNet: Browse: /Temp/Autosaves/Game/Maps/UEDPCExample_Map?Name=Player
+[2014.08.26-21.31.18:395][  0]LogLoad: LoadMap: /Temp/Autosaves/Game/Maps/UEDPCExample_Map?Name=Player
+[2014.08.26-21.31.18:412][  0]LogMemory: Platform Memory Stats for Windows
+[2014.08.26-21.31.18:412][  0]LogMemory: Process Physical Memory: 274.79 MB used, 317.68 MB peak
+[2014.08.26-21.31.18:412][  0]LogMemory: Process Virtual Memory: 232.50 MB used, 277.85 MB peak
+[2014.08.26-21.31.18:412][  0]LogMemory: Physical Memory: 4620.82 MB used, 16268.46 MB total
+[2014.08.26-21.31.18:412][  0]LogMemory: Virtual Memory: 666.31 MB used, 134217728.00 MB total
+[2014.08.26-21.31.18:412][  0]LogMemory: 
+[2014.08.26-21.31.18:412][  0]Allocator Stats for TBB: (not implemented)
+[2014.08.26-21.31.19:496][  0]LogWorld: Game class is 'VRGameMode_C'
+[2014.08.26-21.31.19:515][  0]LogAIModule: Creating AISystem for world Example_Map
+[2014.08.26-21.31.19:518][  0]LogWorld: Bringing World /Temp/Autosaves/Game/Maps/UEDPCExample_Map.Example_Map up for play (max tick rate 0) at 2014.08.27-07.31.19
+[2014.08.26-21.31.19:519][  0]LogWorld: Bringing up level for play took: 0.004311
+[2014.08.26-21.31.19:522][  0]LogInit:Display: Game Engine Initialized.
+[2014.08.26-21.31.19:732][  0]LogLoad: Full Startup: 5.67 seconds (BP compile: 0.65 seconds)
+[2014.08.26-21.31.19:796][  2]LogRenderer:Warning: Reallocating scene render targets to support 1280x720.
+[2014.08.26-21.31.22:219][280]LogConsoleResponse:Display: 
+[2014.08.26-21.31.22:313][280]LogPrimitiveComponent: Zero scaling not supported (/Temp/Autosaves/Game/Maps/UEDPCExample_Map.Example_Map:PersistentLevel.ContextMenu_C_0.PPQ4)
+[2014.08.26-21.31.22:314][280]LogPrimitiveComponent: Zero scaling not supported (/Temp/Autosaves/Game/Maps/UEDPCExample_Map.Example_Map:PersistentLevel.ContextMenu_C_0.EQ1)
+[2014.08.26-21.31.22:314][280]LogPrimitiveComponent: Zero scaling not supported (/Temp/Autosaves/Game/Maps/UEDPCExample_Map.Example_Map:PersistentLevel.ContextMenu_C_0.EQ2)
+[2014.08.26-21.31.22:314][280]LogPrimitiveComponent: Zero scaling not supported (/Temp/Autosaves/Game/Maps/UEDPCExample_Map.Example_Map:PersistentLevel.ContextMenu_C_0.EQ3)
+[2014.08.26-21.31.22:314][280]LogPrimitiveComponent: Zero scaling not supported (/Temp/Autosaves/Game/Maps/UEDPCExample_Map.Example_Map:PersistentLevel.ContextMenu_C_0.EQ4)
+[2014.08.26-21.31.22:315][280]LogPrimitiveComponent: Zero scaling not supported (/Temp/Autosaves/Game/Maps/UEDPCExample_Map.Example_Map:PersistentLevel.ContextMenu_C_0.TQ1)
+[2014.08.26-21.31.22:315][280]LogPrimitiveComponent: Zero scaling not supported (/Temp/Autosaves/Game/Maps/UEDPCExample_Map.Example_Map:PersistentLevel.ContextMenu_C_0.TQ2)
+[2014.08.26-21.31.22:315][280]LogPrimitiveComponent: Zero scaling not supported (/Temp/Autosaves/Game/Maps/UEDPCExample_Map.Example_Map:PersistentLevel.ContextMenu_C_0.TQ3)
+[2014.08.26-21.31.22:315][280]LogRenderer:Warning: Reallocating scene render targets to support 1920x1080.
+[2014.08.26-21.31.22:315][280]LogPrimitiveComponent: Zero scaling not supported (/Temp/Autosaves/Game/Maps/UEDPCExample_Map.Example_Map:PersistentLevel.ContextMenu_C_0.TQ4)
+[2014.08.26-21.31.22:316][280]LogPrimitiveComponent: Zero scaling not supported (/Temp/Autosaves/Game/Maps/UEDPCExample_Map.Example_Map:PersistentLevel.ContextMenu_C_0.SQ1)
+[2014.08.26-21.31.22:316][280]LogPrimitiveComponent: Zero scaling not supported (/Temp/Autosaves/Game/Maps/UEDPCExample_Map.Example_Map:PersistentLevel.ContextMenu_C_0.SQ2)
+[2014.08.26-21.31.22:316][280]LogPrimitiveComponent: Zero scaling not supported (/Temp/Autosaves/Game/Maps/UEDPCExample_Map.Example_Map:PersistentLevel.ContextMenu_C_0.SQ3)
+[2014.08.26-21.31.22:316][280]LogPrimitiveComponent: Zero scaling not supported (/Temp/Autosaves/Game/Maps/UEDPCExample_Map.Example_Map:PersistentLevel.ContextMenu_C_0.SQ4)
+[2014.08.26-21.31.22:316][280]LogPrimitiveComponent: Zero scaling not supported (/Temp/Autosaves/Game/Maps/UEDPCExample_Map.Example_Map:PersistentLevel.ContextMenu_C_0.PPQ1)
+[2014.08.26-21.31.22:317][280]LogPrimitiveComponent: Zero scaling not supported (/Temp/Autosaves/Game/Maps/UEDPCExample_Map.Example_Map:PersistentLevel.ContextMenu_C_0.PPQ2)
+[2014.08.26-21.31.22:317][280]LogPrimitiveComponent: Zero scaling not supported (/Temp/Autosaves/Game/Maps/UEDPCExample_Map.Example_Map:PersistentLevel.ContextMenu_C_0.PPQ3)
+[2014.08.26-21.31.22:317][280]LogPrimitiveComponent: Zero scaling not supported (/Temp/Autosaves/Game/Maps/UEDPCExample_Map.Example_Map:PersistentLevel.ContextMenu_C_0.VDDown)
+[2014.08.26-21.31.22:317][280]LogPrimitiveComponent: Zero scaling not supported (/Temp/Autosaves/Game/Maps/UEDPCExample_Map.Example_Map:PersistentLevel.ContextMenu_C_0.VDUp)
+[2014.08.26-21.31.22:318][280]LogPrimitiveComponent: Zero scaling not supported (/Temp/Autosaves/Game/Maps/UEDPCExample_Map.Example_Map:PersistentLevel.ContextMenu_C_0.AADown)
+[2014.08.26-21.31.22:318][280]LogPrimitiveComponent: Zero scaling not supported (/Temp/Autosaves/Game/Maps/UEDPCExample_Map.Example_Map:PersistentLevel.ContextMenu_C_0.AAUp)
+[2014.08.26-21.31.22:321][280]LogPrimitiveComponent: Zero scaling not supported (/Temp/Autosaves/Game/Maps/UEDPCExample_Map.Example_Map:PersistentLevel.ContextMenu_C_0.DSUp01)
+[2014.08.26-21.31.22:321][280]LogPrimitiveComponent: Zero scaling not supported (/Temp/Autosaves/Game/Maps/UEDPCExample_Map.Example_Map:PersistentLevel.ContextMenu_C_0.ToggleButton5Active)
+[2014.08.26-21.31.22:321][280]LogPrimitiveComponent: Zero scaling not supported (/Temp/Autosaves/Game/Maps/UEDPCExample_Map.Example_Map:PersistentLevel.ContextMenu_C_0.ToggleButton6Active)
+[2014.08.26-21.31.22:322][280]LogPrimitiveComponent: Zero scaling not supported (/Temp/Autosaves/Game/Maps/UEDPCExample_Map.Example_Map:PersistentLevel.ContextMenu_C_0.IPDDown)
+[2014.08.26-21.31.22:322][280]LogPrimitiveComponent: Zero scaling not supported (/Temp/Autosaves/Game/Maps/UEDPCExample_Map.Example_Map:PersistentLevel.ContextMenu_C_0.IPDUp)
+[2014.08.26-21.31.22:323][280]LogPrimitiveComponent: Zero scaling not supported (/Temp/Autosaves/Game/Maps/UEDPCExample_Map.Example_Map:PersistentLevel.ContextMenu_C_0.SPUp)
+[2014.08.26-21.31.22:323][280]LogPrimitiveComponent: Zero scaling not supported (/Temp/Autosaves/Game/Maps/UEDPCExample_Map.Example_Map:PersistentLevel.ContextMenu_C_0.SPDown)
+[2014.08.26-21.31.22:323][280]LogPrimitiveComponent: Zero scaling not supported (/Temp/Autosaves/Game/Maps/UEDPCExample_Map.Example_Map:PersistentLevel.ContextMenu_C_0.SPDown01)
+[2014.08.26-21.31.22:323][280]LogPrimitiveComponent: Zero scaling not supported (/Temp/Autosaves/Game/Maps/UEDPCExample_Map.Example_Map:PersistentLevel.ContextMenu_C_0.SPUp01)
+[2014.08.26-21.31.22:324][280]LogPrimitiveComponent: Zero scaling not supported (/Temp/Autosaves/Game/Maps/UEDPCExample_Map.Example_Map:PersistentLevel.ContextMenu_C_0.DSUP)
+[2014.08.26-21.31.22:324][280]LogPrimitiveComponent: Zero scaling not supported (/Temp/Autosaves/Game/Maps/UEDPCExample_Map.Example_Map:PersistentLevel.ContextMenu_C_0.DSDown)
+[2014.08.26-21.31.22:324][280]LogPrimitiveComponent: Zero scaling not supported (/Temp/Autosaves/Game/Maps/UEDPCExample_Map.Example_Map:PersistentLevel.ContextMenu_C_0.DSDOwn01)
+[2014.08.26-21.31.22:325][280]LogPrimitiveComponent: Zero scaling not supported (/Temp/Autosaves/Game/Maps/UEDPCExample_Map.Example_Map:PersistentLevel.ContextMenu_C_0.ToggleButton1Active)
+[2014.08.26-21.31.22:326][280]LogPrimitiveComponent: Zero scaling not supported (/Temp/Autosaves/Game/Maps/UEDPCExample_Map.Example_Map:PersistentLevel.ContextMenu_C_0.ToggleButton2Active)
+[2014.08.26-21.31.22:326][280]LogPrimitiveComponent: Zero scaling not supported (/Temp/Autosaves/Game/Maps/UEDPCExample_Map.Example_Map:PersistentLevel.ContextMenu_C_0.ToggleButton3Active)
+[2014.08.26-21.31.22:327][280]LogPrimitiveComponent: Zero scaling not supported (/Temp/Autosaves/Game/Maps/UEDPCExample_Map.Example_Map:PersistentLevel.ContextMenu_C_0.ToggleButton4Active)
+[2014.08.26-21.31.22:327][280]LogPrimitiveComponent: Zero scaling not supported (/Temp/Autosaves/Game/Maps/UEDPCExample_Map.Example_Map:PersistentLevel.ContextMenu_C_0.RotateSpeedUP)
+[2014.08.26-21.31.22:327][280]LogPrimitiveComponent: Zero scaling not supported (/Temp/Autosaves/Game/Maps/UEDPCExample_Map.Example_Map:PersistentLevel.ContextMenu_C_0.RotateSpeedDown)
+[2014.08.26-21.31.22:329][280]LogHMD:Warning: Vision Tracking Acquired
+[2014.08.26-21.31.22:397][282]LogHMD:Warning: Skipping frame: FinishRendering called with no corresponding BeginRendering (was BackBuffer re-allocated?)
+[2014.08.26-21.32.45:412][632]LogRenderer:Warning: Reallocating scene render targets to support 2112x1192.
+[2014.08.26-21.32.50:784][958]LogRenderer:Warning: Reallocating scene render targets to support 2304x1296.
+[2014.08.26-21.32.51:572][995]LogRenderer:Warning: Reallocating scene render targets to support 2496x1408.
+[2014.08.26-21.33.02:410][583]LogRenderer:Warning: Reallocating scene render targets to support 2304x1296.
+[2014.08.26-21.33.03:069][612]LogRenderer:Warning: Reallocating scene render targets to support 2112x1192.
+[2014.08.26-21.33.03:581][634]LogRenderer:Warning: Reallocating scene render targets to support 1920x1080.
+[2014.08.26-21.33.38:231][908]Closing by request
+[2014.08.26-21.33.38:231][908]LogWindows: FPlatformMisc::RequestExit(0)
+[2014.08.26-21.33.38:304][909]LogWindowsTextInputMethodSystem:Error: Terminating failed while unadvising the language notification sink from the TSF source.
+[2014.08.26-21.33.38:306][909]LogExit: Preparing to exit.
+[2014.08.26-21.33.38:389][909]LogExit: Game engine shut down
+[2014.08.26-21.33.38:389][909]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x00000096F03FA160
+[2014.08.26-21.33.38:405][909]LogHMD: Oculus shutdown.
+[2014.08.26-21.33.38:412][909]LogExit: Object subsystem successfully closed.
+[2014.08.26-21.33.38:439][909]LogModuleManager: Shutting down and abandoning module HTTP (86)
+[2014.08.26-21.33.38:439][909]LogModuleManager: Shutting down and abandoning module AndroidDeviceDetection (85)
+[2014.08.26-21.33.38:439][909]LogModuleManager: Shutting down and abandoning module AutomationWorker (84)
+[2014.08.26-21.33.38:439][909]LogModuleManager: Shutting down and abandoning module GameplayDebugger (83)
+[2014.08.26-21.33.38:439][909]LogModuleManager: Shutting down and abandoning module AIModule (82)
+[2014.08.26-21.33.38:439][909]LogModuleManager: Shutting down and abandoning module GameLiveStreaming (81)
+[2014.08.26-21.33.38:439][909]LogModuleManager: Shutting down and abandoning module StreamingPauseRendering (80)
+[2014.08.26-21.33.38:439][909]LogModuleManager: Shutting down and abandoning module AnalyticsET (79)
+[2014.08.26-21.33.38:439][909]LogModuleManager: Shutting down and abandoning module Analytics (78)
+[2014.08.26-21.33.38:439][909]LogModuleManager: Shutting down and abandoning module ProfilerService (77)
+[2014.08.26-21.33.38:665][909]LogModuleManager: Shutting down and abandoning module TaskGraph (76)
+[2014.08.26-21.33.38:665][909]LogModuleManager: Shutting down and abandoning module SlateRemote (75)
+[2014.08.26-21.33.38:665][909]LogModuleManager: Shutting down and abandoning module CustomMeshComponent (74)
+[2014.08.26-21.33.38:665][909]LogModuleManager: Shutting down and abandoning module CableComponent (73)
+[2014.08.26-21.33.38:665][909]LogModuleManager: Shutting down and abandoning module VisualStudioSourceCodeAccess (72)
+[2014.08.26-21.33.38:665][909]LogModuleManager: Shutting down and abandoning module UObjectPlugin (71)
+[2014.08.26-21.33.38:665][909]LogModuleManager: Shutting down and abandoning module SubversionSourceControl (70)
+[2014.08.26-21.33.38:665][909]LogModuleManager: Shutting down and abandoning module SourceControl (69)
+[2014.08.26-21.33.38:665][909]LogModuleManager: Shutting down and abandoning module PerforceSourceControl (68)
+[2014.08.26-21.33.38:665][909]LogModuleManager: Shutting down and abandoning module BlankPlugin (67)
+[2014.08.26-21.33.38:665][909]LogModuleManager: Shutting down and abandoning module ScriptPlugin (66)
+[2014.08.26-21.33.38:665][909]LogModuleManager: Shutting down and abandoning module UdpMessaging (65)
+[2014.08.26-21.33.38:665][909]LogModuleManager: Shutting down and abandoning module Paper2D (64)
+[2014.08.26-21.33.38:665][909]LogModuleManager: Shutting down and abandoning module WindowsMoviePlayer (63)
+[2014.08.26-21.33.38:665][909]LogModuleManager: Shutting down and abandoning module ImageWrapper (62)
+[2014.08.26-21.33.38:665][909]LogModuleManager: Shutting down and abandoning module OnlineBlueprintSupport (61)
+[2014.08.26-21.33.38:665][909]LogModuleManager: Shutting down and abandoning module FunctionalTesting (60)
+[2014.08.26-21.33.38:665][909]LogModuleManager: Shutting down and abandoning module CollisionAnalyzer (59)
+[2014.08.26-21.33.38:665][909]LogModuleManager: Shutting down and abandoning module WorkspaceMenuStructure (58)
+[2014.08.26-21.33.38:665][909]LogModuleManager: Shutting down and abandoning module MessageLog (57)
+[2014.08.26-21.33.38:665][909]LogModuleManager: Shutting down and abandoning module UMGEditor (56)
+[2014.08.26-21.33.38:665][909]LogModuleManager: Shutting down and abandoning module UMG (55)
+[2014.08.26-21.33.38:665][909]LogModuleManager: Shutting down and abandoning module Slate (54)
+[2014.08.26-21.33.38:665][909]LogModuleManager: Shutting down and abandoning module EditorStyle (53)
+[2014.08.26-21.33.38:667][909]LogModuleManager: Shutting down and abandoning module SessionServices (52)
+[2014.08.26-21.33.38:667][909]LogModuleManager: Shutting down and abandoning module SourceCodeAccess (51)
+[2014.08.26-21.33.38:667][909]LogModuleManager: Shutting down and abandoning module HeadMountedDisplay (50)
+[2014.08.26-21.33.38:667][909]LogModuleManager: Shutting down and abandoning module XAudio2 (49)
+[2014.08.26-21.33.38:667][909]LogModuleManager: Shutting down and abandoning module Networking (47)
+[2014.08.26-21.33.38:667][909]LogModuleManager: Shutting down and abandoning module Core (46)
+[2014.08.26-21.33.38:667][909]LogModuleManager: Shutting down and abandoning module KismetCompiler (45)
+[2014.08.26-21.33.38:667][909]LogModuleManager: Shutting down and abandoning module PhysXFormats (44)
+[2014.08.26-21.33.38:667][909]LogModuleManager: Shutting down and abandoning module MeshUtilities (43)
+[2014.08.26-21.33.38:667][909]LogModuleManager: Shutting down and abandoning module DerivedDataCache (42)
+[2014.08.26-21.33.38:765][909]LogDerivedDataCache: Shutdown
+[2014.08.26-21.33.38:765][909]LogModuleManager: Shutting down and abandoning module ShaderFormatOpenGL (41)
+[2014.08.26-21.33.38:765][909]LogModuleManager: Shutting down and abandoning module ShaderFormatD3D (40)
+[2014.08.26-21.33.38:765][909]LogModuleManager: Shutting down and abandoning module MetalShaderFormat (39)
+[2014.08.26-21.33.38:765][909]LogModuleManager: Shutting down and abandoning module TextureFormatUncompressed (38)
+[2014.08.26-21.33.38:765][909]LogModuleManager: Shutting down and abandoning module TextureFormatPVR (37)
+[2014.08.26-21.33.38:765][909]LogModuleManager: Shutting down and abandoning module TextureFormatDXT (36)
+[2014.08.26-21.33.38:765][909]LogModuleManager: Shutting down and abandoning module TextureFormatAndroid (35)
+[2014.08.26-21.33.38:765][909]LogModuleManager: Shutting down and abandoning module AudioFormatOpus (34)
+[2014.08.26-21.33.38:765][909]LogModuleManager: Shutting down and abandoning module AudioFormatOgg (33)
+[2014.08.26-21.33.38:765][909]LogModuleManager: Shutting down and abandoning module AudioFormatADPCM (32)
+[2014.08.26-21.33.38:765][909]LogModuleManager: Shutting down and abandoning module Messaging (31)
+[2014.08.26-21.33.38:765][909]LogModuleManager: Shutting down and abandoning module IOSTargetPlatform (30)
+[2014.08.26-21.33.38:765][909]LogModuleManager: Shutting down and abandoning module Android_PVRTCTargetPlatform (29)
+[2014.08.26-21.33.38:765][909]LogModuleManager: Shutting down and abandoning module Android_ETC2TargetPlatform (28)
+[2014.08.26-21.33.38:765][909]LogModuleManager: Shutting down and abandoning module Android_ETC1TargetPlatform (27)
+[2014.08.26-21.33.38:765][909]LogModuleManager: Shutting down and abandoning module Android_DXTTargetPlatform (26)
+[2014.08.26-21.33.38:765][909]LogModuleManager: Shutting down and abandoning module Android_ATCTargetPlatform (25)
+[2014.08.26-21.33.38:765][909]LogModuleManager: Shutting down and abandoning module AndroidTargetPlatform (24)
+[2014.08.26-21.33.38:765][909]LogModuleManager: Shutting down and abandoning module WindowsTargetPlatform (23)
+[2014.08.26-21.33.38:765][909]LogModuleManager: Shutting down and abandoning module WindowsServerTargetPlatform (22)
+[2014.08.26-21.33.38:765][909]LogModuleManager: Shutting down and abandoning module WindowsNoEditorTargetPlatform (21)
+[2014.08.26-21.33.38:765][909]LogModuleManager: Shutting down and abandoning module WindowsClientTargetPlatform (20)
+[2014.08.26-21.33.38:765][909]LogModuleManager: Shutting down and abandoning module TargetPlatform (19)
+[2014.08.26-21.33.38:765][909]LogModuleManager: Shutting down and abandoning module InputCore (18)
+[2014.08.26-21.33.38:765][909]LogModuleManager: Shutting down and abandoning module Settings (17)
+[2014.08.26-21.33.38:765][909]LogModuleManager: Shutting down and abandoning module ExampleDeviceProfileSelector (14)
+[2014.08.26-21.33.38:765][909]LogModuleManager: Shutting down and abandoning module OculusRift (13)
+[2014.08.26-21.33.38:765][909]LogModuleManager: Shutting down and abandoning module TextureCompressor (12)
+[2014.08.26-21.33.38:765][909]LogModuleManager: Shutting down and abandoning module ShaderCore (11)
+[2014.08.26-21.33.38:765][909]LogModuleManager: Shutting down and abandoning module OpenGLDrv (10)
+[2014.08.26-21.33.38:765][909]LogModuleManager: Shutting down and abandoning module D3D11RHI (9)
+[2014.08.26-21.33.38:765][909]LogModuleManager: Shutting down and abandoning module SlateRHIRenderer (8)
+[2014.08.26-21.33.38:765][909]LogModuleManager: Shutting down and abandoning module Renderer (7)
+[2014.08.26-21.33.38:765][909]LogModuleManager: Shutting down and abandoning module Engine (6)
+[2014.08.26-21.33.38:765][909]LogModuleManager: Shutting down and abandoning module CoreUObject (5)
+[2014.08.26-21.33.38:765][909]LogModuleManager: Shutting down and abandoning module NetworkFile (4)
+[2014.08.26-21.33.38:765][909]LogModuleManager: Shutting down and abandoning module StreamingFile (3)
+[2014.08.26-21.33.38:765][909]LogModuleManager: Shutting down and abandoning module SandboxFile (2)
+[2014.08.26-21.33.38:765][909]LogModuleManager: Shutting down and abandoning module PakFile (1)
+[2014.08.26-21.33.38:765][909]LogExit: Exiting.
+[2014.08.26-21.33.38:766][909]Log file closed, 08/27/14 07:33:38

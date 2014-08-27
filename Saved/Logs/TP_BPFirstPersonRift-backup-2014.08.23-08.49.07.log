@@ -1,0 +1,190 @@
+Log file open, 08/23/14 08:45:28
+LogInit:Display: Running engine for game: TP_BPFirstPersonRift
+LogInit: Version: 4.4.1-2265359+++depot+UE4-Releases+4.4
+LogInit: API Version: 2255576
+LogInit: Compiled (64-bit): Aug 20 2014 22:16:55
+LogInit: Build Configuration: Development
+LogInit: Branch Name: ++depot+UE4-Releases+4.4
+LogInit: Command line: 
+LogInit: Base directory: C:/Program Files/Unreal Engine/4.4/Engine/Binaries/Win64/
+LogInit: Rocket: 1
+[2014.08.22-22.45.28:914][  0]LogTaskGraph: Started task graph with 3 named threads and 4 total threads.
+[2014.08.22-22.45.28:943][  0]LogOnline:Warning: No default platform service specified for OnlineSubsystem
+[2014.08.22-22.45.28:951][  0]LogInit: Presizing for 0 objects not considered by GC, pre-allocating 0 bytes.
+[2014.08.22-22.45.28:956][  0]LogInit: Object subsystem initialized
+[2014.08.22-22.45.28:957][  0]LogInit: Selected Device Profile: [Windows]
+[2014.08.22-22.45.28:957][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2014.08.22-22.45.28:962][  0]LogInit: Computer: HOME
+[2014.08.22-22.45.28:962][  0]LogInit: User: McCaffrey
+[2014.08.22-22.45.28:963][  0]LogInit: CPU Page size=4096, Cores=4
+[2014.08.22-22.45.28:963][  0]LogInit: High frequency timer resolution =3.410077 MHz
+[2014.08.22-22.45.28:963][  0]LogMemory: Memory total: Physical=15.9GB (16GB approx) Virtual=131072.0GB
+[2014.08.22-22.45.28:964][  0]LogMemory: Platform Memory Stats for Windows
+[2014.08.22-22.45.28:964][  0]LogMemory: Process Physical Memory: 59.98 MB used, 59.98 MB peak
+[2014.08.22-22.45.28:964][  0]LogMemory: Process Virtual Memory: 36.20 MB used, 36.20 MB peak
+[2014.08.22-22.45.28:964][  0]LogMemory: Physical Memory: 4227.13 MB used, 16268.46 MB total
+[2014.08.22-22.45.28:964][  0]LogMemory: Virtual Memory: 265.88 MB used, 134217728.00 MB total
+[2014.08.22-22.45.28:985][  0]LogD3D11RHI: Found D3D11 adapter 0: NVIDIA GeForce GTX 770 (Feature Level 11_0)
+[2014.08.22-22.45.28:985][  0]LogD3D11RHI: Adapter has 1985MB of dedicated video memory, 0MB of dedicated system memory, and 2048MB of shared system memory, 3 output[s]
+[2014.08.22-22.45.28:991][  0]LogD3D11RHI: Found D3D11 adapter 1: Intel(R) HD Graphics 4600 (Feature Level 11_0)
+[2014.08.22-22.45.28:991][  0]LogD3D11RHI: Adapter has 32MB of dedicated video memory, 0MB of dedicated system memory, and 1760MB of shared system memory, 0 output[s]
+[2014.08.22-22.45.28:992][  0]LogD3D11RHI: Found D3D11 adapter 2: Microsoft Basic Render Driver (Feature Level 11_0)
+[2014.08.22-22.45.28:992][  0]LogD3D11RHI: Adapter has 0MB of dedicated video memory, 0MB of dedicated system memory, and 256MB of shared system memory, 0 output[s]
+[2014.08.22-22.45.28:992][  0]LogD3D11RHI: Chosen D3D11 Adapter Id = 0
+[2014.08.22-22.45.28:995][  0]LogRHI: Texture pool is 1361 MB (70% of 1945 MB)
+[2014.08.22-22.45.29:004][  0]LogD3D11RHI: Async texture creation enabled
+[2014.08.22-22.45.29:100][  0]LogContentStreaming: Texture pool size is 0.000000MB
+[2014.08.22-22.45.30:284][  0]LogTargetPlatformManager:Display: Building Assets For Windows
+[2014.08.22-22.45.30:609][  0]LogTargetPlatformManager:Display: Building Assets For Windows
+[2014.08.22-22.45.30:644][  0]LogDerivedDataCache:Display: Max Cache Size: 512 MB
+[2014.08.22-22.45.30:674][  0]LogDerivedDataCache: Loaded boot cache 0.03s 39MB C:/Users/McCaffrey/AppData/Local/UnrealEngine/4.4/DerivedDataCache/Boot.ddc.
+[2014.08.22-22.45.30:674][  0]LogDerivedDataCache:Display: Loaded Boot cache: C:/Users/McCaffrey/AppData/Local/UnrealEngine/4.4/DerivedDataCache/Boot.ddc
+[2014.08.22-22.45.30:674][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file F:/Unreal/GitHub/TP_BPFirstPersonRift/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2014.08.22-22.45.30:674][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2014.08.22-22.45.30:687][  0]LogDerivedDataCache:Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/DDC.ddp.
+[2014.08.22-22.45.30:699][  0]LogDerivedDataCache: Using Local data cache path C:/Users/McCaffrey/AppData/Local/UnrealEngine/4.4/DerivedDataCache: Writable
+[2014.08.22-22.45.30:829][  0]LogMeshUtilities: No automatic mesh reduction module available
+[2014.08.22-22.45.30:829][  0]LogMeshUtilities: No automatic mesh merging module available
+[2014.08.22-22.45.31:168][  0]LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+[2014.08.22-22.45.31:777][  0]LogStats:Warning: MetaData mismatch. Did you assign a stat to two groups? New //STATGROUP_Threads//FMonitoredProcess///Thread_3f4_0///////STATCAT_Advanced//// old //STATGROUP_Threads//FMonitoredProcess///Thread_1b54_0///////STATCAT_Advanced////
+[2014.08.22-22.45.31:777][  0]UdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2014.08.22-22.45.31:880][  0]SourceControl: Info Source control is disabled
+[2014.08.22-22.45.31:880][  0]SourceControl: Info Source control is disabled
+[2014.08.22-22.45.31:886][  0]SourceControl: Info Source control is disabled
+[2014.08.22-22.45.32:025][  0]BlueprintLog: New page: Editor Load
+[2014.08.22-22.45.32:107][  0]LogObj: 21438 objects as part of root set at end of initial load.
+[2014.08.22-22.45.32:107][  0]LogUObjectAllocator: 4218656 out of 0 bytes used by permanent object pool.
+[2014.08.22-22.45.32:267][  0]LogEngine: Initializing Engine...
+[2014.08.22-22.45.32:353][  0]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2014.08.22-22.45.32:369][  0]LogInit: FAudioDevice initialized.
+[2014.08.22-22.45.32:383][  0]LogAIModule: Creating AISystem for world NewWorld
+[2014.08.22-22.45.32:402][  0]LogDerivedDataCache: Saved boot cache 0.02s 39MB C:/Users/McCaffrey/AppData/Local/UnrealEngine/4.4/DerivedDataCache/Boot.ddc.
+[2014.08.22-22.45.32:405][  0]LogInit: Texture streaming: Enabled
+[2014.08.22-22.45.32:431][  0]LogInit: Transaction tracking system initialized
+[2014.08.22-22.45.32:529][  0]LogAssetRegistry: FAssetRegistry took 0.0110 seconds to start up
+[2014.08.22-22.45.32:909][  0]LogTargetPlatformManager:Display: Building Assets For Windows
+[2014.08.22-22.45.33:166][  0]LogTargetPlatformManager:Display: Building Assets For Windows
+[2014.08.22-22.45.33:270][  0]LogConsoleResponse:Display: 
+[2014.08.22-22.45.33:411][  0]LogStats:Warning: MetaData mismatch. Did you assign a stat to two groups? New //STATGROUP_Threads//FMonitoredProcess///Thread_1a64_0///////STATCAT_Advanced//// old //STATGROUP_Threads//FMonitoredProcess///Thread_1b54_0///////STATCAT_Advanced////
+[2014.08.22-22.45.33:411][  0]LogStats:Warning: MetaData mismatch. Did you assign a stat to two groups? New //STATGROUP_Threads//FMonitoredProcess///Thread_1ea4_0///////STATCAT_Advanced//// old //STATGROUP_Threads//FMonitoredProcess///Thread_1b54_0///////STATCAT_Advanced////
+[2014.08.22-22.45.33:411][  0]SourceControl: Info Source control is disabled
+[2014.08.22-22.45.33:411][  0]Cmd: MAP LOAD FILE="F:/Unreal/GitHub/TP_BPFirstPersonRift/Content/Maps/Example_Map.umap" TEMPLATE=0 SHOWPROGRESS=1
+[2014.08.22-22.45.33:411][  0]LightingResults: New page: Lighting Build
+[2014.08.22-22.45.33:418][  0]MapCheck: New page: Map Check
+[2014.08.22-22.45.33:418][  0]LightingResults: New page: Lighting Build
+[2014.08.22-22.45.33:428][  0]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000B6CAF5D1C0
+[2014.08.22-22.45.34:131][  0]LogBlueprint:Warning: [compiler] Warning Unable to find function with name 'GetControlledPawn' for  Get Controlled Pawn 
+[2014.08.22-22.45.34:131][  0]LogBlueprint:Warning: [compiler] Warning Unable to find function with name 'GetControlledPawn' for  Get Controlled Pawn 
+[2014.08.22-22.45.34:146][  0]LogBlueprint:Warning: [compiler] Warning Could not find the function 'GetControlledPawn' called from  Get Controlled Pawn 
+[2014.08.22-22.45.34:146][  0]LogBlueprint:Warning: [compiler] Warning Could not find the function 'GetControlledPawn' called from  Get Controlled Pawn 
+[2014.08.22-22.45.34:150][  0]LogBlueprint:Warning: [compiler] Warning [0005.93] Compile of VRPlayerController successful, but with 4 Warning(s) [in 28 ms]
+[2014.08.22-22.45.34:295][  0]LogBlueprint:Warning: [compiler] Warning Unable to find function with name 'GetControlledPawn' for  Get Controlled Pawn 
+[2014.08.22-22.45.34:295][  0]LogBlueprint:Warning: [compiler] Warning Unable to find function with name 'GetControlledPawn' for  Get Controlled Pawn 
+[2014.08.22-22.45.34:310][  0]LogBlueprint:Warning: [compiler] Warning Could not find the function 'GetControlledPawn' called from  Get Controlled Pawn 
+[2014.08.22-22.45.34:311][  0]LogBlueprint:Warning: [compiler] Warning Could not find the function 'GetControlledPawn' called from  Get Controlled Pawn 
+[2014.08.22-22.45.34:315][  0]LogBlueprint:Warning: [compiler] Warning [0006.10] Compile of VRPlayerController successful, but with 4 Warning(s) [in 28 ms]
+[2014.08.22-22.45.34:481][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2014.08.22-22.45.34:481][  0]LogAIModule: Creating AISystem for world Example_Map
+[2014.08.22-22.45.34:481][  0]Cmd: MAP CHECKDEP
+[2014.08.22-22.45.34:481][  0]MapCheck: New page: Example_Map - 23 Aug 2014 6:45:34 pm
+[2014.08.22-22.45.34:571][  0]MapCheck: Info ========== Map Check: 0 Error(s), 0 Warning(s), [89.502ms] ==========
+[2014.08.22-22.45.34:571][  0]LogFileHelpers: Loading map 'Example_Map' took 1.160
+[2014.08.22-22.45.34:759][  0]LogCollectionManager: Loaded 0 collections in 0.000951 seconds
+[2014.08.22-22.45.34:910][  0]LogCrashTracker: Crashtracker disabled due to settings.
+[2014.08.22-22.45.34:954][  0]LogLoad: Full Startup: 6.74 seconds (BP compile: 0.59 seconds)
+[2014.08.22-22.45.34:964][  0]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/Character'
+[2014.08.22-22.45.35:048][  0]LogRenderer:Warning: Reallocating scene render targets to support 32x32.
+[2014.08.22-22.45.35:131][  0]LogRenderer:Warning: Reallocating scene render targets to support 1320x1256.
+[2014.08.22-22.45.35:210][  1]LogAssetRegistry: Asset discovery search completed in 2.6923 seconds
+[2014.08.22-22.45.38:646][318]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Maps/Example_Map" FILE="F:/Unreal/GitHub/TP_BPFirstPersonRift/Saved/Autosaves/Game/Maps/UEDPCExample_Map.umap" SILENT=true AUTOSAVING=true KEEPDIRTY=true
+[2014.08.22-22.45.38:768][318]LogSavePackage: Save=99.213890ms
+[2014.08.22-22.45.38:768][318]LogSavePackage: Moving 'F:/Unreal/GitHub/TP_BPFirstPersonRift/Saved/UEDPCExample_Map029E9A214CF859A02E4D70A51CD8FCAC.tmp' to 'F:/Unreal/GitHub/TP_BPFirstPersonRift/Saved/Autosaves/Game/Maps/UEDPCExample_Map.umap'
+[2014.08.22-22.45.50:766][339]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Maps/Example_Map" FILE="F:/Unreal/GitHub/TP_BPFirstPersonRift/Saved/Autosaves/Game/Maps/UEDPCExample_Map.umap" SILENT=true AUTOSAVING=true KEEPDIRTY=true
+[2014.08.22-22.45.50:854][339]LogSavePackage: Save=75.882744ms
+[2014.08.22-22.45.50:854][339]LogSavePackage: Moving 'F:/Unreal/GitHub/TP_BPFirstPersonRift/Saved/UEDPCExample_Map0FA7593649F5D750DC857CAB5EDDA57C.tmp' to 'F:/Unreal/GitHub/TP_BPFirstPersonRift/Saved/Autosaves/Game/Maps/UEDPCExample_Map.umap'
+[2014.08.22-22.47.43:498][ 66]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Maps/Example_Map" FILE="F:/Unreal/GitHub/TP_BPFirstPersonRift/Saved/Autosaves/Game/Maps/UEDPCExample_Map.umap" SILENT=true AUTOSAVING=true KEEPDIRTY=true
+[2014.08.22-22.47.43:606][ 66]LogSavePackage: Save=77.155441ms
+[2014.08.22-22.47.43:606][ 66]LogSavePackage: Moving 'F:/Unreal/GitHub/TP_BPFirstPersonRift/Saved/UEDPCExample_MapBD30EAD8406C480DE566B38F02FBA724.tmp' to 'F:/Unreal/GitHub/TP_BPFirstPersonRift/Saved/Autosaves/Game/Maps/UEDPCExample_Map.umap'
+[2014.08.22-22.47.58:995][359]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Maps/Example_Map" FILE="F:/Unreal/GitHub/TP_BPFirstPersonRift/Saved/Autosaves/Game/Maps/UEDPCExample_Map.umap" SILENT=true AUTOSAVING=true KEEPDIRTY=true
+[2014.08.22-22.47.59:094][359]LogSavePackage: Save=78.001755ms
+[2014.08.22-22.47.59:094][359]LogSavePackage: Moving 'F:/Unreal/GitHub/TP_BPFirstPersonRift/Saved/UEDPCExample_MapB686452549F9CEC6D58D0FBE57610861.tmp' to 'F:/Unreal/GitHub/TP_BPFirstPersonRift/Saved/Autosaves/Game/Maps/UEDPCExample_Map.umap'
+[2014.08.22-22.48.24:833][623]Cmd: UpdateLandscapeSetup
+[2014.08.22-22.48.26:030][748]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Maps/Example_Map" FILE="F:/Unreal/GitHub/TP_BPFirstPersonRift/Saved/Autosaves/Game/Maps/UEDPCExample_Map.umap" SILENT=true AUTOSAVING=true KEEPDIRTY=true
+[2014.08.22-22.48.26:133][748]LogSavePackage: Save=77.965691ms
+[2014.08.22-22.48.26:133][748]LogSavePackage: Moving 'F:/Unreal/GitHub/TP_BPFirstPersonRift/Saved/UEDPCExample_MapCBD333A041AC9EC8AF564A9A54FB3F25.tmp' to 'F:/Unreal/GitHub/TP_BPFirstPersonRift/Saved/Autosaves/Game/Maps/UEDPCExample_Map.umap'
+[2014.08.22-22.48.39:777][841]LogSlate:Warning: Prevented a slow task dialog from being summoned while a context menu was open
+[2014.08.22-22.48.41:316][ 14]Cmd: UpdateLandscapeSetup
+[2014.08.22-22.48.49:782][  8]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Maps/Example_Map" FILE="F:/Unreal/GitHub/TP_BPFirstPersonRift/Content/Maps/Example_Map.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2014.08.22-22.48.49:819][  8]LogWindows:Error: appError called: Illegal call to StaticFindObject() while serializing object data!
+[2014.08.22-22.48.49:819][  8]LogWindows:Error: Windows GetLastError: The operation completed successfully. (0)
+[2014.08.22-22.48.49:820][  8]LogCrashTracker: 
+
+
+[2014.08.22-22.48.50:156][  8]LogCrashTracker: 
+
+
+[2014.08.22-22.48.50:156][  8]LogWindows: === Critical error: ===
+Unhandled Exception: 0x00000001
+
+[2014.08.22-22.48.50:156][  8]LogWindows: Illegal call to StaticFindObject() while serializing object data!
+
+Address = 0x19cf5bf8 (filename not found) [in C:\WINDOWS\system32\KERNELBASE.dll]
+Address = 0x3ec3afc  (filename not found) [in C:\Program Files\Unreal Engine\4.4\Engine\Binaries\Win64\UE4Editor-Core.dll]
+Address = 0x3d65b2a  (filename not found) [in C:\Program Files\Unreal Engine\4.4\Engine\Binaries\Win64\UE4Editor-Core.dll]
+Address = 0x638ee97  (filename not found) [in C:\Program Files\Unreal Engine\4.4\Engine\Binaries\Win64\UE4Editor-CoreUObject.dll]
+Address = 0xf1f07410 (filename not found) [in C:\Program Files\Unreal Engine\4.4\Engine\Binaries\Win64\UE4Editor-DetailCustomizations.dll]
+Address = 0xf1f89fcd (filename not found) [in C:\Program Files\Unreal Engine\4.4\Engine\Binaries\Win64\UE4Editor-DetailCustomizations.dll]
+Address = 0xf1ed5502 (filename not found) [in C:\Program Files\Unreal Engine\4.4\Engine\Binaries\Win64\UE4Editor-DetailCustomizations.dll]
+Address = 0xf7be27a4 (filename not found) [in C:\Program Files\Unreal Engine\4.4\Engine\Binaries\Win64\UE4Editor-PropertyEditor.dll]
+Address = 0xf7bba2c6 (filename not found) [in C:\Program Files\Unreal Engine\4.4\Engine\Binaries\Win64\UE4Editor-PropertyEditor.dll]
+Address = 0x13e405a  (filename not found) [in C:\Program Files\Unreal Engine\4.4\Engine\Binaries\Win64\UE4Editor-Slate.dll]
+Address = 0x13eb478  (filename not found) [in C:\Program Files\Unreal Engine\4.4\Engine\Binaries\Win64\UE4Editor-Slate.dll]
+Address = 0x164f9b7  (filename not found) [in C:\Program Files\Unreal Engine\4.4\Engine\Binaries\Win64\UE4Editor-Slate.dll]
+Address = 0x5f245a7  (filename not found) [in C:\Program Files\Unreal Engine\4.4\Engine\Binaries\Win64\UE4Editor-SlateCore.dll]
+Address = 0x5f245a7  (filename not found) [in C:\Program Files\Unreal Engine\4.4\Engine\Binaries\Win64\UE4Editor-SlateCore.dll]
+Address = 0x5f245a7  (filename not found) [in C:\Program Files\Unreal Engine\4.4\Engine\Binaries\Win64\UE4Editor-SlateCore.dll]
+Address = 0x13e14df  (filename not found) [in C:\Program Files\Unreal Engine\4.4\Engine\Binaries\Win64\UE4Editor-Slate.dll]
+Address = 0x13e0b64  (filename not found) [in C:\Program Files\Unreal Engine\4.4\Engine\Binaries\Win64\UE4Editor-Slate.dll]
+Address = 0x141ee41  (filename not found) [in C:\Program Files\Unreal Engine\4.4\Engine\Binaries\Win64\UE4Editor-Slate.dll]
+Address = 0x143c0f8  (filename not found) [in C:\Program Files\Unreal Engine\4.4\Engine\Binaries\Win64\UE4Editor-Slate.dll]
+Address = 0xf90f70de (filename not found) [in C:\Program Files\Unreal Engine\4.4\Engine\Binaries\Win64\UE4Editor-UnrealEd.dll]
+Address = 0xf90fa328 (filename not found) [in C:\Program Files\Unreal Engine\4.4\Engine\Binaries\Win64\UE4Editor-UnrealEd.dll]
+Address = 0x638509f  (filename not found) [in C:\Program Files\Unreal Engine\4.4\Engine\Binaries\Win64\UE4Editor-CoreUObject.dll]
+Address = 0xf8fc6d5b (filename not found) [in C:\Program Files\Unreal Engine\4.4\Engine\Binaries\Win64\UE4Editor-UnrealEd.dll]
+Address = 0xf906d545 (filename not found) [in C:\Program Files\Unreal Engine\4.4\Engine\Binaries\Win64\UE4Editor-UnrealEd.dll]
+Address = 0xf906a3fc (filename not found) [in C:\Program Files\Unreal Engine\4.4\Engine\Binaries\Win64\UE4Editor-UnrealEd.dll]
+Address = 0xf936f0f0 (filename not found) [in C:\Program Files\Unreal Engine\4.4\Engine\Binaries\Win64\UE4Editor-UnrealEd.dll]
+Address = 0xf90f4259 (filename not found) [in C:\Program Files\Unreal Engine\4.4\Engine\Binaries\Win64\UE4Editor-UnrealEd.dll]
+Address = 0xf90f3388 (filename not found) [in C:\Program Files\Unreal Engine\4.4\Engine\Binaries\Win64\UE4Editor-UnrealEd.dll]
+Address = 0xf90deacb (filename not found) [in C:\Program Files\Unreal Engine\4.4\Engine\Binaries\Win64\UE4Editor-UnrealEd.dll]
+Address = 0xf90eb6f5 (filename not found) [in C:\Program Files\Unreal Engine\4.4\Engine\Binaries\Win64\UE4Editor-UnrealEd.dll]
+Address = 0xf90df01c (filename not found) [in C:\Program Files\Unreal Engine\4.4\Engine\Binaries\Win64\UE4Editor-UnrealEd.dll]
+Address = 0xf90f2e9a (filename not found) [in C:\Program Files\Unreal Engine\4.4\Engine\Binaries\Win64\UE4Editor-UnrealEd.dll]
+Address = 0xf43f06c4 (filename not found) [in C:\Program Files\Unreal Engine\4.4\Engine\Binaries\Win64\UE4Editor-MainFrame.dll]
+Address = 0xf43d775a (filename not found) [in C:\Program Files\Unreal Engine\4.4\Engine\Binaries\Win64\UE4Editor-MainFrame.dll]
+Address = 0x13d59bf  (filename not found) [in C:\Program Files\Unreal Engine\4.4\Engine\Binaries\Win64\UE4Editor-Slate.dll]
+Address = 0x141f4ac  (filename not found) [in C:\Program Files\Unreal Engine\4.4\Engine\Binaries\Win64\UE4Editor-Slate.dll]
+Address = 0xf43e9cd2 (filename not found) [in C:\Program Files\Unreal Engine\4.4\Engine\Binaries\Win64\UE4Editor-MainFrame.dll]
+Address = 0xf43d753f (filename not found) [in C:\Program Files\Unreal Engine\4.4\Engine\Binaries\Win64\UE4Editor-MainFrame.dll]
+Address = 0x13e414a  (filename not found) [in C:\Program Files\Unreal Engine\4.4\Engine\Binaries\Win64\UE4Editor-Slate.dll]
+Address = 0x14206cd  (filename not found) [in C:\Program Files\Unreal Engine\4.4\Engine\Binaries\Win64\UE4Editor-Slate.dll]
+Address = 0x1410453  (filename not found) [in C:\Program Files\Unreal Engine\4.4\Engine\Binaries\Win64\UE4Editor-Slate.dll]
+Address = 0x3e331aa  (filename not found) [in C:\Program Files\Unreal Engine\4.4\Engine\Binaries\Win64\UE4Editor-Core.dll]
+Address = 0x3e1f871  (filename not found) [in C:\Program Files\Unreal Engine\4.4\Engine\Binaries\Win64\UE4Editor-Core.dll]
+Address = 0x3e3461e  (filename not found) [in C:\Program Files\Unreal Engine\4.4\Engine\Binaries\Win64\UE4Editor-Core.dll]
+Address = 0x3e1c6e2  (filename not found) [in C:\Program Files\Unreal Engine\4.4\Engine\Binaries\Win64\UE4Editor-Core.dll]
+Address = 0x1a282434 (filename not found) [in C:\WINDOWS\system32\USER32.dll]
+Address = 0x1a282297 (filename not found) [in C:\WINDOWS\system32\USER32.dll]
+Address = 0x3e34ac6  (filename not found) [in C:\Program Files\Unreal Engine\4.4\Engine\Binaries\Win64\UE4Editor-Core.dll]
+FEngineLoop::Tick() 0xc822708d + 8 bytes [File=d:\buildfarm\buildmachine_++depot+ue4-releases+4.4\engine\source\runtime\launch\private\launchengineloop.cpp:2080] [in C:\Program Files\Unreal Engine\4.4\Engine\Binaries\Win64\UE4Editor.exe]
+GuardedMain() 0xc821ca3c + 0 bytes [File=d:\buildfarm\buildmachine_++depot+ue4-releases+4.4\engine\source\runtime\launch\private\launch.cpp:133] [in C:\Program Files\Unreal Engine\4.4\Engine\Binaries\Win64\UE4Editor.exe]
+GuardedMainWrapper() 0xc821caaa + 5 bytes [File=d:\buildfarm\buildmachine_++depot+ue4-releases+4.4\engine\source\runtime\launch\private\windows\launchwindows.cpp:125] [in C:\Program Files\Unreal Engine\4.4\Engine\Binaries\Win64\UE4Editor.exe]
+WinMain() 0xc82288c9 + 17 bytes [File=d:\buildfarm\buildmachine_++depot+ue4-releases+4.4\engine\source\runtime\launch\private\windows\launchwindows.cpp:201] [in C:\Program Files\Unreal Engine\4.4\Engine\Binaries\Win64\UE4Editor.exe]
+__tmainCRTStartup() 0xc82296f9 + 21 bytes [File=f:\dd\vctools\crt\crtw32\dllstuff\crtexe.c:618] [in C:\Program Files\Unreal Engine\4.4\Engine\Binaries\Win64\UE4Editor.exe]
+Address = 0x1a7516ad (filename not found) [in C:\WINDOWS\system32\KERNEL32.DLL]
+Address = 0x1d7934a5 (filename not found) [in C:\WINDOWS\SYSTEM32\ntdll.dll]
+Address = 0x1d7934a5 (filename not found) [in C:\WINDOWS\SYSTEM32\ntdll.dll]
+
+[2014.08.22-22.48.50:193][  8]LogExit: Executing StaticShutdownAfterError
+[2014.08.22-22.48.50:199][  8]LogWindows: FPlatformMisc::RequestExit(1)
+[2014.08.22-22.48.50:200][  8]Log file closed, 08/23/14 08:48:50

@@ -1,0 +1,302 @@
+Log file open, 08/22/14 18:02:12
+LogInit:Display: Running engine for game: TP_BPFirstPersonRift
+LogInit: Version: 4.4.0-2237849+++depot+UE4-Releases+4.4
+LogInit: API Version: 2237849
+LogInit: Compiled (64-bit): Jul 30 2014 23:58:57
+LogInit: Build Configuration: Development
+LogInit: Branch Name: ++depot+UE4-Releases+4.4
+LogInit: Command line: 
+LogInit: Base directory: C:/Program Files/Unreal Engine/4.4/Engine/Binaries/Win64/
+LogInit: Rocket: 1
+[2014.08.22-08.02.12:621][  0]LogTaskGraph: Started task graph with 3 named threads and 4 total threads.
+[2014.08.22-08.02.12:650][  0]LogOnline:Warning: No default platform service specified for OnlineSubsystem
+[2014.08.22-08.02.12:657][  0]LogInit: Presizing for 0 objects not considered by GC, pre-allocating 0 bytes.
+[2014.08.22-08.02.12:661][  0]LogInit: Object subsystem initialized
+[2014.08.22-08.02.12:663][  0]LogInit: Selected Device Profile: [Windows]
+[2014.08.22-08.02.12:663][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2014.08.22-08.02.12:680][  0]LogInit: Computer: HOME
+[2014.08.22-08.02.12:681][  0]LogInit: User: McCaffrey
+[2014.08.22-08.02.12:682][  0]LogInit: CPU Page size=4096, Cores=4
+[2014.08.22-08.02.12:682][  0]LogInit: High frequency timer resolution =3.410077 MHz
+[2014.08.22-08.02.12:682][  0]LogMemory: Memory total: Physical=15.9GB (16GB approx) Virtual=131072.0GB
+[2014.08.22-08.02.12:682][  0]LogMemory: Platform Memory Stats for Windows
+[2014.08.22-08.02.12:682][  0]LogMemory: Process Physical Memory: 60.87 MB used, 60.87 MB peak
+[2014.08.22-08.02.12:682][  0]LogMemory: Process Virtual Memory: 37.93 MB used, 37.93 MB peak
+[2014.08.22-08.02.12:682][  0]LogMemory: Physical Memory: 3827.97 MB used, 16268.46 MB total
+[2014.08.22-08.02.12:682][  0]LogMemory: Virtual Memory: 256.02 MB used, 134217728.00 MB total
+[2014.08.22-08.02.12:710][  0]LogD3D11RHI: Found D3D11 adapter 0: NVIDIA GeForce GTX 770 (Feature Level 11_0)
+[2014.08.22-08.02.12:710][  0]LogD3D11RHI: Adapter has 1985MB of dedicated video memory, 0MB of dedicated system memory, and 2048MB of shared system memory, 2 output[s]
+[2014.08.22-08.02.12:717][  0]LogD3D11RHI: Found D3D11 adapter 1: Intel(R) HD Graphics 4600 (Feature Level 11_0)
+[2014.08.22-08.02.12:717][  0]LogD3D11RHI: Adapter has 32MB of dedicated video memory, 0MB of dedicated system memory, and 1760MB of shared system memory, 0 output[s]
+[2014.08.22-08.02.12:718][  0]LogD3D11RHI: Found D3D11 adapter 2: Microsoft Basic Render Driver (Feature Level 11_0)
+[2014.08.22-08.02.12:718][  0]LogD3D11RHI: Adapter has 0MB of dedicated video memory, 0MB of dedicated system memory, and 256MB of shared system memory, 0 output[s]
+[2014.08.22-08.02.12:718][  0]LogD3D11RHI: Chosen D3D11 Adapter Id = 0
+[2014.08.22-08.02.12:721][  0]LogRHI: Texture pool is 1361 MB (70% of 1945 MB)
+[2014.08.22-08.02.12:732][  0]LogD3D11RHI: Async texture creation enabled
+[2014.08.22-08.02.12:823][  0]LogContentStreaming: Texture pool size is 0.000000MB
+[2014.08.22-08.02.13:226][  0]Launching UnrealBuildTool... [C:/Program Files/Unreal Engine/4.4/Engine/Binaries/DotNET/UnrealBuildTool.exe -autosdkonly -rocket]
+[2014.08.22-08.02.13:902][  0]LogTargetPlatformManager:Display: Building Assets For Windows
+[2014.08.22-08.02.14:009][  0]LogTargetPlatformManager:Display: Building Assets For Windows
+[2014.08.22-08.02.14:043][  0]LogDerivedDataCache:Display: Max Cache Size: 512 MB
+[2014.08.22-08.02.14:086][  0]LogDerivedDataCache: Loaded boot cache 0.04s 57MB C:/Users/McCaffrey/AppData/Local/UnrealEngine/4.4/DerivedDataCache/Boot.ddc.
+[2014.08.22-08.02.14:086][  0]LogDerivedDataCache:Display: Loaded Boot cache: C:/Users/McCaffrey/AppData/Local/UnrealEngine/4.4/DerivedDataCache/Boot.ddc
+[2014.08.22-08.02.14:086][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file F:/Unreal/GitHub/TP_BPFirstPersonRift/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2014.08.22-08.02.14:086][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2014.08.22-08.02.14:099][  0]LogDerivedDataCache:Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/DDC.ddp.
+[2014.08.22-08.02.14:127][  0]LogDerivedDataCache: Using Local data cache path C:/Users/McCaffrey/AppData/Local/UnrealEngine/4.4/DerivedDataCache: Writable
+[2014.08.22-08.02.14:253][  0]LogMeshUtilities: No automatic mesh reduction module available
+[2014.08.22-08.02.14:253][  0]LogMeshUtilities: No automatic mesh merging module available
+[2014.08.22-08.02.14:543][  0]LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+[2014.08.22-08.02.15:145][  0]UdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2014.08.22-08.02.15:248][  0]SourceControl: Info Source control is disabled
+[2014.08.22-08.02.15:248][  0]SourceControl: Info Source control is disabled
+[2014.08.22-08.02.15:254][  0]SourceControl: Info Source control is disabled
+[2014.08.22-08.02.15:399][  0]BlueprintLog: New page: Editor Load
+[2014.08.22-08.02.15:492][  0]LogObj: 21427 objects as part of root set at end of initial load.
+[2014.08.22-08.02.15:492][  0]LogUObjectAllocator: 4217288 out of 0 bytes used by permanent object pool.
+[2014.08.22-08.02.15:659][  0]LogEngine: Initializing Engine...
+[2014.08.22-08.02.15:736][  0]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2014.08.22-08.02.15:753][  0]LogInit: FAudioDevice initialized.
+[2014.08.22-08.02.15:768][  0]LogAIModule: Creating AISystem for world NewWorld
+[2014.08.22-08.02.15:793][  0]LogDerivedDataCache: Saved boot cache 0.02s 57MB C:/Users/McCaffrey/AppData/Local/UnrealEngine/4.4/DerivedDataCache/Boot.ddc.
+[2014.08.22-08.02.15:797][  0]LogInit: Texture streaming: Enabled
+[2014.08.22-08.02.15:825][  0]LogInit: Transaction tracking system initialized
+[2014.08.22-08.02.15:923][  0]LogAssetRegistry: FAssetRegistry took 0.0109 seconds to start up
+[2014.08.22-08.02.16:068][  0]LogTargetPlatformManager:Display: Building Assets For Windows
+[2014.08.22-08.02.16:105][  0]LogTargetPlatformManager:Display: Building Assets For Windows
+[2014.08.22-08.02.16:217][  0]LogConsoleResponse:Display: 
+[2014.08.22-08.02.16:378][  0]SourceControl: Info Source control is disabled
+[2014.08.22-08.02.16:378][  0]Cmd: MAP LOAD FILE="F:/Unreal/GitHub/TP_BPFirstPersonRift/Content/Maps/Example_Map.umap" TEMPLATE=0 SHOWPROGRESS=1
+[2014.08.22-08.02.16:427][  0]LightingResults: New page: Lighting Build
+[2014.08.22-08.02.16:434][  0]MapCheck: New page: Map Check
+[2014.08.22-08.02.16:434][  0]LightingResults: New page: Lighting Build
+[2014.08.22-08.02.16:443][  0]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000F55FEF11C0
+[2014.08.22-08.02.17:787][  0]LogBlueprint:Warning: [compiler] Warning Unable to find function with name 'GetControlledPawn' for  Get Controlled Pawn 
+[2014.08.22-08.02.17:787][  0]LogBlueprint:Warning: [compiler] Warning Unable to find function with name 'GetControlledPawn' for  Get Controlled Pawn 
+[2014.08.22-08.02.17:801][  0]LogBlueprint:Warning: [compiler] Warning Could not find the function 'GetControlledPawn' called from  Get Controlled Pawn 
+[2014.08.22-08.02.17:801][  0]LogBlueprint:Warning: [compiler] Warning Could not find the function 'GetControlledPawn' called from  Get Controlled Pawn 
+[2014.08.22-08.02.17:804][  0]LogBlueprint:Warning: [compiler] Warning [0006.14] Compile of VRPlayerController successful, but with 4 Warning(s) [in 25 ms]
+[2014.08.22-08.02.17:950][  0]LogBlueprint:Warning: [compiler] Warning Unable to find function with name 'GetControlledPawn' for  Get Controlled Pawn 
+[2014.08.22-08.02.17:950][  0]LogBlueprint:Warning: [compiler] Warning Unable to find function with name 'GetControlledPawn' for  Get Controlled Pawn 
+[2014.08.22-08.02.17:964][  0]LogBlueprint:Warning: [compiler] Warning Could not find the function 'GetControlledPawn' called from  Get Controlled Pawn 
+[2014.08.22-08.02.17:964][  0]LogBlueprint:Warning: [compiler] Warning Could not find the function 'GetControlledPawn' called from  Get Controlled Pawn 
+[2014.08.22-08.02.17:968][  0]LogBlueprint:Warning: [compiler] Warning [0006.30] Compile of VRPlayerController successful, but with 4 Warning(s) [in 27 ms]
+[2014.08.22-08.02.18:174][  0]LogMaterial: Missing cached shader map for material MenuBase_Mat, compiling.
+[2014.08.22-08.02.18:195][  0]LogMaterial: Missing cached shader map for material M_MenuToggleCircle, compiling.
+[2014.08.22-08.02.18:197][  0]LogMaterial: Missing cached shader map for material M_Menu_Background, compiling.
+[2014.08.22-08.02.18:199][  0]LogMaterial: Missing cached shader map for material DefaultTextMaterialTranslucentDepthTestDisabled, compiling.
+[2014.08.22-08.02.18:203][  0]LogMaterial: Missing cached shader map for material M_HighlightMaterial, compiling.
+[2014.08.22-08.02.18:232][  0]LogStaticMesh: Building static mesh TemplateCube_Rounded...
+[2014.08.22-08.02.18:235][  0]LogStaticMesh: Built static mesh [2.877941ms] /Game/Meshes/TemplateCube_Rounded.TemplateCube_Rounded
+[2014.08.22-08.02.18:239][  0]LogMaterial: Missing cached shader map for material Mirror_Mat, compiling.
+[2014.08.22-08.02.18:389][  0]LogTexture:Display: Building textures: HQ_Lightmap0_1 (AutoDXT)
+[2014.08.22-08.02.18:502][  0]LogTexture:Display: Building textures: HQ_Lightmap0_2 (AutoDXT)
+[2014.08.22-08.02.18:508][  0]LogTexture:Display: Building textures: HQ_Lightmap0_3 (AutoDXT)
+[2014.08.22-08.02.18:522][  0]LogTexture:Display: Building textures: LQ_Lightmap_0_1 (DXT1)
+[2014.08.22-08.02.18:579][  0]LogTexture:Display: Building textures: LQ_Lightmap_0_2 (DXT1)
+[2014.08.22-08.02.18:580][  0]LogTexture:Display: Building textures: LQ_Lightmap_0_3 (DXT1)
+[2014.08.22-08.02.18:591][  0]LogTexture:Display: Building textures: ShadowMapTexture2D_0 (BGRA8)
+[2014.08.22-08.02.18:617][  0]LogTexture:Display: Building textures: ShadowMapTexture2D_2 (BGRA8)
+[2014.08.22-08.02.18:617][  0]LogTexture:Display: Building textures: ShadowMapTexture2D_3 (BGRA8)
+[2014.08.22-08.02.18:626][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2014.08.22-08.02.18:626][  0]LogAIModule: Creating AISystem for world Example_Map
+[2014.08.22-08.02.18:627][  0]Cmd: MAP CHECKDEP
+[2014.08.22-08.02.18:627][  0]MapCheck: New page: Example_Map - 23 Aug 2014 4:02:18 am
+[2014.08.22-08.02.18:759][  0]MapCheck: Info ========== Map Check: 0 Error(s), 0 Warning(s), [132.457ms] ==========
+[2014.08.22-08.02.18:759][  0]LogFileHelpers: Loading map 'Example_Map' took 2.382
+[2014.08.22-08.02.18:883][  0]LogCollectionManager: Loaded 0 collections in 0.001505 seconds
+[2014.08.22-08.02.19:137][  0]LogCrashTracker: Crashtracker disabled due to settings.
+[2014.08.22-08.02.19:180][  0]LogLoad: Full Startup: 7.51 seconds (BP compile: 0.56 seconds)
+[2014.08.22-08.02.19:201][  0]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/Character'
+[2014.08.22-08.02.19:315][  0]LogRenderer:Warning: Reallocating scene render targets to support 32x32.
+[2014.08.22-08.02.19:378][  0]LogRenderer:Warning: Reallocating scene render targets to support 1320x1256.
+[2014.08.22-08.02.19:552][  1]LogEpicStorage:Warning: EnumerateFiles request failed. Invalid response. code=403 error=<?xml version="1.0" encoding="UTF-8"?>
+<Error><Code>AccessDenied</Code><Message>Access Denied</Message><RequestId>ECD059071E930DCB</RequestId><HostId>jW99IAtlnlDU1EKjkdM/jM7CwWHCKsVDs/qjYERHJU9mHU6s9wZw64tfI1y6Q2jC</HostId></Error>
+[2014.08.22-08.02.19:563][  1]LogAssetRegistry: Asset discovery search completed in 3.6516 seconds
+[2014.08.22-08.02.19:656][  3]LogEpicStorage:Warning: EnumerateFiles request failed. Invalid response. code=403 error=<?xml version="1.0" encoding="UTF-8"?>
+<Error><Code>AccessDenied</Code><Message>Access Denied</Message><RequestId>4710F8633F302BE5</RequestId><HostId>ftJvqUH3KwQlcDfbhygNt3Df4CJ8+2OQ0+Hp30Mi38RDhgm38J+V6PpI9E1io9OH</HostId></Error>
+[2014.08.22-08.02.20:001][ 13]LogEpicStorage:Warning: ReadFile request failed. File request already pending for filename=http://cdn.unrealengine.com/newsfeed/blueprint_icon_b.png
+[2014.08.22-08.02.20:056][ 13]LogEpicStorage:Warning: ReadFile request failed. File request already pending for filename=http://cdn.unrealengine.com/newsfeed/blueprint_icon_b.png
+[2014.08.22-08.02.42:835][ 77]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Maps/Example_Map" FILE="F:/Unreal/GitHub/TP_BPFirstPersonRift/Saved/Autosaves/Game/Maps/UEDPCExample_Map.umap" SILENT=true AUTOSAVING=true KEEPDIRTY=true
+[2014.08.22-08.02.42:993][ 77]LogSavePackage: Save=84.815971ms
+[2014.08.22-08.02.42:993][ 77]LogSavePackage: Moving 'F:/Unreal/GitHub/TP_BPFirstPersonRift/Saved/UEDPCExample_MapBE1A911C459A0EE58827DC89DC4084F0.tmp' to 'F:/Unreal/GitHub/TP_BPFirstPersonRift/Saved/Autosaves/Game/Maps/UEDPCExample_Map.umap'
+[2014.08.22-08.03.13:560][518]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Maps/Example_Map" FILE="F:/Unreal/GitHub/TP_BPFirstPersonRift/Saved/Autosaves/Game/Maps/UEDPCExample_Map.umap" SILENT=true AUTOSAVING=true KEEPDIRTY=true
+[2014.08.22-08.03.13:658][518]LogSavePackage: Save=82.879944ms
+[2014.08.22-08.03.13:658][518]LogSavePackage: Moving 'F:/Unreal/GitHub/TP_BPFirstPersonRift/Saved/UEDPCExample_MapFFAA19C64F1A26D3FB700486BE982ABC.tmp' to 'F:/Unreal/GitHub/TP_BPFirstPersonRift/Saved/Autosaves/Game/Maps/UEDPCExample_Map.umap'
+[2014.08.22-08.03.37:054][374]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Maps/Example_Map" FILE="F:/Unreal/GitHub/TP_BPFirstPersonRift/Saved/Autosaves/Game/Maps/UEDPCExample_Map.umap" SILENT=true AUTOSAVING=true KEEPDIRTY=true
+[2014.08.22-08.03.37:158][374]LogSavePackage: Save=79.681190ms
+[2014.08.22-08.03.37:158][374]LogSavePackage: Moving 'F:/Unreal/GitHub/TP_BPFirstPersonRift/Saved/UEDPCExample_Map2010C94D452EED5571772A81CFF6D7D2.tmp' to 'F:/Unreal/GitHub/TP_BPFirstPersonRift/Saved/Autosaves/Game/Maps/UEDPCExample_Map.umap'
+[2014.08.22-08.03.57:933][ 99]Cmd: QUIT_EDITOR
+[2014.08.22-08.03.58:022][ 99]LogWindowsTextInputMethodSystem:Error: Terminating failed while unadvising the language notification sink from the TSF source.
+[2014.08.22-08.03.58:023][ 99]LogExit: Preparing to exit.
+[2014.08.22-08.03.58:301][ 99]LogExit: Editor shut down
+[2014.08.22-08.03.58:301][ 99]LogExit: Transaction tracking system shut down
+[2014.08.22-08.03.58:303][ 99]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000F569CCDE40
+[2014.08.22-08.03.58:303][ 99]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000F56DAFD440
+[2014.08.22-08.03.58:303][ 99]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000F56DAFD3A0
+[2014.08.22-08.03.58:303][ 99]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000F56DAFD080
+[2014.08.22-08.03.58:326][ 99]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000F56DC2FEC0
+[2014.08.22-08.03.58:326][ 99]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000F56DC2FB00
+[2014.08.22-08.03.58:326][ 99]LogExit: Object subsystem successfully closed.
+[2014.08.22-08.03.58:367][ 99]LogModuleManager: Shutting down and abandoning module AndroidDeviceDetection (162)
+[2014.08.22-08.03.58:367][ 99]LogModuleManager: Shutting down and abandoning module CrashTracker (161)
+[2014.08.22-08.03.58:367][ 99]LogModuleManager: Shutting down and abandoning module SuperSearch (160)
+[2014.08.22-08.03.58:367][ 99]LogModuleManager: Shutting down and abandoning module HTTP (159)
+[2014.08.22-08.03.58:367][ 99]LogModuleManager: Shutting down and abandoning module NewsFeed (158)
+[2014.08.22-08.03.58:367][ 99]LogModuleManager: Shutting down and abandoning module SceneOutliner (157)
+[2014.08.22-08.03.58:367][ 99]LogModuleManager: Shutting down and abandoning module EditorWidgets (156)
+[2014.08.22-08.03.58:367][ 99]LogModuleManager: Shutting down and abandoning module CollectionManager (155)
+[2014.08.22-08.03.58:367][ 99]LogModuleManager: Shutting down and abandoning module StatsViewer (154)
+[2014.08.22-08.03.58:367][ 99]LogModuleManager: Shutting down and abandoning module FoliageEdit (153)
+[2014.08.22-08.03.58:367][ 99]LogModuleManager: Shutting down and abandoning module LandscapeEditor (152)
+[2014.08.22-08.03.58:367][ 99]LogModuleManager: Shutting down and abandoning module MeshPaint (151)
+[2014.08.22-08.03.58:367][ 99]LogModuleManager: Shutting down and abandoning module ActorPickerMode (150)
+[2014.08.22-08.03.58:367][ 99]LogModuleManager: Shutting down and abandoning module GeometryMode (149)
+[2014.08.22-08.03.58:367][ 99]LogModuleManager: Shutting down and abandoning module TextureAlignMode (148)
+[2014.08.22-08.03.58:367][ 99]LogModuleManager: Shutting down and abandoning module BspMode (147)
+[2014.08.22-08.03.58:367][ 99]LogModuleManager: Shutting down and abandoning module PlacementMode (146)
+[2014.08.22-08.03.58:367][ 99]LogModuleManager: Shutting down and abandoning module DesktopPlatform (145)
+[2014.08.22-08.03.58:367][ 99]LogModuleManager: Shutting down and abandoning module AutomationWorker (144)
+[2014.08.22-08.03.58:367][ 99]LogModuleManager: Shutting down and abandoning module EditorLiveStreaming (143)
+[2014.08.22-08.03.58:367][ 99]LogModuleManager: Shutting down and abandoning module BehaviorTreeEditor (142)
+[2014.08.22-08.03.58:367][ 99]LogModuleManager: Shutting down and abandoning module DeviceProfileEditor (141)
+[2014.08.22-08.03.58:367][ 99]LogModuleManager: Shutting down and abandoning module UndoHistory (140)
+[2014.08.22-08.03.58:367][ 99]LogModuleManager: Shutting down and abandoning module GameplayTagsEditor (139)
+[2014.08.22-08.03.58:367][ 99]LogModuleManager: Shutting down and abandoning module UserFeedback (138)
+[2014.08.22-08.03.58:367][ 99]LogModuleManager: Shutting down and abandoning module XmlParser (137)
+[2014.08.22-08.03.58:367][ 99]LogModuleManager: Shutting down and abandoning module Blutility (136)
+[2014.08.22-08.03.58:367][ 99]LogModuleManager: Shutting down and abandoning module IOSPlatformEditor (135)
+[2014.08.22-08.03.58:367][ 99]LogModuleManager: Shutting down and abandoning module IOSRuntimeSettings (134)
+[2014.08.22-08.03.58:367][ 99]LogModuleManager: Shutting down and abandoning module AndroidPlatformEditor (133)
+[2014.08.22-08.03.58:367][ 99]LogModuleManager: Shutting down and abandoning module AndroidRuntimeSettings (132)
+[2014.08.22-08.03.58:367][ 99]LogModuleManager: Shutting down and abandoning module ProjectTargetPlatformEditor (131)
+[2014.08.22-08.03.58:367][ 99]LogModuleManager: Shutting down and abandoning module ProjectSettingsViewer (130)
+[2014.08.22-08.03.58:367][ 99]LogModuleManager: Shutting down and abandoning module InputBindingEditor (129)
+[2014.08.22-08.03.58:367][ 99]LogModuleManager: Shutting down and abandoning module EditorSettingsViewer (128)
+[2014.08.22-08.03.58:367][ 99]LogModuleManager: Shutting down and abandoning module SettingsEditor (127)
+[2014.08.22-08.03.58:367][ 99]LogModuleManager: Shutting down and abandoning module SessionLauncher (126)
+[2014.08.22-08.03.58:367][ 99]LogModuleManager: Shutting down and abandoning module SessionFrontend (125)
+[2014.08.22-08.03.58:367][ 99]LogModuleManager: Shutting down and abandoning module ProfilerClient (124)
+[2014.08.22-08.03.58:367][ 99]LogModuleManager: Shutting down and abandoning module TargetDeviceServices (123)
+[2014.08.22-08.03.58:367][ 99]LogModuleManager: Shutting down and abandoning module DeviceManager (122)
+[2014.08.22-08.03.58:367][ 99]LogModuleManager: Shutting down and abandoning module AutomationController (121)
+[2014.08.22-08.03.58:367][ 99]LogModuleManager: Shutting down and abandoning module AutomationWindow (120)
+[2014.08.22-08.03.58:367][ 99]LogModuleManager: Shutting down and abandoning module Layers (119)
+[2014.08.22-08.03.58:367][ 99]LogModuleManager: Shutting down and abandoning module ComponentVisualizers (118)
+[2014.08.22-08.03.58:367][ 99]LogModuleManager: Shutting down and abandoning module DetailCustomizations (117)
+[2014.08.22-08.03.58:368][ 99]LogModuleManager: Shutting down and abandoning module PackagesDialog (116)
+[2014.08.22-08.03.58:368][ 99]LogModuleManager: Shutting down and abandoning module DirectoryWatcher (115)
+[2014.08.22-08.03.58:368][ 99]LogModuleManager: Shutting down and abandoning module AssetRegistry (114)
+[2014.08.22-08.03.58:445][ 99]LogModuleManager: Shutting down and abandoning module Persona (113)
+[2014.08.22-08.03.58:445][ 99]LogModuleManager: Shutting down and abandoning module GraphEditor (112)
+[2014.08.22-08.03.58:445][ 99]LogModuleManager: Shutting down and abandoning module ClassViewer (111)
+[2014.08.22-08.03.58:445][ 99]LogModuleManager: Shutting down and abandoning module Toolbox (110)
+[2014.08.22-08.03.58:445][ 99]LogModuleManager: Shutting down and abandoning module ModuleUI (109)
+[2014.08.22-08.03.58:445][ 99]LogModuleManager: Shutting down and abandoning module Sequencer (108)
+[2014.08.22-08.03.58:445][ 99]LogModuleManager: Shutting down and abandoning module MovieSceneTools (107)
+[2014.08.22-08.03.58:445][ 99]LogModuleManager: Shutting down and abandoning module OutputLog (106)
+[2014.08.22-08.03.58:445][ 99]LogModuleManager: Shutting down and abandoning module GammaUI (105)
+[2014.08.22-08.03.58:445][ 99]LogModuleManager: Shutting down and abandoning module Documentation (104)
+[2014.08.22-08.03.58:445][ 99]LogModuleManager: Shutting down and abandoning module GameLiveStreaming (103)
+[2014.08.22-08.03.58:446][ 99]LogModuleManager: Shutting down and abandoning module StreamingPauseRendering (102)
+[2014.08.22-08.03.58:446][ 99]LogModuleManager: Shutting down and abandoning module AnalyticsET (101)
+[2014.08.22-08.03.58:446][ 99]LogModuleManager: Shutting down and abandoning module Analytics (100)
+[2014.08.22-08.03.58:446][ 99]LogModuleManager: Shutting down and abandoning module GameplayDebugger (99)
+[2014.08.22-08.03.58:446][ 99]LogModuleManager: Shutting down and abandoning module AIModule (98)
+[2014.08.22-08.03.58:446][ 99]LogModuleManager: Shutting down and abandoning module ProfilerService (97)
+[2014.08.22-08.03.58:622][ 99]LogModuleManager: Shutting down and abandoning module TaskGraph (96)
+[2014.08.22-08.03.58:622][ 99]LogModuleManager: Shutting down and abandoning module SlateRemote (95)
+[2014.08.22-08.03.58:622][ 99]LogModuleManager: Shutting down and abandoning module ScriptEditorPlugin (94)
+[2014.08.22-08.03.58:622][ 99]LogModuleManager: Shutting down and abandoning module CustomMeshComponent (93)
+[2014.08.22-08.03.58:622][ 99]LogModuleManager: Shutting down and abandoning module CableComponent (92)
+[2014.08.22-08.03.58:622][ 99]LogModuleManager: Shutting down and abandoning module OculusRift (91)
+[2014.08.22-08.03.58:622][ 99]LogModuleManager: Shutting down and abandoning module MessagingDebugger (90)
+[2014.08.22-08.03.58:622][ 99]LogModuleManager: Shutting down and abandoning module ViewportSnapping (89)
+[2014.08.22-08.03.58:622][ 99]LogModuleManager: Shutting down and abandoning module SmartSnapping (88)
+[2014.08.22-08.03.58:622][ 99]LogModuleManager: Shutting down and abandoning module PaperTiledImporter (87)
+[2014.08.22-08.03.58:622][ 99]LogModuleManager: Shutting down and abandoning module PaperJsonImporter (86)
+[2014.08.22-08.03.58:622][ 99]LogModuleManager: Shutting down and abandoning module GameProjectGeneration (85)
+[2014.08.22-08.03.58:622][ 99]LogModuleManager: Shutting down and abandoning module Matinee (84)
+[2014.08.22-08.03.58:622][ 99]LogModuleManager: Shutting down and abandoning module Kismet (83)
+[2014.08.22-08.03.58:622][ 99]LogModuleManager: Shutting down and abandoning module SlateReflector (82)
+[2014.08.22-08.03.58:622][ 99]LogModuleManager: Shutting down and abandoning module LevelEditor (81)
+[2014.08.22-08.03.58:623][ 99]LogModuleManager: Shutting down and abandoning module IntroTutorials (80)
+[2014.08.22-08.03.58:623][ 99]LogModuleManager: Shutting down and abandoning module ContentBrowser (79)
+[2014.08.22-08.03.58:623][ 99]LogModuleManager: Shutting down and abandoning module PropertyEditor (78)
+[2014.08.22-08.03.58:623][ 99]LogModuleManager: Shutting down and abandoning module AssetTools (77)
+[2014.08.22-08.03.58:623][ 99]LogModuleManager: Shutting down and abandoning module Paper2DEditor (76)
+[2014.08.22-08.03.58:623][ 99]LogModuleManager: Shutting down and abandoning module SpeedTreeImporter (75)
+[2014.08.22-08.03.58:623][ 99]LogModuleManager: Shutting down and abandoning module PluginsEditor (74)
+[2014.08.22-08.03.58:623][ 99]LogModuleManager: Shutting down and abandoning module MainFrame (73)
+[2014.08.22-08.03.58:623][ 99]LogModuleManager: Shutting down and abandoning module EpicSurvey (72)
+[2014.08.22-08.03.58:623][ 99]LogModuleManager: Shutting down and abandoning module VisualStudioSourceCodeAccess (71)
+[2014.08.22-08.03.58:623][ 99]LogModuleManager: Shutting down and abandoning module UObjectPlugin (70)
+[2014.08.22-08.03.58:623][ 99]LogModuleManager: Shutting down and abandoning module SubversionSourceControl (69)
+[2014.08.22-08.03.58:623][ 99]LogModuleManager: Shutting down and abandoning module SourceControl (68)
+[2014.08.22-08.03.58:623][ 99]LogModuleManager: Shutting down and abandoning module PerforceSourceControl (67)
+[2014.08.22-08.03.58:623][ 99]LogModuleManager: Shutting down and abandoning module BlankPlugin (66)
+[2014.08.22-08.03.58:623][ 99]LogModuleManager: Shutting down and abandoning module ScriptPlugin (65)
+[2014.08.22-08.03.58:623][ 99]LogModuleManager: Shutting down and abandoning module UdpMessaging (64)
+[2014.08.22-08.03.58:724][ 99]LogModuleManager: Shutting down and abandoning module Paper2D (63)
+[2014.08.22-08.03.58:724][ 99]LogModuleManager: Shutting down and abandoning module WindowsMoviePlayer (62)
+[2014.08.22-08.03.58:727][ 99]LogModuleManager: Shutting down and abandoning module ImageWrapper (61)
+[2014.08.22-08.03.58:727][ 99]LogModuleManager: Shutting down and abandoning module OnlineBlueprintSupport (60)
+[2014.08.22-08.03.58:727][ 99]LogModuleManager: Shutting down and abandoning module FunctionalTesting (59)
+[2014.08.22-08.03.58:727][ 99]LogModuleManager: Shutting down and abandoning module CollisionAnalyzer (58)
+[2014.08.22-08.03.58:727][ 99]LogModuleManager: Shutting down and abandoning module WorkspaceMenuStructure (57)
+[2014.08.22-08.03.58:727][ 99]LogModuleManager: Shutting down and abandoning module MessageLog (56)
+[2014.08.22-08.03.58:727][ 99]LogModuleManager: Shutting down and abandoning module UMGEditor (55)
+[2014.08.22-08.03.58:727][ 99]LogModuleManager: Shutting down and abandoning module UMG (54)
+[2014.08.22-08.03.58:727][ 99]LogModuleManager: Shutting down and abandoning module Slate (53)
+[2014.08.22-08.03.58:727][ 99]LogModuleManager: Shutting down and abandoning module EditorStyle (52)
+[2014.08.22-08.03.58:728][ 99]LogModuleManager: Shutting down and abandoning module SessionServices (51)
+[2014.08.22-08.03.58:728][ 99]LogModuleManager: Shutting down and abandoning module SourceCodeAccess (50)
+[2014.08.22-08.03.58:728][ 99]LogModuleManager: Shutting down and abandoning module HeadMountedDisplay (49)
+[2014.08.22-08.03.58:728][ 99]LogModuleManager: Shutting down and abandoning module XAudio2 (48)
+[2014.08.22-08.03.58:728][ 99]LogModuleManager: Shutting down and abandoning module Networking (46)
+[2014.08.22-08.03.58:728][ 99]LogModuleManager: Shutting down and abandoning module Core (45)
+[2014.08.22-08.03.58:728][ 99]LogModuleManager: Shutting down and abandoning module KismetCompiler (44)
+[2014.08.22-08.03.58:728][ 99]LogModuleManager: Shutting down and abandoning module PhysXFormats (43)
+[2014.08.22-08.03.58:728][ 99]LogModuleManager: Shutting down and abandoning module MeshUtilities (42)
+[2014.08.22-08.03.58:728][ 99]LogModuleManager: Shutting down and abandoning module DerivedDataCache (41)
+[2014.08.22-08.03.59:208][ 99]LogDerivedDataCache: Shutdown
+[2014.08.22-08.03.59:208][ 99]LogModuleManager: Shutting down and abandoning module ShaderFormatOpenGL (40)
+[2014.08.22-08.03.59:208][ 99]LogModuleManager: Shutting down and abandoning module ShaderFormatD3D (39)
+[2014.08.22-08.03.59:208][ 99]LogModuleManager: Shutting down and abandoning module MetalShaderFormat (38)
+[2014.08.22-08.03.59:208][ 99]LogModuleManager: Shutting down and abandoning module TextureFormatUncompressed (37)
+[2014.08.22-08.03.59:208][ 99]LogModuleManager: Shutting down and abandoning module TextureFormatPVR (36)
+[2014.08.22-08.03.59:208][ 99]LogModuleManager: Shutting down and abandoning module TextureFormatDXT (35)
+[2014.08.22-08.03.59:208][ 99]LogModuleManager: Shutting down and abandoning module TextureFormatAndroid (34)
+[2014.08.22-08.03.59:208][ 99]LogModuleManager: Shutting down and abandoning module AudioFormatOpus (33)
+[2014.08.22-08.03.59:208][ 99]LogModuleManager: Shutting down and abandoning module AudioFormatOgg (32)
+[2014.08.22-08.03.59:208][ 99]LogModuleManager: Shutting down and abandoning module AudioFormatADPCM (31)
+[2014.08.22-08.03.59:208][ 99]LogModuleManager: Shutting down and abandoning module Messaging (30)
+[2014.08.22-08.03.59:208][ 99]LogModuleManager: Shutting down and abandoning module IOSTargetPlatform (29)
+[2014.08.22-08.03.59:208][ 99]LogModuleManager: Shutting down and abandoning module Android_PVRTCTargetPlatform (28)
+[2014.08.22-08.03.59:208][ 99]LogModuleManager: Shutting down and abandoning module Android_ETC2TargetPlatform (27)
+[2014.08.22-08.03.59:208][ 99]LogModuleManager: Shutting down and abandoning module Android_ETC1TargetPlatform (26)
+[2014.08.22-08.03.59:208][ 99]LogModuleManager: Shutting down and abandoning module Android_DXTTargetPlatform (25)
+[2014.08.22-08.03.59:208][ 99]LogModuleManager: Shutting down and abandoning module Android_ATCTargetPlatform (24)
+[2014.08.22-08.03.59:208][ 99]LogModuleManager: Shutting down and abandoning module AndroidTargetPlatform (23)
+[2014.08.22-08.03.59:208][ 99]LogModuleManager: Shutting down and abandoning module WindowsTargetPlatform (22)
+[2014.08.22-08.03.59:208][ 99]LogModuleManager: Shutting down and abandoning module WindowsServerTargetPlatform (21)
+[2014.08.22-08.03.59:208][ 99]LogModuleManager: Shutting down and abandoning module WindowsNoEditorTargetPlatform (20)
+[2014.08.22-08.03.59:208][ 99]LogModuleManager: Shutting down and abandoning module WindowsClientTargetPlatform (19)
+[2014.08.22-08.03.59:208][ 99]LogModuleManager: Shutting down and abandoning module TargetPlatform (18)
+[2014.08.22-08.03.59:208][ 99]LogModuleManager: Shutting down and abandoning module InputCore (17)
+[2014.08.22-08.03.59:208][ 99]LogModuleManager: Shutting down and abandoning module Settings (16)
+[2014.08.22-08.03.59:208][ 99]LogModuleManager: Shutting down and abandoning module ExampleDeviceProfileSelector (13)
+[2014.08.22-08.03.59:208][ 99]LogModuleManager: Shutting down and abandoning module TextureCompressor (12)
+[2014.08.22-08.03.59:208][ 99]LogModuleManager: Shutting down and abandoning module ShaderCore (11)
+[2014.08.22-08.03.59:208][ 99]LogModuleManager: Shutting down and abandoning module OpenGLDrv (10)
+[2014.08.22-08.03.59:208][ 99]LogModuleManager: Shutting down and abandoning module D3D11RHI (9)
+[2014.08.22-08.03.59:208][ 99]LogModuleManager: Shutting down and abandoning module SlateRHIRenderer (8)
+[2014.08.22-08.03.59:208][ 99]LogModuleManager: Shutting down and abandoning module Renderer (7)
+[2014.08.22-08.03.59:208][ 99]LogModuleManager: Shutting down and abandoning module Engine (6)
+[2014.08.22-08.03.59:208][ 99]LogModuleManager: Shutting down and abandoning module CoreUObject (5)
+[2014.08.22-08.03.59:208][ 99]LogModuleManager: Shutting down and abandoning module NetworkFile (4)
+[2014.08.22-08.03.59:208][ 99]LogModuleManager: Shutting down and abandoning module StreamingFile (3)
+[2014.08.22-08.03.59:208][ 99]LogModuleManager: Shutting down and abandoning module SandboxFile (2)
+[2014.08.22-08.03.59:208][ 99]LogModuleManager: Shutting down and abandoning module PakFile (1)
+[2014.08.22-08.03.59:209][ 99]LogExit: Exiting.
+[2014.08.22-08.03.59:219][ 99]Log file closed, 08/22/14 18:03:59

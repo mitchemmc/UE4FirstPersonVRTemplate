@@ -1,0 +1,40 @@
+{
+	"id": "0BAF48F2-5705-4452-8618-6CC1691D27CE",
+	"name": "UE4 Goals/Intent - Game questions",
+	"type": "branch",
+	"survey_version": 2,
+	"instructions": "At Epic, our ambition is to provide you the best development experience possible. In this effort, there are occasions where it is valuable to reach out to you directly so we can prioritize features/content to your needs. We will make these interruptions as limited and respectful of your time as possible. This survey is focused on understanding your development experience and goals with UE4 and is limited to 6 questions. We understand if you do not wish to disclose information and participation is entirely voluntary.",
+	"banner": "survey_banner.png",
+	"blocks":
+	[
+		{
+			"style": "inline-text",
+			"instructions": "Please briefly describe the game you are working on. We understand if you do not wish to disclose any game details.",
+			"required": false,
+			"questions":
+			[
+				"Genre",
+				"Simple Elevator Statement, \"it's game A meets game B\"",
+			],
+			"answers": 
+			[
+				"",
+			]
+		},
+		{
+			"style": "multiline",
+			"response": "single",
+			"required": false,
+			"questions":
+			[
+				"What is the graphic style of your game?",
+			],
+			"answers": 
+			[
+				"2D",
+				"Mixed 2D and 3D",
+				"3D"
+			]
+		},
+	]
+}

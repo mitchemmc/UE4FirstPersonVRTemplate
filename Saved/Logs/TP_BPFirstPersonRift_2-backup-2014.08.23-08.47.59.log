@@ -1,0 +1,1439 @@
+Log file open, 08/23/14 08:47:44
+LogInit:Display: Running engine for game: TP_BPFirstPersonRift
+LogInit: Version: 4.4.1-2265359+++depot+UE4-Releases+4.4
+LogInit: API Version: 2255576
+LogInit: Compiled (64-bit): Aug 20 2014 22:16:55
+LogInit: Build Configuration: Development
+LogInit: Branch Name: ++depot+UE4-Releases+4.4
+LogInit: Command line:  /Temp/Autosaves/Game/Maps/UEDPCExample_Map -game -PIEVIACONSOLE -ResX=1280 -ResY=720  -Multiprocess 
+LogInit: Base directory: C:/Program Files/Unreal Engine/4.4/Engine/Binaries/Win64/
+LogInit: Rocket: 1
+[2014.08.22-22.47.44:327][  0]LogTaskGraph: Started task graph with 3 named threads and 4 total threads.
+[2014.08.22-22.47.44:356][  0]LogOnline:Warning: No default platform service specified for OnlineSubsystem
+[2014.08.22-22.47.44:364][  0]LogInit: Presizing for 0 objects not considered by GC, pre-allocating 0 bytes.
+[2014.08.22-22.47.44:369][  0]LogInit: Object subsystem initialized
+[2014.08.22-22.47.44:370][  0]LogInit: Selected Device Profile: [Windows]
+[2014.08.22-22.47.44:370][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2014.08.22-22.47.44:374][  0]LogInit: Computer: HOME
+[2014.08.22-22.47.44:374][  0]LogInit: User: McCaffrey
+[2014.08.22-22.47.44:375][  0]LogInit: CPU Page size=4096, Cores=4
+[2014.08.22-22.47.44:375][  0]LogInit: High frequency timer resolution =3.410077 MHz
+[2014.08.22-22.47.44:375][  0]LogMemory: Memory total: Physical=15.9GB (16GB approx) Virtual=131072.0GB
+[2014.08.22-22.47.44:376][  0]LogMemory: Platform Memory Stats for Windows
+[2014.08.22-22.47.44:376][  0]LogMemory: Process Physical Memory: 60.35 MB used, 60.35 MB peak
+[2014.08.22-22.47.44:376][  0]LogMemory: Process Virtual Memory: 36.36 MB used, 36.36 MB peak
+[2014.08.22-22.47.44:376][  0]LogMemory: Physical Memory: 4220.95 MB used, 16268.46 MB total
+[2014.08.22-22.47.44:376][  0]LogMemory: Virtual Memory: 268.03 MB used, 134217728.00 MB total
+[2014.08.22-22.47.44:569][  0]LogD3D11RHI: Found D3D11 adapter 0: NVIDIA GeForce GTX 770 (Feature Level 11_0)
+[2014.08.22-22.47.44:569][  0]LogD3D11RHI: Adapter has 1985MB of dedicated video memory, 0MB of dedicated system memory, and 2048MB of shared system memory, 2 output[s]
+[2014.08.22-22.47.44:591][  0]LogD3D11RHI: Found D3D11 adapter 1: Intel(R) HD Graphics 4600 (Feature Level 11_0)
+[2014.08.22-22.47.44:591][  0]LogD3D11RHI: Adapter has 32MB of dedicated video memory, 0MB of dedicated system memory, and 1760MB of shared system memory, 0 output[s]
+[2014.08.22-22.47.44:594][  0]LogD3D11RHI: Found D3D11 adapter 2: Microsoft Basic Render Driver (Feature Level 11_0)
+[2014.08.22-22.47.44:594][  0]LogD3D11RHI: Adapter has 0MB of dedicated video memory, 0MB of dedicated system memory, and 256MB of shared system memory, 0 output[s]
+[2014.08.22-22.47.44:594][  0]LogD3D11RHI: Chosen D3D11 Adapter Id = 0
+[2014.08.22-22.47.44:614][  0]LogRHI: Texture pool is 1361 MB (70% of 1945 MB)
+[2014.08.22-22.47.44:639][  0]LogD3D11RHI: Async texture creation enabled
+[2014.08.22-22.47.44:735][  0]LogContentStreaming: Texture pool size is 1000.000000MB
+[2014.08.22-22.47.45:895][  0]LogTargetPlatformManager:Display: Building Assets For Windows
+[2014.08.22-22.47.46:259][  0]LogTargetPlatformManager:Display: Building Assets For Windows
+[2014.08.22-22.47.46:296][  0]LogDerivedDataCache:Display: Max Cache Size: 512 MB
+[2014.08.22-22.47.46:331][  0]LogDerivedDataCache: Loaded boot cache 0.04s 39MB C:/Users/McCaffrey/AppData/Local/UnrealEngine/4.4/DerivedDataCache/Boot.ddc.
+[2014.08.22-22.47.46:331][  0]LogDerivedDataCache:Display: Loaded Boot cache: C:/Users/McCaffrey/AppData/Local/UnrealEngine/4.4/DerivedDataCache/Boot.ddc
+[2014.08.22-22.47.46:331][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file F:/Unreal/GitHub/TP_BPFirstPersonRift/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2014.08.22-22.47.46:331][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2014.08.22-22.47.46:345][  0]LogDerivedDataCache:Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/DDC.ddp.
+[2014.08.22-22.47.46:358][  0]LogDerivedDataCache: Using Local data cache path C:/Users/McCaffrey/AppData/Local/UnrealEngine/4.4/DerivedDataCache: Writable
+[2014.08.22-22.47.46:493][  0]LogMeshUtilities: No automatic mesh reduction module available
+[2014.08.22-22.47.46:493][  0]LogMeshUtilities: No automatic mesh merging module available
+[2014.08.22-22.47.46:753][  0]LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+[2014.08.22-22.47.47:456][  0]LogWindowsMoviePlayer: Unable to load movie: F:/Unreal/GitHub/TP_BPFirstPersonRift/Content/Movies/Default_Startup.mp4
+[2014.08.22-22.47.47:567][  0]LogStats:Warning: MetaData mismatch. Did you assign a stat to two groups? New //STATGROUP_Threads//FMonitoredProcess///Thread_2af4_0///////STATCAT_Advanced//// old //STATGROUP_Threads//FMonitoredProcess///Thread_2494_0///////STATCAT_Advanced////
+[2014.08.22-22.47.47:567][  0]SourceControl: Info Source control is disabled
+[2014.08.22-22.47.47:567][  0]SourceControl: Info Source control is disabled
+[2014.08.22-22.47.47:573][  0]SourceControl: Info Source control is disabled
+[2014.08.22-22.47.47:615][  0]LogObj: 20996 objects as part of root set at end of initial load.
+[2014.08.22-22.47.47:615][  0]LogUObjectAllocator: 3965960 out of 0 bytes used by permanent object pool.
+[2014.08.22-22.47.47:797][  0]LogAutomationTest:Warning: ERR: Transient text cannot be serialized "Testing Transient serialization detection".
+[2014.08.22-22.47.47:798][  0]LogEngine: Initializing Engine...
+[2014.08.22-22.47.47:798][  0]LogHMD:Warning: HMD Oculus Rift DK2, Monitor , res = 1920 x 1080, windowPos = {0, 0}
+[2014.08.22-22.47.47:798][  0]LogHMD: Oculus initialized.
+[2014.08.22-22.47.47:881][  0]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2014.08.22-22.47.47:895][  0]LogInit: FAudioDevice initialized.
+[2014.08.22-22.47.47:899][  0]LogInit: Texture streaming: Enabled
+[2014.08.22-22.47.47:951][  0]LogConsoleResponse:Display: 
+[2014.08.22-22.47.47:951][  0]LogNet: Browse: /Temp/Autosaves/Game/Maps/UEDPCExample_Map?Name=Player
+[2014.08.22-22.47.47:951][  0]LogLoad: LoadMap: /Temp/Autosaves/Game/Maps/UEDPCExample_Map?Name=Player
+[2014.08.22-22.47.47:963][  0]LogMemory: Platform Memory Stats for Windows
+[2014.08.22-22.47.47:963][  0]LogMemory: Process Physical Memory: 273.67 MB used, 316.44 MB peak
+[2014.08.22-22.47.47:963][  0]LogMemory: Process Virtual Memory: 231.44 MB used, 276.77 MB peak
+[2014.08.22-22.47.47:963][  0]LogMemory: Physical Memory: 4394.96 MB used, 16268.46 MB total
+[2014.08.22-22.47.47:963][  0]LogMemory: Virtual Memory: 665.57 MB used, 134217728.00 MB total
+[2014.08.22-22.47.47:963][  0]LogMemory: 
+[2014.08.22-22.47.47:963][  0]Allocator Stats for TBB: (not implemented)
+[2014.08.22-22.47.48:567][  0]LogBlueprint:Warning: [compiler] Warning Unable to find function with name 'GetControlledPawn' for  GetControlledPawn 
+[2014.08.22-22.47.48:567][  0]LogBlueprint:Warning: [compiler] Warning Unable to find function with name 'GetControlledPawn' for  GetControlledPawn 
+[2014.08.22-22.47.48:584][  0]LogBlueprint:Warning: [compiler] Warning Could not find the function 'GetControlledPawn' called from  GetControlledPawn 
+[2014.08.22-22.47.48:585][  0]LogBlueprint:Warning: [compiler] Warning Could not find the function 'GetControlledPawn' called from  GetControlledPawn 
+[2014.08.22-22.47.48:589][  0]LogBlueprint:Warning: [compiler] Warning [0004.95] Compile of VRPlayerController successful, but with 4 Warning(s) [in 31 ms]
+[2014.08.22-22.47.48:648][  0]LogBlueprint:Warning: [compiler] Warning Unable to find function with name 'GetControlledPawn' for  GetControlledPawn 
+[2014.08.22-22.47.48:649][  0]LogBlueprint:Warning: [compiler] Warning Unable to find function with name 'GetControlledPawn' for  GetControlledPawn 
+[2014.08.22-22.47.48:665][  0]LogBlueprint:Warning: [compiler] Warning Could not find the function 'GetControlledPawn' called from  GetControlledPawn 
+[2014.08.22-22.47.48:665][  0]LogBlueprint:Warning: [compiler] Warning Could not find the function 'GetControlledPawn' called from  GetControlledPawn 
+[2014.08.22-22.47.48:670][  0]LogBlueprint:Warning: [compiler] Warning [0005.03] Compile of VRPlayerController successful, but with 4 Warning(s) [in 30 ms]
+[2014.08.22-22.47.49:041][  0]LogWorld: Game class is 'VRGameMode_C'
+[2014.08.22-22.47.49:058][  0]LogAIModule: Creating AISystem for world Example_Map
+[2014.08.22-22.47.49:061][  0]LogWorld: Bringing World /Temp/Autosaves/Game/Maps/UEDPCExample_Map.Example_Map up for play (max tick rate 0) at 2014.08.23-08.47.49
+[2014.08.22-22.47.49:062][  0]LogWorld: Bringing up level for play took: 0.003345
+[2014.08.22-22.47.49:063][  0]LogBlueprintUserMessages: X=0.000 Y=0.000 Z=0.000
+[2014.08.22-22.47.49:064][  0]LogBlueprintUserMessages: X=0.000 Y=0.000 Z=0.000
+[2014.08.22-22.47.49:064][  0]LogBlueprintUserMessages: X=0.000 Y=0.000 Z=0.000
+[2014.08.22-22.47.49:064][  0]LogBlueprintUserMessages: X=0.000 Y=0.000 Z=0.000
+[2014.08.22-22.47.49:065][  0]LogInit:Display: Game Engine Initialized.
+[2014.08.22-22.47.49:277][  0]LogLoad: Full Startup: 5.63 seconds (BP compile: 0.65 seconds)
+[2014.08.22-22.47.49:339][  1]LogBlueprintUserMessages: X=0.000 Y=0.000 Z=0.000
+[2014.08.22-22.47.49:339][  1]LogBlueprintUserMessages: X=0.000 Y=0.000 Z=0.000
+[2014.08.22-22.47.49:343][  2]LogRenderer:Warning: Reallocating scene render targets to support 1280x720.
+[2014.08.22-22.47.49:408][  2]LogBlueprintUserMessages: X=0.000 Y=0.000 Z=0.000
+[2014.08.22-22.47.49:408][  2]LogBlueprintUserMessages: X=0.000 Y=0.000 Z=0.000
+[2014.08.22-22.47.49:421][  3]LogBlueprintUserMessages: X=0.000 Y=0.000 Z=0.000
+[2014.08.22-22.47.49:422][  3]LogBlueprintUserMessages: X=0.000 Y=0.000 Z=0.000
+[2014.08.22-22.47.49:426][  4]LogBlueprintUserMessages: X=0.000 Y=0.000 Z=0.000
+[2014.08.22-22.47.49:426][  4]LogBlueprintUserMessages: X=0.000 Y=0.000 Z=0.000
+[2014.08.22-22.47.49:445][  5]LogBlueprintUserMessages: X=0.000 Y=0.000 Z=0.000
+[2014.08.22-22.47.49:445][  5]LogBlueprintUserMessages: X=0.000 Y=0.000 Z=0.000
+[2014.08.22-22.47.49:455][  6]LogBlueprintUserMessages: X=0.000 Y=0.000 Z=0.000
+[2014.08.22-22.47.49:455][  6]LogBlueprintUserMessages: X=0.000 Y=0.000 Z=0.000
+[2014.08.22-22.47.49:460][  7]LogBlueprintUserMessages: X=0.000 Y=0.000 Z=0.000
+[2014.08.22-22.47.49:461][  7]LogBlueprintUserMessages: X=0.000 Y=0.000 Z=0.000
+[2014.08.22-22.47.49:474][  8]LogBlueprintUserMessages: X=0.000 Y=0.000 Z=0.000
+[2014.08.22-22.47.49:475][  8]LogBlueprintUserMessages: X=0.000 Y=0.000 Z=0.000
+[2014.08.22-22.47.49:480][  9]LogBlueprintUserMessages: X=0.000 Y=0.000 Z=0.000
+[2014.08.22-22.47.49:480][  9]LogBlueprintUserMessages: X=0.000 Y=0.000 Z=0.000
+[2014.08.22-22.47.49:490][ 10]LogBlueprintUserMessages: X=0.000 Y=0.000 Z=0.000
+[2014.08.22-22.47.49:490][ 10]LogBlueprintUserMessages: X=0.000 Y=0.000 Z=0.000
+[2014.08.22-22.47.49:501][ 11]LogBlueprintUserMessages: X=0.000 Y=0.000 Z=0.000
+[2014.08.22-22.47.49:501][ 11]LogBlueprintUserMessages: X=0.000 Y=0.000 Z=0.000
+[2014.08.22-22.47.49:508][ 12]LogBlueprintUserMessages: X=0.000 Y=0.000 Z=0.000
+[2014.08.22-22.47.49:508][ 12]LogBlueprintUserMessages: X=0.000 Y=0.000 Z=0.000
+[2014.08.22-22.47.49:519][ 13]LogBlueprintUserMessages: X=0.000 Y=0.000 Z=0.000
+[2014.08.22-22.47.49:519][ 13]LogBlueprintUserMessages: X=0.000 Y=0.000 Z=0.000
+[2014.08.22-22.47.49:524][ 14]LogBlueprintUserMessages: X=0.000 Y=0.000 Z=0.000
+[2014.08.22-22.47.49:524][ 14]LogBlueprintUserMessages: X=0.000 Y=0.000 Z=0.000
+[2014.08.22-22.47.49:537][ 15]LogBlueprintUserMessages: X=0.000 Y=0.000 Z=0.000
+[2014.08.22-22.47.49:537][ 15]LogBlueprintUserMessages: X=0.000 Y=0.000 Z=0.000
+[2014.08.22-22.47.49:541][ 16]LogBlueprintUserMessages: X=0.000 Y=0.000 Z=0.000
+[2014.08.22-22.47.49:541][ 16]LogBlueprintUserMessages: X=0.000 Y=0.000 Z=0.000
+[2014.08.22-22.47.49:553][ 17]LogBlueprintUserMessages: X=0.000 Y=0.000 Z=0.000
+[2014.08.22-22.47.49:553][ 17]LogBlueprintUserMessages: X=0.000 Y=0.000 Z=0.000
+[2014.08.22-22.47.49:557][ 18]LogBlueprintUserMessages: X=0.000 Y=0.000 Z=0.000
+[2014.08.22-22.47.49:558][ 18]LogBlueprintUserMessages: X=0.000 Y=0.000 Z=0.000
+[2014.08.22-22.47.49:569][ 19]LogBlueprintUserMessages: X=0.000 Y=0.000 Z=0.000
+[2014.08.22-22.47.49:569][ 19]LogBlueprintUserMessages: X=0.000 Y=0.000 Z=0.000
+[2014.08.22-22.47.49:574][ 20]LogBlueprintUserMessages: X=0.000 Y=0.000 Z=0.000
+[2014.08.22-22.47.49:574][ 20]LogBlueprintUserMessages: X=0.000 Y=0.000 Z=0.000
+[2014.08.22-22.47.49:586][ 21]LogBlueprintUserMessages: X=0.000 Y=0.000 Z=0.000
+[2014.08.22-22.47.49:586][ 21]LogBlueprintUserMessages: X=0.000 Y=0.000 Z=0.000
+[2014.08.22-22.47.49:590][ 22]LogBlueprintUserMessages: X=0.000 Y=0.000 Z=0.000
+[2014.08.22-22.47.49:590][ 22]LogBlueprintUserMessages: X=0.000 Y=0.000 Z=0.000
+[2014.08.22-22.47.49:601][ 23]LogBlueprintUserMessages: X=0.000 Y=0.000 Z=0.000
+[2014.08.22-22.47.49:601][ 23]LogBlueprintUserMessages: X=0.000 Y=0.000 Z=0.000
+[2014.08.22-22.47.49:625][ 24]LogBlueprintUserMessages: X=0.000 Y=0.000 Z=0.000
+[2014.08.22-22.47.49:625][ 24]LogBlueprintUserMessages: X=0.000 Y=0.000 Z=0.000
+[2014.08.22-22.47.49:640][ 25]LogBlueprintUserMessages: X=0.000 Y=0.000 Z=0.000
+[2014.08.22-22.47.49:640][ 25]LogBlueprintUserMessages: X=0.000 Y=0.000 Z=0.000
+[2014.08.22-22.47.49:644][ 26]LogBlueprintUserMessages: X=0.000 Y=0.000 Z=0.000
+[2014.08.22-22.47.49:644][ 26]LogBlueprintUserMessages: X=0.000 Y=0.000 Z=0.000
+[2014.08.22-22.47.49:655][ 27]LogBlueprintUserMessages: X=0.000 Y=0.000 Z=0.000
+[2014.08.22-22.47.49:656][ 27]LogBlueprintUserMessages: X=0.000 Y=0.000 Z=0.000
+[2014.08.22-22.47.49:659][ 28]LogBlueprintUserMessages: X=0.000 Y=0.000 Z=0.000
+[2014.08.22-22.47.49:660][ 28]LogBlueprintUserMessages: X=0.000 Y=0.000 Z=0.000
+[2014.08.22-22.47.49:671][ 29]LogBlueprintUserMessages: X=0.000 Y=0.000 Z=0.000
+[2014.08.22-22.47.49:671][ 29]LogBlueprintUserMessages: X=0.000 Y=0.000 Z=0.000
+[2014.08.22-22.47.49:676][ 30]LogBlueprintUserMessages: X=0.000 Y=0.000 Z=0.000
+[2014.08.22-22.47.49:676][ 30]LogBlueprintUserMessages: X=0.000 Y=0.000 Z=0.000
+[2014.08.22-22.47.49:687][ 31]LogBlueprintUserMessages: X=0.000 Y=0.000 Z=0.000
+[2014.08.22-22.47.49:687][ 31]LogBlueprintUserMessages: X=0.000 Y=0.000 Z=0.000
+[2014.08.22-22.47.49:691][ 32]LogBlueprintUserMessages: X=0.000 Y=0.000 Z=0.000
+[2014.08.22-22.47.49:691][ 32]LogBlueprintUserMessages: X=0.000 Y=0.000 Z=0.000
+[2014.08.22-22.47.49:702][ 33]LogBlueprintUserMessages: X=0.000 Y=0.000 Z=0.000
+[2014.08.22-22.47.49:703][ 33]LogBlueprintUserMessages: X=0.000 Y=0.000 Z=0.000
+[2014.08.22-22.47.49:706][ 34]LogBlueprintUserMessages: X=0.000 Y=0.000 Z=0.000
+[2014.08.22-22.47.49:706][ 34]LogBlueprintUserMessages: X=0.000 Y=0.000 Z=0.000
+[2014.08.22-22.47.49:718][ 35]LogBlueprintUserMessages: X=0.000 Y=0.000 Z=0.000
+[2014.08.22-22.47.49:718][ 35]LogBlueprintUserMessages: X=0.000 Y=0.000 Z=0.000
+[2014.08.22-22.47.49:723][ 36]LogBlueprintUserMessages: X=0.000 Y=0.000 Z=0.000
+[2014.08.22-22.47.49:723][ 36]LogBlueprintUserMessages: X=0.000 Y=0.000 Z=0.000
+[2014.08.22-22.47.49:733][ 37]LogBlueprintUserMessages: X=0.000 Y=0.000 Z=0.000
+[2014.08.22-22.47.49:734][ 37]LogBlueprintUserMessages: X=0.000 Y=0.000 Z=0.000
+[2014.08.22-22.47.49:744][ 38]LogBlueprintUserMessages: X=0.000 Y=0.000 Z=0.000
+[2014.08.22-22.47.49:744][ 38]LogBlueprintUserMessages: X=0.000 Y=0.000 Z=0.000
+[2014.08.22-22.47.49:748][ 39]LogBlueprintUserMessages: X=0.000 Y=0.000 Z=0.000
+[2014.08.22-22.47.49:749][ 39]LogBlueprintUserMessages: X=0.000 Y=0.000 Z=0.000
+[2014.08.22-22.47.49:759][ 40]LogBlueprintUserMessages: X=0.000 Y=0.000 Z=0.000
+[2014.08.22-22.47.49:760][ 40]LogBlueprintUserMessages: X=0.000 Y=0.000 Z=0.000
+[2014.08.22-22.47.49:764][ 41]LogBlueprintUserMessages: X=0.000 Y=0.000 Z=0.000
+[2014.08.22-22.47.49:764][ 41]LogBlueprintUserMessages: X=0.000 Y=0.000 Z=0.000
+[2014.08.22-22.47.49:775][ 42]LogBlueprintUserMessages: X=0.000 Y=0.000 Z=0.000
+[2014.08.22-22.47.49:775][ 42]LogBlueprintUserMessages: X=0.000 Y=0.000 Z=0.000
+[2014.08.22-22.47.49:780][ 43]LogBlueprintUserMessages: X=0.000 Y=0.000 Z=0.000
+[2014.08.22-22.47.49:780][ 43]LogBlueprintUserMessages: X=0.000 Y=0.000 Z=0.000
+[2014.08.22-22.47.49:791][ 44]LogBlueprintUserMessages: X=0.000 Y=0.000 Z=0.000
+[2014.08.22-22.47.49:791][ 44]LogBlueprintUserMessages: X=0.000 Y=0.000 Z=0.000
+[2014.08.22-22.47.49:801][ 45]LogBlueprintUserMessages: X=0.000 Y=0.000 Z=0.000
+[2014.08.22-22.47.49:802][ 45]LogBlueprintUserMessages: X=0.000 Y=0.000 Z=0.000
+[2014.08.22-22.47.49:806][ 46]LogBlueprintUserMessages: X=0.000 Y=0.000 Z=0.000
+[2014.08.22-22.47.49:806][ 46]LogBlueprintUserMessages: X=0.000 Y=0.000 Z=0.000
+[2014.08.22-22.47.49:817][ 47]LogBlueprintUserMessages: X=0.000 Y=0.000 Z=0.000
+[2014.08.22-22.47.49:817][ 47]LogBlueprintUserMessages: X=0.000 Y=0.000 Z=0.000
+[2014.08.22-22.47.49:821][ 48]LogBlueprintUserMessages: X=0.000 Y=0.000 Z=0.000
+[2014.08.22-22.47.49:821][ 48]LogBlueprintUserMessages: X=0.000 Y=0.000 Z=0.000
+[2014.08.22-22.47.49:832][ 49]LogBlueprintUserMessages: X=0.000 Y=0.000 Z=0.000
+[2014.08.22-22.47.49:832][ 49]LogBlueprintUserMessages: X=0.000 Y=0.000 Z=0.000
+[2014.08.22-22.47.49:843][ 50]LogBlueprintUserMessages: X=0.000 Y=0.000 Z=0.000
+[2014.08.22-22.47.49:844][ 50]LogBlueprintUserMessages: X=0.000 Y=0.000 Z=0.000
+[2014.08.22-22.47.49:849][ 51]LogBlueprintUserMessages: X=0.000 Y=0.000 Z=0.000
+[2014.08.22-22.47.49:849][ 51]LogBlueprintUserMessages: X=0.000 Y=0.000 Z=0.000
+[2014.08.22-22.47.49:859][ 52]LogBlueprintUserMessages: X=0.000 Y=0.000 Z=0.000
+[2014.08.22-22.47.49:859][ 52]LogBlueprintUserMessages: X=0.000 Y=0.000 Z=0.000
+[2014.08.22-22.47.49:871][ 53]LogBlueprintUserMessages: X=0.000 Y=0.000 Z=0.000
+[2014.08.22-22.47.49:871][ 53]LogBlueprintUserMessages: X=0.000 Y=0.000 Z=0.000
+[2014.08.22-22.47.49:875][ 54]LogBlueprintUserMessages: X=0.000 Y=0.000 Z=0.000
+[2014.08.22-22.47.49:875][ 54]LogBlueprintUserMessages: X=0.000 Y=0.000 Z=0.000
+[2014.08.22-22.47.49:886][ 55]LogBlueprintUserMessages: X=0.000 Y=0.000 Z=0.000
+[2014.08.22-22.47.49:886][ 55]LogBlueprintUserMessages: X=0.000 Y=0.000 Z=0.000
+[2014.08.22-22.47.49:890][ 56]LogBlueprintUserMessages: X=0.000 Y=0.000 Z=0.000
+[2014.08.22-22.47.49:890][ 56]LogBlueprintUserMessages: X=0.000 Y=0.000 Z=0.000
+[2014.08.22-22.47.49:902][ 57]LogBlueprintUserMessages: X=0.000 Y=0.000 Z=0.000
+[2014.08.22-22.47.49:902][ 57]LogBlueprintUserMessages: X=0.000 Y=0.000 Z=0.000
+[2014.08.22-22.47.49:912][ 58]LogBlueprintUserMessages: X=0.000 Y=0.000 Z=0.000
+[2014.08.22-22.47.49:912][ 58]LogBlueprintUserMessages: X=0.000 Y=0.000 Z=0.000
+[2014.08.22-22.47.49:917][ 59]LogBlueprintUserMessages: X=0.000 Y=0.000 Z=0.000
+[2014.08.22-22.47.49:917][ 59]LogBlueprintUserMessages: X=0.000 Y=0.000 Z=0.000
+[2014.08.22-22.47.49:928][ 60]LogBlueprintUserMessages: X=0.000 Y=0.000 Z=0.000
+[2014.08.22-22.47.49:928][ 60]LogBlueprintUserMessages: X=0.000 Y=0.000 Z=0.000
+[2014.08.22-22.47.49:932][ 61]LogBlueprintUserMessages: X=0.000 Y=0.000 Z=0.000
+[2014.08.22-22.47.49:932][ 61]LogBlueprintUserMessages: X=0.000 Y=0.000 Z=0.000
+[2014.08.22-22.47.49:943][ 62]LogBlueprintUserMessages: X=0.000 Y=0.000 Z=0.000
+[2014.08.22-22.47.49:943][ 62]LogBlueprintUserMessages: X=0.000 Y=0.000 Z=0.000
+[2014.08.22-22.47.49:947][ 63]LogBlueprintUserMessages: X=0.000 Y=0.000 Z=0.000
+[2014.08.22-22.47.49:947][ 63]LogBlueprintUserMessages: X=0.000 Y=0.000 Z=0.000
+[2014.08.22-22.47.49:958][ 64]LogBlueprintUserMessages: X=0.000 Y=0.000 Z=0.000
+[2014.08.22-22.47.49:959][ 64]LogBlueprintUserMessages: X=0.000 Y=0.000 Z=0.000
+[2014.08.22-22.47.49:962][ 65]LogBlueprintUserMessages: X=0.000 Y=0.000 Z=0.000
+[2014.08.22-22.47.49:963][ 65]LogBlueprintUserMessages: X=0.000 Y=0.000 Z=0.000
+[2014.08.22-22.47.49:974][ 66]LogBlueprintUserMessages: X=0.000 Y=0.000 Z=0.000
+[2014.08.22-22.47.49:974][ 66]LogBlueprintUserMessages: X=0.000 Y=0.000 Z=0.000
+[2014.08.22-22.47.49:978][ 67]LogBlueprintUserMessages: X=0.000 Y=0.000 Z=0.000
+[2014.08.22-22.47.49:978][ 67]LogBlueprintUserMessages: X=0.000 Y=0.000 Z=0.000
+[2014.08.22-22.47.49:989][ 68]LogBlueprintUserMessages: X=0.000 Y=0.000 Z=0.000
+[2014.08.22-22.47.49:989][ 68]LogBlueprintUserMessages: X=0.000 Y=0.000 Z=0.000
+[2014.08.22-22.47.49:993][ 69]LogBlueprintUserMessages: X=0.000 Y=0.000 Z=0.000
+[2014.08.22-22.47.49:993][ 69]LogBlueprintUserMessages: X=0.000 Y=0.000 Z=0.000
+[2014.08.22-22.47.50:005][ 70]LogBlueprintUserMessages: X=0.000 Y=0.000 Z=0.000
+[2014.08.22-22.47.50:005][ 70]LogBlueprintUserMessages: X=0.000 Y=0.000 Z=0.000
+[2014.08.22-22.47.50:009][ 71]LogBlueprintUserMessages: X=0.000 Y=0.000 Z=0.000
+[2014.08.22-22.47.50:009][ 71]LogBlueprintUserMessages: X=0.000 Y=0.000 Z=0.000
+[2014.08.22-22.47.50:020][ 72]LogBlueprintUserMessages: X=0.000 Y=0.000 Z=0.000
+[2014.08.22-22.47.50:020][ 72]LogBlueprintUserMessages: X=0.000 Y=0.000 Z=0.000
+[2014.08.22-22.47.50:024][ 73]LogBlueprintUserMessages: X=0.000 Y=0.000 Z=0.000
+[2014.08.22-22.47.50:024][ 73]LogBlueprintUserMessages: X=0.000 Y=0.000 Z=0.000
+[2014.08.22-22.47.50:035][ 74]LogBlueprintUserMessages: X=0.000 Y=0.000 Z=0.000
+[2014.08.22-22.47.50:036][ 74]LogBlueprintUserMessages: X=0.000 Y=0.000 Z=0.000
+[2014.08.22-22.47.50:039][ 75]LogBlueprintUserMessages: X=0.000 Y=0.000 Z=0.000
+[2014.08.22-22.47.50:040][ 75]LogBlueprintUserMessages: X=0.000 Y=0.000 Z=0.000
+[2014.08.22-22.47.50:051][ 76]LogBlueprintUserMessages: X=0.000 Y=0.000 Z=0.000
+[2014.08.22-22.47.50:051][ 76]LogBlueprintUserMessages: X=0.000 Y=0.000 Z=0.000
+[2014.08.22-22.47.50:062][ 77]LogBlueprintUserMessages: X=0.000 Y=0.000 Z=0.000
+[2014.08.22-22.47.50:062][ 77]LogBlueprintUserMessages: X=0.000 Y=0.000 Z=0.000
+[2014.08.22-22.47.50:066][ 78]LogBlueprintUserMessages: X=0.000 Y=0.000 Z=0.000
+[2014.08.22-22.47.50:066][ 78]LogBlueprintUserMessages: X=0.000 Y=0.000 Z=0.000
+[2014.08.22-22.47.50:077][ 79]LogBlueprintUserMessages: X=0.000 Y=0.000 Z=0.000
+[2014.08.22-22.47.50:077][ 79]LogBlueprintUserMessages: X=0.000 Y=0.000 Z=0.000
+[2014.08.22-22.47.50:081][ 80]LogBlueprintUserMessages: X=0.000 Y=0.000 Z=0.000
+[2014.08.22-22.47.50:081][ 80]LogBlueprintUserMessages: X=0.000 Y=0.000 Z=0.000
+[2014.08.22-22.47.50:092][ 81]LogBlueprintUserMessages: X=0.000 Y=0.000 Z=0.000
+[2014.08.22-22.47.50:093][ 81]LogBlueprintUserMessages: X=0.000 Y=0.000 Z=0.000
+[2014.08.22-22.47.50:096][ 82]LogBlueprintUserMessages: X=0.000 Y=0.000 Z=0.000
+[2014.08.22-22.47.50:097][ 82]LogBlueprintUserMessages: X=0.000 Y=0.000 Z=0.000
+[2014.08.22-22.47.50:108][ 83]LogBlueprintUserMessages: X=0.000 Y=0.000 Z=0.000
+[2014.08.22-22.47.50:108][ 83]LogBlueprintUserMessages: X=0.000 Y=0.000 Z=0.000
+[2014.08.22-22.47.50:112][ 84]LogBlueprintUserMessages: X=0.000 Y=0.000 Z=0.000
+[2014.08.22-22.47.50:112][ 84]LogBlueprintUserMessages: X=0.000 Y=0.000 Z=0.000
+[2014.08.22-22.47.50:123][ 85]LogBlueprintUserMessages: X=0.000 Y=0.000 Z=0.000
+[2014.08.22-22.47.50:123][ 85]LogBlueprintUserMessages: X=0.000 Y=0.000 Z=0.000
+[2014.08.22-22.47.50:127][ 86]LogBlueprintUserMessages: X=0.000 Y=0.000 Z=0.000
+[2014.08.22-22.47.50:127][ 86]LogBlueprintUserMessages: X=0.000 Y=0.000 Z=0.000
+[2014.08.22-22.47.50:138][ 87]LogBlueprintUserMessages: X=0.000 Y=0.000 Z=0.000
+[2014.08.22-22.47.50:139][ 87]LogBlueprintUserMessages: X=0.000 Y=0.000 Z=0.000
+[2014.08.22-22.47.50:142][ 88]LogBlueprintUserMessages: X=0.000 Y=0.000 Z=0.000
+[2014.08.22-22.47.50:143][ 88]LogBlueprintUserMessages: X=0.000 Y=0.000 Z=0.000
+[2014.08.22-22.47.50:154][ 89]LogBlueprintUserMessages: X=0.000 Y=0.000 Z=0.000
+[2014.08.22-22.47.50:154][ 89]LogBlueprintUserMessages: X=0.000 Y=0.000 Z=0.000
+[2014.08.22-22.47.50:158][ 90]LogBlueprintUserMessages: X=0.000 Y=0.000 Z=0.000
+[2014.08.22-22.47.50:158][ 90]LogBlueprintUserMessages: X=0.000 Y=0.000 Z=0.000
+[2014.08.22-22.47.50:169][ 91]LogBlueprintUserMessages: X=0.000 Y=0.000 Z=0.000
+[2014.08.22-22.47.50:170][ 91]LogBlueprintUserMessages: X=0.000 Y=0.000 Z=0.000
+[2014.08.22-22.47.50:173][ 92]LogBlueprintUserMessages: X=0.000 Y=0.000 Z=0.000
+[2014.08.22-22.47.50:174][ 92]LogBlueprintUserMessages: X=0.000 Y=0.000 Z=0.000
+[2014.08.22-22.47.50:185][ 93]LogBlueprintUserMessages: X=0.000 Y=0.000 Z=0.000
+[2014.08.22-22.47.50:185][ 93]LogBlueprintUserMessages: X=0.000 Y=0.000 Z=0.000
+[2014.08.22-22.47.50:189][ 94]LogBlueprintUserMessages: X=0.000 Y=0.000 Z=0.000
+[2014.08.22-22.47.50:190][ 94]LogBlueprintUserMessages: X=0.000 Y=0.000 Z=0.000
+[2014.08.22-22.47.50:200][ 95]LogBlueprintUserMessages: X=0.000 Y=0.000 Z=0.000
+[2014.08.22-22.47.50:200][ 95]LogBlueprintUserMessages: X=0.000 Y=0.000 Z=0.000
+[2014.08.22-22.47.50:205][ 96]LogBlueprintUserMessages: X=0.000 Y=0.000 Z=0.000
+[2014.08.22-22.47.50:205][ 96]LogBlueprintUserMessages: X=0.000 Y=0.000 Z=0.000
+[2014.08.22-22.47.50:215][ 97]LogBlueprintUserMessages: X=0.000 Y=0.000 Z=0.000
+[2014.08.22-22.47.50:215][ 97]LogBlueprintUserMessages: X=0.000 Y=0.000 Z=0.000
+[2014.08.22-22.47.50:226][ 98]LogBlueprintUserMessages: X=0.000 Y=0.000 Z=0.000
+[2014.08.22-22.47.50:227][ 98]LogBlueprintUserMessages: X=0.000 Y=0.000 Z=0.000
+[2014.08.22-22.47.50:230][ 99]LogBlueprintUserMessages: X=0.000 Y=0.000 Z=0.000
+[2014.08.22-22.47.50:231][ 99]LogBlueprintUserMessages: X=0.000 Y=0.000 Z=0.000
+[2014.08.22-22.47.50:242][100]LogBlueprintUserMessages: X=0.000 Y=0.000 Z=0.000
+[2014.08.22-22.47.50:242][100]LogBlueprintUserMessages: X=0.000 Y=0.000 Z=0.000
+[2014.08.22-22.47.50:246][101]LogBlueprintUserMessages: X=0.000 Y=0.000 Z=0.000
+[2014.08.22-22.47.50:246][101]LogBlueprintUserMessages: X=0.000 Y=0.000 Z=0.000
+[2014.08.22-22.47.50:257][102]LogBlueprintUserMessages: X=0.000 Y=0.000 Z=0.000
+[2014.08.22-22.47.50:258][102]LogBlueprintUserMessages: X=0.000 Y=0.000 Z=0.000
+[2014.08.22-22.47.50:261][103]LogBlueprintUserMessages: X=0.000 Y=0.000 Z=0.000
+[2014.08.22-22.47.50:261][103]LogBlueprintUserMessages: X=0.000 Y=0.000 Z=0.000
+[2014.08.22-22.47.50:273][104]LogBlueprintUserMessages: X=0.000 Y=0.000 Z=0.000
+[2014.08.22-22.47.50:273][104]LogBlueprintUserMessages: X=0.000 Y=0.000 Z=0.000
+[2014.08.22-22.47.50:277][105]LogBlueprintUserMessages: X=0.000 Y=0.000 Z=0.000
+[2014.08.22-22.47.50:277][105]LogBlueprintUserMessages: X=0.000 Y=0.000 Z=0.000
+[2014.08.22-22.47.50:288][106]LogBlueprintUserMessages: X=0.000 Y=0.000 Z=0.000
+[2014.08.22-22.47.50:289][106]LogBlueprintUserMessages: X=0.000 Y=0.000 Z=0.000
+[2014.08.22-22.47.50:299][107]LogBlueprintUserMessages: X=0.000 Y=0.000 Z=0.000
+[2014.08.22-22.47.50:299][107]LogBlueprintUserMessages: X=0.000 Y=0.000 Z=0.000
+[2014.08.22-22.47.50:303][108]LogBlueprintUserMessages: X=0.000 Y=0.000 Z=0.000
+[2014.08.22-22.47.50:304][108]LogBlueprintUserMessages: X=0.000 Y=0.000 Z=0.000
+[2014.08.22-22.47.50:314][109]LogBlueprintUserMessages: X=0.000 Y=0.000 Z=0.000
+[2014.08.22-22.47.50:314][109]LogBlueprintUserMessages: X=0.000 Y=0.000 Z=0.000
+[2014.08.22-22.47.50:319][110]LogBlueprintUserMessages: X=0.000 Y=0.000 Z=0.000
+[2014.08.22-22.47.50:319][110]LogBlueprintUserMessages: X=0.000 Y=0.000 Z=0.000
+[2014.08.22-22.47.50:330][111]LogBlueprintUserMessages: X=0.000 Y=0.000 Z=0.000
+[2014.08.22-22.47.50:330][111]LogBlueprintUserMessages: X=0.000 Y=0.000 Z=0.000
+[2014.08.22-22.47.50:334][112]LogBlueprintUserMessages: X=0.000 Y=0.000 Z=0.000
+[2014.08.22-22.47.50:334][112]LogBlueprintUserMessages: X=0.000 Y=0.000 Z=0.000
+[2014.08.22-22.47.50:345][113]LogBlueprintUserMessages: X=0.000 Y=0.000 Z=0.000
+[2014.08.22-22.47.50:345][113]LogBlueprintUserMessages: X=0.000 Y=0.000 Z=0.000
+[2014.08.22-22.47.50:349][114]LogBlueprintUserMessages: X=0.000 Y=0.000 Z=0.000
+[2014.08.22-22.47.50:350][114]LogBlueprintUserMessages: X=0.000 Y=0.000 Z=0.000
+[2014.08.22-22.47.50:361][115]LogBlueprintUserMessages: X=0.000 Y=0.000 Z=0.000
+[2014.08.22-22.47.50:361][115]LogBlueprintUserMessages: X=0.000 Y=0.000 Z=0.000
+[2014.08.22-22.47.50:364][116]LogBlueprintUserMessages: X=0.000 Y=0.000 Z=0.000
+[2014.08.22-22.47.50:365][116]LogBlueprintUserMessages: X=0.000 Y=0.000 Z=0.000
+[2014.08.22-22.47.50:376][117]LogBlueprintUserMessages: X=0.000 Y=0.000 Z=0.000
+[2014.08.22-22.47.50:376][117]LogBlueprintUserMessages: X=0.000 Y=0.000 Z=0.000
+[2014.08.22-22.47.50:380][118]LogBlueprintUserMessages: X=0.000 Y=0.000 Z=0.000
+[2014.08.22-22.47.50:380][118]LogBlueprintUserMessages: X=0.000 Y=0.000 Z=0.000
+[2014.08.22-22.47.50:391][119]LogBlueprintUserMessages: X=0.000 Y=0.000 Z=0.000
+[2014.08.22-22.47.50:392][119]LogBlueprintUserMessages: X=0.000 Y=0.000 Z=0.000
+[2014.08.22-22.47.50:395][120]LogBlueprintUserMessages: X=0.000 Y=0.000 Z=0.000
+[2014.08.22-22.47.50:395][120]LogBlueprintUserMessages: X=0.000 Y=0.000 Z=0.000
+[2014.08.22-22.47.50:407][121]LogBlueprintUserMessages: X=0.000 Y=0.000 Z=0.000
+[2014.08.22-22.47.50:407][121]LogBlueprintUserMessages: X=0.000 Y=0.000 Z=0.000
+[2014.08.22-22.47.50:418][122]LogBlueprintUserMessages: X=0.000 Y=0.000 Z=0.000
+[2014.08.22-22.47.50:418][122]LogBlueprintUserMessages: X=0.000 Y=0.000 Z=0.000
+[2014.08.22-22.47.50:422][123]LogBlueprintUserMessages: X=0.000 Y=0.000 Z=0.000
+[2014.08.22-22.47.50:422][123]LogBlueprintUserMessages: X=0.000 Y=0.000 Z=0.000
+[2014.08.22-22.47.50:433][124]LogBlueprintUserMessages: X=0.000 Y=0.000 Z=0.000
+[2014.08.22-22.47.50:434][124]LogBlueprintUserMessages: X=0.000 Y=0.000 Z=0.000
+[2014.08.22-22.47.50:437][125]LogBlueprintUserMessages: X=0.000 Y=0.000 Z=0.000
+[2014.08.22-22.47.50:438][125]LogBlueprintUserMessages: X=0.000 Y=0.000 Z=0.000
+[2014.08.22-22.47.50:449][126]LogBlueprintUserMessages: X=0.000 Y=0.000 Z=0.000
+[2014.08.22-22.47.50:449][126]LogBlueprintUserMessages: X=0.000 Y=0.000 Z=0.000
+[2014.08.22-22.47.50:454][127]LogBlueprintUserMessages: X=0.000 Y=0.000 Z=0.000
+[2014.08.22-22.47.50:454][127]LogBlueprintUserMessages: X=0.000 Y=0.000 Z=0.000
+[2014.08.22-22.47.50:464][128]LogBlueprintUserMessages: X=0.000 Y=0.000 Z=0.000
+[2014.08.22-22.47.50:464][128]LogBlueprintUserMessages: X=0.000 Y=0.000 Z=0.000
+[2014.08.22-22.47.50:469][129]LogBlueprintUserMessages: X=0.000 Y=0.000 Z=0.000
+[2014.08.22-22.47.50:469][129]LogBlueprintUserMessages: X=0.000 Y=0.000 Z=0.000
+[2014.08.22-22.47.50:479][130]LogBlueprintUserMessages: X=0.000 Y=0.000 Z=0.000
+[2014.08.22-22.47.50:479][130]LogBlueprintUserMessages: X=0.000 Y=0.000 Z=0.000
+[2014.08.22-22.47.50:484][131]LogBlueprintUserMessages: X=0.000 Y=0.000 Z=0.000
+[2014.08.22-22.47.50:484][131]LogBlueprintUserMessages: X=0.000 Y=0.000 Z=0.000
+[2014.08.22-22.47.50:495][132]LogBlueprintUserMessages: X=0.000 Y=0.000 Z=0.000
+[2014.08.22-22.47.50:495][132]LogBlueprintUserMessages: X=0.000 Y=0.000 Z=0.000
+[2014.08.22-22.47.50:499][133]LogBlueprintUserMessages: X=0.000 Y=0.000 Z=0.000
+[2014.08.22-22.47.50:499][133]LogBlueprintUserMessages: X=0.000 Y=0.000 Z=0.000
+[2014.08.22-22.47.50:510][134]LogBlueprintUserMessages: X=0.000 Y=0.000 Z=0.000
+[2014.08.22-22.47.50:511][134]LogBlueprintUserMessages: X=0.000 Y=0.000 Z=0.000
+[2014.08.22-22.47.50:514][135]LogBlueprintUserMessages: X=0.000 Y=0.000 Z=0.000
+[2014.08.22-22.47.50:514][135]LogBlueprintUserMessages: X=0.000 Y=0.000 Z=0.000
+[2014.08.22-22.47.50:526][136]LogBlueprintUserMessages: X=0.000 Y=0.000 Z=0.000
+[2014.08.22-22.47.50:527][136]LogBlueprintUserMessages: X=0.000 Y=0.000 Z=0.000
+[2014.08.22-22.47.50:530][137]LogBlueprintUserMessages: X=0.000 Y=0.000 Z=0.000
+[2014.08.22-22.47.50:531][137]LogBlueprintUserMessages: X=0.000 Y=0.000 Z=0.000
+[2014.08.22-22.47.50:542][138]LogBlueprintUserMessages: X=0.000 Y=0.000 Z=0.000
+[2014.08.22-22.47.50:542][138]LogBlueprintUserMessages: X=0.000 Y=0.000 Z=0.000
+[2014.08.22-22.47.50:546][139]LogBlueprintUserMessages: X=0.000 Y=0.000 Z=0.000
+[2014.08.22-22.47.50:546][139]LogBlueprintUserMessages: X=0.000 Y=0.000 Z=0.000
+[2014.08.22-22.47.50:557][140]LogBlueprintUserMessages: X=0.000 Y=0.000 Z=0.000
+[2014.08.22-22.47.50:557][140]LogBlueprintUserMessages: X=0.000 Y=0.000 Z=0.000
+[2014.08.22-22.47.50:561][141]LogBlueprintUserMessages: X=0.000 Y=0.000 Z=0.000
+[2014.08.22-22.47.50:561][141]LogBlueprintUserMessages: X=0.000 Y=0.000 Z=0.000
+[2014.08.22-22.47.50:572][142]LogBlueprintUserMessages: X=0.000 Y=0.000 Z=0.000
+[2014.08.22-22.47.50:572][142]LogBlueprintUserMessages: X=0.000 Y=0.000 Z=0.000
+[2014.08.22-22.47.50:577][143]LogBlueprintUserMessages: X=0.000 Y=0.000 Z=0.000
+[2014.08.22-22.47.50:578][143]LogBlueprintUserMessages: X=0.000 Y=0.000 Z=0.000
+[2014.08.22-22.47.50:588][144]LogBlueprintUserMessages: X=0.000 Y=0.000 Z=0.000
+[2014.08.22-22.47.50:588][144]LogBlueprintUserMessages: X=0.000 Y=0.000 Z=0.000
+[2014.08.22-22.47.50:599][145]LogBlueprintUserMessages: X=0.000 Y=0.000 Z=0.000
+[2014.08.22-22.47.50:599][145]LogBlueprintUserMessages: X=0.000 Y=0.000 Z=0.000
+[2014.08.22-22.47.50:603][146]LogBlueprintUserMessages: X=0.000 Y=0.000 Z=0.000
+[2014.08.22-22.47.50:604][146]LogBlueprintUserMessages: X=0.000 Y=0.000 Z=0.000
+[2014.08.22-22.47.50:614][147]LogBlueprintUserMessages: X=0.000 Y=0.000 Z=0.000
+[2014.08.22-22.47.50:615][147]LogBlueprintUserMessages: X=0.000 Y=0.000 Z=0.000
+[2014.08.22-22.47.50:619][148]LogBlueprintUserMessages: X=0.000 Y=0.000 Z=0.000
+[2014.08.22-22.47.50:619][148]LogBlueprintUserMessages: X=0.000 Y=0.000 Z=0.000
+[2014.08.22-22.47.50:630][149]LogBlueprintUserMessages: X=0.000 Y=0.000 Z=0.000
+[2014.08.22-22.47.50:630][149]LogBlueprintUserMessages: X=0.000 Y=0.000 Z=0.000
+[2014.08.22-22.47.50:634][150]LogBlueprintUserMessages: X=0.000 Y=0.000 Z=0.000
+[2014.08.22-22.47.50:634][150]LogBlueprintUserMessages: X=0.000 Y=0.000 Z=0.000
+[2014.08.22-22.47.50:645][151]LogBlueprintUserMessages: X=0.000 Y=0.000 Z=0.000
+[2014.08.22-22.47.50:645][151]LogBlueprintUserMessages: X=0.000 Y=0.000 Z=0.000
+[2014.08.22-22.47.50:649][152]LogBlueprintUserMessages: X=0.000 Y=0.000 Z=0.000
+[2014.08.22-22.47.50:649][152]LogBlueprintUserMessages: X=0.000 Y=0.000 Z=0.000
+[2014.08.22-22.47.50:661][153]LogBlueprintUserMessages: X=0.000 Y=0.000 Z=0.000
+[2014.08.22-22.47.50:661][153]LogBlueprintUserMessages: X=0.000 Y=0.000 Z=0.000
+[2014.08.22-22.47.50:665][154]LogBlueprintUserMessages: X=0.000 Y=0.000 Z=0.000
+[2014.08.22-22.47.50:665][154]LogBlueprintUserMessages: X=0.000 Y=0.000 Z=0.000
+[2014.08.22-22.47.50:676][155]LogBlueprintUserMessages: X=0.000 Y=0.000 Z=0.000
+[2014.08.22-22.47.50:676][155]LogBlueprintUserMessages: X=0.000 Y=0.000 Z=0.000
+[2014.08.22-22.47.50:680][156]LogBlueprintUserMessages: X=0.000 Y=0.000 Z=0.000
+[2014.08.22-22.47.50:680][156]LogBlueprintUserMessages: X=0.000 Y=0.000 Z=0.000
+[2014.08.22-22.47.50:692][157]LogBlueprintUserMessages: X=0.000 Y=0.000 Z=0.000
+[2014.08.22-22.47.50:692][157]LogBlueprintUserMessages: X=0.000 Y=0.000 Z=0.000
+[2014.08.22-22.47.50:696][158]LogBlueprintUserMessages: X=0.000 Y=0.000 Z=0.000
+[2014.08.22-22.47.50:696][158]LogBlueprintUserMessages: X=0.000 Y=0.000 Z=0.000
+[2014.08.22-22.47.50:707][159]LogBlueprintUserMessages: X=0.000 Y=0.000 Z=0.000
+[2014.08.22-22.47.50:707][159]LogBlueprintUserMessages: X=0.000 Y=0.000 Z=0.000
+[2014.08.22-22.47.50:711][160]LogBlueprintUserMessages: X=0.000 Y=0.000 Z=0.000
+[2014.08.22-22.47.50:711][160]LogBlueprintUserMessages: X=0.000 Y=0.000 Z=0.000
+[2014.08.22-22.47.50:723][161]LogBlueprintUserMessages: X=0.000 Y=0.000 Z=0.000
+[2014.08.22-22.47.50:723][161]LogBlueprintUserMessages: X=0.000 Y=0.000 Z=0.000
+[2014.08.22-22.47.50:733][162]LogBlueprintUserMessages: X=0.000 Y=0.000 Z=0.000
+[2014.08.22-22.47.50:733][162]LogBlueprintUserMessages: X=0.000 Y=0.000 Z=0.000
+[2014.08.22-22.47.50:738][163]LogBlueprintUserMessages: X=0.000 Y=0.000 Z=0.000
+[2014.08.22-22.47.50:738][163]LogBlueprintUserMessages: X=0.000 Y=0.000 Z=0.000
+[2014.08.22-22.47.50:749][164]LogBlueprintUserMessages: X=0.000 Y=0.000 Z=0.000
+[2014.08.22-22.47.50:749][164]LogBlueprintUserMessages: X=0.000 Y=0.000 Z=0.000
+[2014.08.22-22.47.50:760][165]LogBlueprintUserMessages: X=0.000 Y=0.000 Z=0.000
+[2014.08.22-22.47.50:760][165]LogBlueprintUserMessages: X=0.000 Y=0.000 Z=0.000
+[2014.08.22-22.47.50:764][166]LogBlueprintUserMessages: X=0.000 Y=0.000 Z=0.000
+[2014.08.22-22.47.50:764][166]LogBlueprintUserMessages: X=0.000 Y=0.000 Z=0.000
+[2014.08.22-22.47.50:775][167]LogBlueprintUserMessages: X=0.000 Y=0.000 Z=0.000
+[2014.08.22-22.47.50:776][167]LogBlueprintUserMessages: X=0.000 Y=0.000 Z=0.000
+[2014.08.22-22.47.50:779][168]LogBlueprintUserMessages: X=0.000 Y=0.000 Z=0.000
+[2014.08.22-22.47.50:779][168]LogBlueprintUserMessages: X=0.000 Y=0.000 Z=0.000
+[2014.08.22-22.47.50:791][169]LogBlueprintUserMessages: X=0.000 Y=0.000 Z=0.000
+[2014.08.22-22.47.50:791][169]LogBlueprintUserMessages: X=0.000 Y=0.000 Z=0.000
+[2014.08.22-22.47.50:795][170]LogBlueprintUserMessages: X=0.000 Y=0.000 Z=0.000
+[2014.08.22-22.47.50:795][170]LogBlueprintUserMessages: X=0.000 Y=0.000 Z=0.000
+[2014.08.22-22.47.50:806][171]LogBlueprintUserMessages: X=0.000 Y=0.000 Z=0.000
+[2014.08.22-22.47.50:806][171]LogBlueprintUserMessages: X=0.000 Y=0.000 Z=0.000
+[2014.08.22-22.47.50:810][172]LogBlueprintUserMessages: X=0.000 Y=0.000 Z=0.000
+[2014.08.22-22.47.50:810][172]LogBlueprintUserMessages: X=0.000 Y=0.000 Z=0.000
+[2014.08.22-22.47.50:822][173]LogBlueprintUserMessages: X=0.000 Y=0.000 Z=0.000
+[2014.08.22-22.47.50:822][173]LogBlueprintUserMessages: X=0.000 Y=0.000 Z=0.000
+[2014.08.22-22.47.50:826][174]LogBlueprintUserMessages: X=0.000 Y=0.000 Z=0.000
+[2014.08.22-22.47.50:826][174]LogBlueprintUserMessages: X=0.000 Y=0.000 Z=0.000
+[2014.08.22-22.47.50:837][175]LogBlueprintUserMessages: X=0.000 Y=0.000 Z=0.000
+[2014.08.22-22.47.50:837][175]LogBlueprintUserMessages: X=0.000 Y=0.000 Z=0.000
+[2014.08.22-22.47.50:842][176]LogBlueprintUserMessages: X=0.000 Y=0.000 Z=0.000
+[2014.08.22-22.47.50:842][176]LogBlueprintUserMessages: X=0.000 Y=0.000 Z=0.000
+[2014.08.22-22.47.50:852][177]LogBlueprintUserMessages: X=0.000 Y=0.000 Z=0.000
+[2014.08.22-22.47.50:852][177]LogBlueprintUserMessages: X=0.000 Y=0.000 Z=0.000
+[2014.08.22-22.47.50:856][178]LogBlueprintUserMessages: X=0.000 Y=0.000 Z=0.000
+[2014.08.22-22.47.50:856][178]LogBlueprintUserMessages: X=0.000 Y=0.000 Z=0.000
+[2014.08.22-22.47.50:868][179]LogBlueprintUserMessages: X=0.000 Y=0.000 Z=0.000
+[2014.08.22-22.47.50:868][179]LogBlueprintUserMessages: X=0.000 Y=0.000 Z=0.000
+[2014.08.22-22.47.50:872][180]LogBlueprintUserMessages: X=0.000 Y=0.000 Z=0.000
+[2014.08.22-22.47.50:872][180]LogBlueprintUserMessages: X=0.000 Y=0.000 Z=0.000
+[2014.08.22-22.47.50:883][181]LogBlueprintUserMessages: X=0.000 Y=0.000 Z=0.000
+[2014.08.22-22.47.50:883][181]LogBlueprintUserMessages: X=0.000 Y=0.000 Z=0.000
+[2014.08.22-22.47.50:887][182]LogBlueprintUserMessages: X=0.000 Y=0.000 Z=0.000
+[2014.08.22-22.47.50:887][182]LogBlueprintUserMessages: X=0.000 Y=0.000 Z=0.000
+[2014.08.22-22.47.50:898][183]LogBlueprintUserMessages: X=0.000 Y=0.000 Z=0.000
+[2014.08.22-22.47.50:898][183]LogBlueprintUserMessages: X=0.000 Y=0.000 Z=0.000
+[2014.08.22-22.47.50:902][184]LogBlueprintUserMessages: X=0.000 Y=0.000 Z=0.000
+[2014.08.22-22.47.50:902][184]LogBlueprintUserMessages: X=0.000 Y=0.000 Z=0.000
+[2014.08.22-22.47.50:913][185]LogBlueprintUserMessages: X=0.000 Y=0.000 Z=0.000
+[2014.08.22-22.47.50:913][185]LogBlueprintUserMessages: X=0.000 Y=0.000 Z=0.000
+[2014.08.22-22.47.50:918][186]LogBlueprintUserMessages: X=0.000 Y=0.000 Z=0.000
+[2014.08.22-22.47.50:918][186]LogBlueprintUserMessages: X=0.000 Y=0.000 Z=0.000
+[2014.08.22-22.47.50:929][187]LogBlueprintUserMessages: X=0.000 Y=0.000 Z=0.000
+[2014.08.22-22.47.50:929][187]LogBlueprintUserMessages: X=0.000 Y=0.000 Z=0.000
+[2014.08.22-22.47.50:933][188]LogBlueprintUserMessages: X=0.000 Y=0.000 Z=0.000
+[2014.08.22-22.47.50:933][188]LogBlueprintUserMessages: X=0.000 Y=0.000 Z=0.000
+[2014.08.22-22.47.50:944][189]LogBlueprintUserMessages: X=0.000 Y=0.000 Z=0.000
+[2014.08.22-22.47.50:944][189]LogBlueprintUserMessages: X=0.000 Y=0.000 Z=0.000
+[2014.08.22-22.47.50:948][190]LogBlueprintUserMessages: X=0.000 Y=0.000 Z=0.000
+[2014.08.22-22.47.50:948][190]LogBlueprintUserMessages: X=0.000 Y=0.000 Z=0.000
+[2014.08.22-22.47.50:960][191]LogBlueprintUserMessages: X=0.000 Y=0.000 Z=0.000
+[2014.08.22-22.47.50:960][191]LogBlueprintUserMessages: X=0.000 Y=0.000 Z=0.000
+[2014.08.22-22.47.50:963][192]LogBlueprintUserMessages: X=0.000 Y=0.000 Z=0.000
+[2014.08.22-22.47.50:963][192]LogBlueprintUserMessages: X=0.000 Y=0.000 Z=0.000
+[2014.08.22-22.47.50:975][193]LogBlueprintUserMessages: X=0.000 Y=0.000 Z=0.000
+[2014.08.22-22.47.50:975][193]LogBlueprintUserMessages: X=0.000 Y=0.000 Z=0.000
+[2014.08.22-22.47.50:979][194]LogBlueprintUserMessages: X=0.000 Y=0.000 Z=0.000
+[2014.08.22-22.47.50:979][194]LogBlueprintUserMessages: X=0.000 Y=0.000 Z=0.000
+[2014.08.22-22.47.50:991][195]LogBlueprintUserMessages: X=0.000 Y=0.000 Z=0.000
+[2014.08.22-22.47.50:991][195]LogBlueprintUserMessages: X=0.000 Y=0.000 Z=0.000
+[2014.08.22-22.47.51:002][196]LogBlueprintUserMessages: X=0.000 Y=0.000 Z=0.000
+[2014.08.22-22.47.51:002][196]LogBlueprintUserMessages: X=0.000 Y=0.000 Z=0.000
+[2014.08.22-22.47.51:006][197]LogBlueprintUserMessages: X=0.000 Y=0.000 Z=0.000
+[2014.08.22-22.47.51:006][197]LogBlueprintUserMessages: X=0.000 Y=0.000 Z=0.000
+[2014.08.22-22.47.51:017][198]LogBlueprintUserMessages: X=0.000 Y=0.000 Z=0.000
+[2014.08.22-22.47.51:017][198]LogBlueprintUserMessages: X=0.000 Y=0.000 Z=0.000
+[2014.08.22-22.47.51:021][199]LogBlueprintUserMessages: X=0.000 Y=0.000 Z=0.000
+[2014.08.22-22.47.51:021][199]LogBlueprintUserMessages: X=0.000 Y=0.000 Z=0.000
+[2014.08.22-22.47.51:032][200]LogBlueprintUserMessages: X=0.000 Y=0.000 Z=0.000
+[2014.08.22-22.47.51:032][200]LogBlueprintUserMessages: X=0.000 Y=0.000 Z=0.000
+[2014.08.22-22.47.51:037][201]LogBlueprintUserMessages: X=0.000 Y=0.000 Z=0.000
+[2014.08.22-22.47.51:037][201]LogBlueprintUserMessages: X=0.000 Y=0.000 Z=0.000
+[2014.08.22-22.47.51:047][202]LogBlueprintUserMessages: X=0.000 Y=0.000 Z=0.000
+[2014.08.22-22.47.51:047][202]LogBlueprintUserMessages: X=0.000 Y=0.000 Z=0.000
+[2014.08.22-22.47.51:052][203]LogBlueprintUserMessages: X=0.000 Y=0.000 Z=0.000
+[2014.08.22-22.47.51:052][203]LogBlueprintUserMessages: X=0.000 Y=0.000 Z=0.000
+[2014.08.22-22.47.51:063][204]LogBlueprintUserMessages: X=0.000 Y=0.000 Z=0.000
+[2014.08.22-22.47.51:063][204]LogBlueprintUserMessages: X=0.000 Y=0.000 Z=0.000
+[2014.08.22-22.47.51:067][205]LogBlueprintUserMessages: X=0.000 Y=0.000 Z=0.000
+[2014.08.22-22.47.51:067][205]LogBlueprintUserMessages: X=0.000 Y=0.000 Z=0.000
+[2014.08.22-22.47.51:078][206]LogBlueprintUserMessages: X=0.000 Y=0.000 Z=0.000
+[2014.08.22-22.47.51:078][206]LogBlueprintUserMessages: X=0.000 Y=0.000 Z=0.000
+[2014.08.22-22.47.51:082][207]LogBlueprintUserMessages: X=0.000 Y=0.000 Z=0.000
+[2014.08.22-22.47.51:082][207]LogBlueprintUserMessages: X=0.000 Y=0.000 Z=0.000
+[2014.08.22-22.47.51:094][208]LogBlueprintUserMessages: X=0.000 Y=0.000 Z=0.000
+[2014.08.22-22.47.51:094][208]LogBlueprintUserMessages: X=0.000 Y=0.000 Z=0.000
+[2014.08.22-22.47.51:098][209]LogBlueprintUserMessages: X=0.000 Y=0.000 Z=0.000
+[2014.08.22-22.47.51:098][209]LogBlueprintUserMessages: X=0.000 Y=0.000 Z=0.000
+[2014.08.22-22.47.51:109][210]LogBlueprintUserMessages: X=0.000 Y=0.000 Z=0.000
+[2014.08.22-22.47.51:109][210]LogBlueprintUserMessages: X=0.000 Y=0.000 Z=0.000
+[2014.08.22-22.47.51:113][211]LogBlueprintUserMessages: X=0.000 Y=0.000 Z=0.000
+[2014.08.22-22.47.51:113][211]LogBlueprintUserMessages: X=0.000 Y=0.000 Z=0.000
+[2014.08.22-22.47.51:124][212]LogBlueprintUserMessages: X=0.000 Y=0.000 Z=0.000
+[2014.08.22-22.47.51:124][212]LogBlueprintUserMessages: X=0.000 Y=0.000 Z=0.000
+[2014.08.22-22.47.51:128][213]LogBlueprintUserMessages: X=0.000 Y=0.000 Z=0.000
+[2014.08.22-22.47.51:128][213]LogBlueprintUserMessages: X=0.000 Y=0.000 Z=0.000
+[2014.08.22-22.47.51:140][214]LogBlueprintUserMessages: X=0.000 Y=0.000 Z=0.000
+[2014.08.22-22.47.51:140][214]LogBlueprintUserMessages: X=0.000 Y=0.000 Z=0.000
+[2014.08.22-22.47.51:144][215]LogBlueprintUserMessages: X=0.000 Y=0.000 Z=0.000
+[2014.08.22-22.47.51:144][215]LogBlueprintUserMessages: X=0.000 Y=0.000 Z=0.000
+[2014.08.22-22.47.51:155][216]LogBlueprintUserMessages: X=0.000 Y=0.000 Z=0.000
+[2014.08.22-22.47.51:155][216]LogBlueprintUserMessages: X=0.000 Y=0.000 Z=0.000
+[2014.08.22-22.47.51:160][217]LogBlueprintUserMessages: X=0.000 Y=0.000 Z=0.000
+[2014.08.22-22.47.51:160][217]LogBlueprintUserMessages: X=0.000 Y=0.000 Z=0.000
+[2014.08.22-22.47.51:171][218]LogBlueprintUserMessages: X=0.000 Y=0.000 Z=0.000
+[2014.08.22-22.47.51:171][218]LogBlueprintUserMessages: X=0.000 Y=0.000 Z=0.000
+[2014.08.22-22.47.51:181][219]LogBlueprintUserMessages: X=0.000 Y=0.000 Z=0.000
+[2014.08.22-22.47.51:181][219]LogBlueprintUserMessages: X=0.000 Y=0.000 Z=0.000
+[2014.08.22-22.47.51:186][220]LogBlueprintUserMessages: X=0.000 Y=0.000 Z=0.000
+[2014.08.22-22.47.51:186][220]LogBlueprintUserMessages: X=0.000 Y=0.000 Z=0.000
+[2014.08.22-22.47.51:197][221]LogBlueprintUserMessages: X=0.000 Y=0.000 Z=0.000
+[2014.08.22-22.47.51:197][221]LogBlueprintUserMessages: X=0.000 Y=0.000 Z=0.000
+[2014.08.22-22.47.51:208][222]LogBlueprintUserMessages: X=0.000 Y=0.000 Z=0.000
+[2014.08.22-22.47.51:208][222]LogBlueprintUserMessages: X=0.000 Y=0.000 Z=0.000
+[2014.08.22-22.47.51:212][223]LogBlueprintUserMessages: X=0.000 Y=0.000 Z=0.000
+[2014.08.22-22.47.51:212][223]LogBlueprintUserMessages: X=0.000 Y=0.000 Z=0.000
+[2014.08.22-22.47.51:224][224]LogBlueprintUserMessages: X=0.000 Y=0.000 Z=0.000
+[2014.08.22-22.47.51:224][224]LogBlueprintUserMessages: X=0.000 Y=0.000 Z=0.000
+[2014.08.22-22.47.51:228][225]LogBlueprintUserMessages: X=0.000 Y=0.000 Z=0.000
+[2014.08.22-22.47.51:228][225]LogBlueprintUserMessages: X=0.000 Y=0.000 Z=0.000
+[2014.08.22-22.47.51:239][226]LogBlueprintUserMessages: X=0.000 Y=0.000 Z=0.000
+[2014.08.22-22.47.51:239][226]LogBlueprintUserMessages: X=0.000 Y=0.000 Z=0.000
+[2014.08.22-22.47.51:250][227]LogBlueprintUserMessages: X=0.000 Y=0.000 Z=0.000
+[2014.08.22-22.47.51:250][227]LogBlueprintUserMessages: X=0.000 Y=0.000 Z=0.000
+[2014.08.22-22.47.51:254][228]LogBlueprintUserMessages: X=0.000 Y=0.000 Z=0.000
+[2014.08.22-22.47.51:255][228]LogBlueprintUserMessages: X=0.000 Y=0.000 Z=0.000
+[2014.08.22-22.47.51:265][229]LogBlueprintUserMessages: X=0.000 Y=0.000 Z=0.000
+[2014.08.22-22.47.51:266][229]LogBlueprintUserMessages: X=0.000 Y=0.000 Z=0.000
+[2014.08.22-22.47.51:270][230]LogBlueprintUserMessages: X=0.000 Y=0.000 Z=0.000
+[2014.08.22-22.47.51:270][230]LogBlueprintUserMessages: X=0.000 Y=0.000 Z=0.000
+[2014.08.22-22.47.51:281][231]LogBlueprintUserMessages: X=0.000 Y=0.000 Z=0.000
+[2014.08.22-22.47.51:281][231]LogBlueprintUserMessages: X=0.000 Y=0.000 Z=0.000
+[2014.08.22-22.47.51:285][232]LogBlueprintUserMessages: X=0.000 Y=0.000 Z=0.000
+[2014.08.22-22.47.51:285][232]LogBlueprintUserMessages: X=0.000 Y=0.000 Z=0.000
+[2014.08.22-22.47.51:296][233]LogBlueprintUserMessages: X=0.000 Y=0.000 Z=0.000
+[2014.08.22-22.47.51:296][233]LogBlueprintUserMessages: X=0.000 Y=0.000 Z=0.000
+[2014.08.22-22.47.51:300][234]LogBlueprintUserMessages: X=0.000 Y=0.000 Z=0.000
+[2014.08.22-22.47.51:300][234]LogBlueprintUserMessages: X=0.000 Y=0.000 Z=0.000
+[2014.08.22-22.47.51:312][235]LogBlueprintUserMessages: X=0.000 Y=0.000 Z=0.000
+[2014.08.22-22.47.51:312][235]LogBlueprintUserMessages: X=0.000 Y=0.000 Z=0.000
+[2014.08.22-22.47.51:316][236]LogBlueprintUserMessages: X=0.000 Y=0.000 Z=0.000
+[2014.08.22-22.47.51:316][236]LogBlueprintUserMessages: X=0.000 Y=0.000 Z=0.000
+[2014.08.22-22.47.51:327][237]LogBlueprintUserMessages: X=0.000 Y=0.000 Z=0.000
+[2014.08.22-22.47.51:327][237]LogBlueprintUserMessages: X=0.000 Y=0.000 Z=0.000
+[2014.08.22-22.47.51:331][238]LogBlueprintUserMessages: X=0.000 Y=0.000 Z=0.000
+[2014.08.22-22.47.51:331][238]LogBlueprintUserMessages: X=0.000 Y=0.000 Z=0.000
+[2014.08.22-22.47.51:343][239]LogBlueprintUserMessages: X=0.000 Y=0.000 Z=0.000
+[2014.08.22-22.47.51:343][239]LogBlueprintUserMessages: X=0.000 Y=0.000 Z=0.000
+[2014.08.22-22.47.51:347][240]LogBlueprintUserMessages: X=0.000 Y=0.000 Z=0.000
+[2014.08.22-22.47.51:347][240]LogBlueprintUserMessages: X=0.000 Y=0.000 Z=0.000
+[2014.08.22-22.47.51:358][241]LogBlueprintUserMessages: X=0.000 Y=0.000 Z=0.000
+[2014.08.22-22.47.51:358][241]LogBlueprintUserMessages: X=0.000 Y=0.000 Z=0.000
+[2014.08.22-22.47.51:362][242]LogBlueprintUserMessages: X=0.000 Y=0.000 Z=0.000
+[2014.08.22-22.47.51:362][242]LogBlueprintUserMessages: X=0.000 Y=0.000 Z=0.000
+[2014.08.22-22.47.51:373][243]LogBlueprintUserMessages: X=0.000 Y=0.000 Z=0.000
+[2014.08.22-22.47.51:373][243]LogBlueprintUserMessages: X=0.000 Y=0.000 Z=0.000
+[2014.08.22-22.47.51:377][244]LogBlueprintUserMessages: X=0.000 Y=0.000 Z=0.000
+[2014.08.22-22.47.51:377][244]LogBlueprintUserMessages: X=0.000 Y=0.000 Z=0.000
+[2014.08.22-22.47.51:389][245]LogBlueprintUserMessages: X=0.000 Y=0.000 Z=0.000
+[2014.08.22-22.47.51:389][245]LogBlueprintUserMessages: X=0.000 Y=0.000 Z=0.000
+[2014.08.22-22.47.51:394][246]LogBlueprintUserMessages: X=0.000 Y=0.000 Z=0.000
+[2014.08.22-22.47.51:394][246]LogBlueprintUserMessages: X=0.000 Y=0.000 Z=0.000
+[2014.08.22-22.47.51:404][247]LogBlueprintUserMessages: X=0.000 Y=0.000 Z=0.000
+[2014.08.22-22.47.51:404][247]LogBlueprintUserMessages: X=0.000 Y=0.000 Z=0.000
+[2014.08.22-22.47.51:415][248]LogBlueprintUserMessages: X=0.000 Y=0.000 Z=0.000
+[2014.08.22-22.47.51:415][248]LogBlueprintUserMessages: X=0.000 Y=0.000 Z=0.000
+[2014.08.22-22.47.51:419][249]LogBlueprintUserMessages: X=0.000 Y=0.000 Z=0.000
+[2014.08.22-22.47.51:419][249]LogBlueprintUserMessages: X=0.000 Y=0.000 Z=0.000
+[2014.08.22-22.47.51:431][250]LogBlueprintUserMessages: X=0.000 Y=0.000 Z=0.000
+[2014.08.22-22.47.51:431][250]LogBlueprintUserMessages: X=0.000 Y=0.000 Z=0.000
+[2014.08.22-22.47.51:442][251]LogBlueprintUserMessages: X=0.000 Y=0.000 Z=0.000
+[2014.08.22-22.47.51:442][251]LogBlueprintUserMessages: X=0.000 Y=0.000 Z=0.000
+[2014.08.22-22.47.51:446][252]LogBlueprintUserMessages: X=0.000 Y=0.000 Z=0.000
+[2014.08.22-22.47.51:446][252]LogBlueprintUserMessages: X=0.000 Y=0.000 Z=0.000
+[2014.08.22-22.47.51:457][253]LogBlueprintUserMessages: X=0.000 Y=0.000 Z=0.000
+[2014.08.22-22.47.51:457][253]LogBlueprintUserMessages: X=0.000 Y=0.000 Z=0.000
+[2014.08.22-22.47.51:461][254]LogBlueprintUserMessages: X=0.000 Y=0.000 Z=0.000
+[2014.08.22-22.47.51:461][254]LogBlueprintUserMessages: X=0.000 Y=0.000 Z=0.000
+[2014.08.22-22.47.51:476][255]LogBlueprintUserMessages: X=0.000 Y=0.000 Z=0.000
+[2014.08.22-22.47.51:476][255]LogBlueprintUserMessages: X=0.000 Y=0.000 Z=0.000
+[2014.08.22-22.47.51:478][256]LogBlueprintUserMessages: X=0.000 Y=0.000 Z=0.000
+[2014.08.22-22.47.51:478][256]LogBlueprintUserMessages: X=0.000 Y=0.000 Z=0.000
+[2014.08.22-22.47.51:488][257]LogBlueprintUserMessages: X=0.000 Y=0.000 Z=0.000
+[2014.08.22-22.47.51:488][257]LogBlueprintUserMessages: X=0.000 Y=0.000 Z=0.000
+[2014.08.22-22.47.51:492][258]LogBlueprintUserMessages: X=0.000 Y=0.000 Z=0.000
+[2014.08.22-22.47.51:492][258]LogBlueprintUserMessages: X=0.000 Y=0.000 Z=0.000
+[2014.08.22-22.47.51:503][259]LogBlueprintUserMessages: X=0.000 Y=0.000 Z=0.000
+[2014.08.22-22.47.51:504][259]LogBlueprintUserMessages: X=0.000 Y=0.000 Z=0.000
+[2014.08.22-22.47.51:509][260]LogBlueprintUserMessages: X=0.000 Y=0.000 Z=0.000
+[2014.08.22-22.47.51:509][260]LogBlueprintUserMessages: X=0.000 Y=0.000 Z=0.000
+[2014.08.22-22.47.51:520][261]LogBlueprintUserMessages: X=0.000 Y=0.000 Z=0.000
+[2014.08.22-22.47.51:520][261]LogBlueprintUserMessages: X=0.000 Y=0.000 Z=0.000
+[2014.08.22-22.47.51:531][262]LogBlueprintUserMessages: X=0.000 Y=0.000 Z=0.000
+[2014.08.22-22.47.51:531][262]LogBlueprintUserMessages: X=0.000 Y=0.000 Z=0.000
+[2014.08.22-22.47.51:535][263]LogBlueprintUserMessages: X=0.000 Y=0.000 Z=0.000
+[2014.08.22-22.47.51:535][263]LogBlueprintUserMessages: X=0.000 Y=0.000 Z=0.000
+[2014.08.22-22.47.51:546][264]LogBlueprintUserMessages: X=0.000 Y=0.000 Z=0.000
+[2014.08.22-22.47.51:547][264]LogBlueprintUserMessages: X=0.000 Y=0.000 Z=0.000
+[2014.08.22-22.47.51:551][265]LogBlueprintUserMessages: X=0.000 Y=0.000 Z=0.000
+[2014.08.22-22.47.51:551][265]LogBlueprintUserMessages: X=0.000 Y=0.000 Z=0.000
+[2014.08.22-22.47.51:562][266]LogBlueprintUserMessages: X=0.000 Y=0.000 Z=0.000
+[2014.08.22-22.47.51:562][266]LogBlueprintUserMessages: X=0.000 Y=0.000 Z=0.000
+[2014.08.22-22.47.51:566][267]LogBlueprintUserMessages: X=0.000 Y=0.000 Z=0.000
+[2014.08.22-22.47.51:566][267]LogBlueprintUserMessages: X=0.000 Y=0.000 Z=0.000
+[2014.08.22-22.47.51:578][268]LogBlueprintUserMessages: X=0.000 Y=0.000 Z=0.000
+[2014.08.22-22.47.51:578][268]LogBlueprintUserMessages: X=0.000 Y=0.000 Z=0.000
+[2014.08.22-22.47.51:582][269]LogBlueprintUserMessages: X=0.000 Y=0.000 Z=0.000
+[2014.08.22-22.47.51:582][269]LogBlueprintUserMessages: X=0.000 Y=0.000 Z=0.000
+[2014.08.22-22.47.51:594][270]LogBlueprintUserMessages: X=0.000 Y=0.000 Z=0.000
+[2014.08.22-22.47.51:594][270]LogBlueprintUserMessages: X=0.000 Y=0.000 Z=0.000
+[2014.08.22-22.47.51:597][271]LogBlueprintUserMessages: X=0.000 Y=0.000 Z=0.000
+[2014.08.22-22.47.51:598][271]LogBlueprintUserMessages: X=0.000 Y=0.000 Z=0.000
+[2014.08.22-22.47.51:609][272]LogBlueprintUserMessages: X=0.000 Y=0.000 Z=0.000
+[2014.08.22-22.47.51:609][272]LogBlueprintUserMessages: X=0.000 Y=0.000 Z=0.000
+[2014.08.22-22.47.51:613][273]LogBlueprintUserMessages: X=0.000 Y=0.000 Z=0.000
+[2014.08.22-22.47.51:613][273]LogBlueprintUserMessages: X=0.000 Y=0.000 Z=0.000
+[2014.08.22-22.47.51:625][274]LogBlueprintUserMessages: X=0.000 Y=0.000 Z=0.000
+[2014.08.22-22.47.51:625][274]LogBlueprintUserMessages: X=0.000 Y=0.000 Z=0.000
+[2014.08.22-22.47.51:629][275]LogBlueprintUserMessages: X=0.000 Y=0.000 Z=0.000
+[2014.08.22-22.47.51:629][275]LogBlueprintUserMessages: X=0.000 Y=0.000 Z=0.000
+[2014.08.22-22.47.51:640][276]LogBlueprintUserMessages: X=0.000 Y=0.000 Z=0.000
+[2014.08.22-22.47.51:640][276]LogBlueprintUserMessages: X=0.000 Y=0.000 Z=0.000
+[2014.08.22-22.47.51:644][277]LogBlueprintUserMessages: X=0.000 Y=0.000 Z=0.000
+[2014.08.22-22.47.51:644][277]LogBlueprintUserMessages: X=0.000 Y=0.000 Z=0.000
+[2014.08.22-22.47.51:656][278]LogBlueprintUserMessages: X=0.000 Y=0.000 Z=0.000
+[2014.08.22-22.47.51:656][278]LogBlueprintUserMessages: X=0.000 Y=0.000 Z=0.000
+[2014.08.22-22.47.51:660][279]LogBlueprintUserMessages: X=0.000 Y=0.000 Z=0.000
+[2014.08.22-22.47.51:660][279]LogBlueprintUserMessages: X=0.000 Y=0.000 Z=0.000
+[2014.08.22-22.47.51:671][280]LogBlueprintUserMessages: X=0.000 Y=0.000 Z=0.000
+[2014.08.22-22.47.51:671][280]LogBlueprintUserMessages: X=0.000 Y=0.000 Z=0.000
+[2014.08.22-22.47.51:676][281]LogBlueprintUserMessages: X=0.000 Y=0.000 Z=0.000
+[2014.08.22-22.47.51:676][281]LogBlueprintUserMessages: X=0.000 Y=0.000 Z=0.000
+[2014.08.22-22.47.51:686][282]LogBlueprintUserMessages: X=0.000 Y=0.000 Z=0.000
+[2014.08.22-22.47.51:686][282]LogBlueprintUserMessages: X=0.000 Y=0.000 Z=0.000
+[2014.08.22-22.47.51:698][283]LogBlueprintUserMessages: X=0.000 Y=0.000 Z=0.000
+[2014.08.22-22.47.51:698][283]LogBlueprintUserMessages: X=0.000 Y=0.000 Z=0.000
+[2014.08.22-22.47.51:702][284]LogBlueprintUserMessages: X=0.000 Y=0.000 Z=0.000
+[2014.08.22-22.47.51:702][284]LogBlueprintUserMessages: X=0.000 Y=0.000 Z=0.000
+[2014.08.22-22.47.51:713][285]LogBlueprintUserMessages: X=0.000 Y=0.000 Z=0.000
+[2014.08.22-22.47.51:713][285]LogBlueprintUserMessages: X=0.000 Y=0.000 Z=0.000
+[2014.08.22-22.47.51:717][286]LogBlueprintUserMessages: X=0.000 Y=0.000 Z=0.000
+[2014.08.22-22.47.51:718][286]LogBlueprintUserMessages: X=0.000 Y=0.000 Z=0.000
+[2014.08.22-22.47.51:728][287]LogBlueprintUserMessages: X=0.000 Y=0.000 Z=0.000
+[2014.08.22-22.47.51:728][287]LogBlueprintUserMessages: X=0.000 Y=0.000 Z=0.000
+[2014.08.22-22.47.51:740][288]LogBlueprintUserMessages: X=0.000 Y=0.000 Z=0.000
+[2014.08.22-22.47.51:740][288]LogBlueprintUserMessages: X=0.000 Y=0.000 Z=0.000
+[2014.08.22-22.47.51:744][289]LogBlueprintUserMessages: X=0.000 Y=0.000 Z=0.000
+[2014.08.22-22.47.51:744][289]LogBlueprintUserMessages: X=0.000 Y=0.000 Z=0.000
+[2014.08.22-22.47.51:755][290]LogBlueprintUserMessages: X=0.000 Y=0.000 Z=0.000
+[2014.08.22-22.47.51:756][290]LogBlueprintUserMessages: X=0.000 Y=0.000 Z=0.000
+[2014.08.22-22.47.51:760][291]LogBlueprintUserMessages: X=0.000 Y=0.000 Z=0.000
+[2014.08.22-22.47.51:760][291]LogBlueprintUserMessages: X=0.000 Y=0.000 Z=0.000
+[2014.08.22-22.47.51:771][292]LogBlueprintUserMessages: X=0.000 Y=0.000 Z=0.000
+[2014.08.22-22.47.51:771][292]LogBlueprintUserMessages: X=0.000 Y=0.000 Z=0.000
+[2014.08.22-22.47.51:776][293]LogBlueprintUserMessages: X=0.000 Y=0.000 Z=0.000
+[2014.08.22-22.47.51:776][293]LogBlueprintUserMessages: X=0.000 Y=0.000 Z=0.000
+[2014.08.22-22.47.51:787][294]LogBlueprintUserMessages: X=0.000 Y=0.000 Z=0.000
+[2014.08.22-22.47.51:787][294]LogBlueprintUserMessages: X=0.000 Y=0.000 Z=0.000
+[2014.08.22-22.47.51:791][295]LogBlueprintUserMessages: X=0.000 Y=0.000 Z=0.000
+[2014.08.22-22.47.51:791][295]LogBlueprintUserMessages: X=0.000 Y=0.000 Z=0.000
+[2014.08.22-22.47.51:802][296]LogBlueprintUserMessages: X=0.000 Y=0.000 Z=0.000
+[2014.08.22-22.47.51:802][296]LogBlueprintUserMessages: X=0.000 Y=0.000 Z=0.000
+[2014.08.22-22.47.51:806][297]LogBlueprintUserMessages: X=0.000 Y=0.000 Z=0.000
+[2014.08.22-22.47.51:806][297]LogBlueprintUserMessages: X=0.000 Y=0.000 Z=0.000
+[2014.08.22-22.47.51:818][298]LogBlueprintUserMessages: X=0.000 Y=0.000 Z=0.000
+[2014.08.22-22.47.51:818][298]LogBlueprintUserMessages: X=0.000 Y=0.000 Z=0.000
+[2014.08.22-22.47.51:829][299]LogBlueprintUserMessages: X=0.000 Y=0.000 Z=0.000
+[2014.08.22-22.47.51:829][299]LogBlueprintUserMessages: X=0.000 Y=0.000 Z=0.000
+[2014.08.22-22.47.51:834][300]LogBlueprintUserMessages: X=0.000 Y=0.000 Z=0.000
+[2014.08.22-22.47.51:834][300]LogBlueprintUserMessages: X=0.000 Y=0.000 Z=0.000
+[2014.08.22-22.47.51:845][301]LogBlueprintUserMessages: X=0.000 Y=0.000 Z=0.000
+[2014.08.22-22.47.51:845][301]LogBlueprintUserMessages: X=0.000 Y=0.000 Z=0.000
+[2014.08.22-22.47.51:849][302]LogBlueprintUserMessages: X=0.000 Y=0.000 Z=0.000
+[2014.08.22-22.47.51:849][302]LogBlueprintUserMessages: X=0.000 Y=0.000 Z=0.000
+[2014.08.22-22.47.51:860][303]LogBlueprintUserMessages: X=0.000 Y=0.000 Z=0.000
+[2014.08.22-22.47.51:860][303]LogBlueprintUserMessages: X=0.000 Y=0.000 Z=0.000
+[2014.08.22-22.47.51:864][304]LogBlueprintUserMessages: X=0.000 Y=0.000 Z=0.000
+[2014.08.22-22.47.51:864][304]LogBlueprintUserMessages: X=0.000 Y=0.000 Z=0.000
+[2014.08.22-22.47.51:876][305]LogBlueprintUserMessages: X=0.000 Y=0.000 Z=0.000
+[2014.08.22-22.47.51:876][305]LogBlueprintUserMessages: X=0.000 Y=0.000 Z=0.000
+[2014.08.22-22.47.51:880][306]LogBlueprintUserMessages: X=0.000 Y=0.000 Z=0.000
+[2014.08.22-22.47.51:880][306]LogBlueprintUserMessages: X=0.000 Y=0.000 Z=0.000
+[2014.08.22-22.47.51:891][307]LogBlueprintUserMessages: X=0.000 Y=0.000 Z=0.000
+[2014.08.22-22.47.51:891][307]LogBlueprintUserMessages: X=0.000 Y=0.000 Z=0.000
+[2014.08.22-22.47.51:895][308]LogBlueprintUserMessages: X=0.000 Y=0.000 Z=0.000
+[2014.08.22-22.47.51:895][308]LogBlueprintUserMessages: X=0.000 Y=0.000 Z=0.000
+[2014.08.22-22.47.51:907][309]LogBlueprintUserMessages: X=0.000 Y=0.000 Z=0.000
+[2014.08.22-22.47.51:907][309]LogBlueprintUserMessages: X=0.000 Y=0.000 Z=0.000
+[2014.08.22-22.47.51:911][310]LogBlueprintUserMessages: X=0.000 Y=0.000 Z=0.000
+[2014.08.22-22.47.51:911][310]LogBlueprintUserMessages: X=0.000 Y=0.000 Z=0.000
+[2014.08.22-22.47.51:922][311]LogBlueprintUserMessages: X=0.000 Y=0.000 Z=0.000
+[2014.08.22-22.47.51:922][311]LogBlueprintUserMessages: X=0.000 Y=0.000 Z=0.000
+[2014.08.22-22.47.51:934][312]LogBlueprintUserMessages: X=0.000 Y=0.000 Z=0.000
+[2014.08.22-22.47.51:934][312]LogBlueprintUserMessages: X=0.000 Y=0.000 Z=0.000
+[2014.08.22-22.47.51:939][313]LogBlueprintUserMessages: X=0.000 Y=0.000 Z=0.000
+[2014.08.22-22.47.51:939][313]LogBlueprintUserMessages: X=0.000 Y=0.000 Z=0.000
+[2014.08.22-22.47.51:950][314]LogBlueprintUserMessages: X=0.000 Y=0.000 Z=0.000
+[2014.08.22-22.47.51:950][314]LogBlueprintUserMessages: X=0.000 Y=0.000 Z=0.000
+[2014.08.22-22.47.51:961][315]LogBlueprintUserMessages: X=0.000 Y=0.000 Z=0.000
+[2014.08.22-22.47.51:961][315]LogBlueprintUserMessages: X=0.000 Y=0.000 Z=0.000
+[2014.08.22-22.47.51:965][316]LogBlueprintUserMessages: X=0.000 Y=0.000 Z=0.000
+[2014.08.22-22.47.51:965][316]LogBlueprintUserMessages: X=0.000 Y=0.000 Z=0.000
+[2014.08.22-22.47.51:977][317]LogBlueprintUserMessages: X=0.000 Y=0.000 Z=0.000
+[2014.08.22-22.47.51:977][317]LogBlueprintUserMessages: X=0.000 Y=0.000 Z=0.000
+[2014.08.22-22.47.51:981][318]LogBlueprintUserMessages: X=0.000 Y=0.000 Z=0.000
+[2014.08.22-22.47.51:981][318]LogBlueprintUserMessages: X=0.000 Y=0.000 Z=0.000
+[2014.08.22-22.47.51:992][319]LogBlueprintUserMessages: X=0.000 Y=0.000 Z=0.000
+[2014.08.22-22.47.51:992][319]LogBlueprintUserMessages: X=0.000 Y=0.000 Z=0.000
+[2014.08.22-22.47.51:996][320]LogBlueprintUserMessages: X=0.000 Y=0.000 Z=0.000
+[2014.08.22-22.47.51:996][320]LogBlueprintUserMessages: X=0.000 Y=0.000 Z=0.000
+[2014.08.22-22.47.52:008][321]LogBlueprintUserMessages: X=0.000 Y=0.000 Z=0.000
+[2014.08.22-22.47.52:008][321]LogBlueprintUserMessages: X=0.000 Y=0.000 Z=0.000
+[2014.08.22-22.47.52:019][322]LogBlueprintUserMessages: X=0.000 Y=0.000 Z=0.000
+[2014.08.22-22.47.52:019][322]LogBlueprintUserMessages: X=0.000 Y=0.000 Z=0.000
+[2014.08.22-22.47.52:024][323]LogBlueprintUserMessages: X=0.000 Y=0.000 Z=0.000
+[2014.08.22-22.47.52:024][323]LogBlueprintUserMessages: X=0.000 Y=0.000 Z=0.000
+[2014.08.22-22.47.52:034][324]LogBlueprintUserMessages: X=0.000 Y=0.000 Z=0.000
+[2014.08.22-22.47.52:034][324]LogBlueprintUserMessages: X=0.000 Y=0.000 Z=0.000
+[2014.08.22-22.47.52:045][325]LogBlueprintUserMessages: X=0.000 Y=0.000 Z=0.000
+[2014.08.22-22.47.52:045][325]LogBlueprintUserMessages: X=0.000 Y=0.000 Z=0.000
+[2014.08.22-22.47.52:049][326]LogBlueprintUserMessages: X=0.000 Y=0.000 Z=0.000
+[2014.08.22-22.47.52:049][326]LogBlueprintUserMessages: X=0.000 Y=0.000 Z=0.000
+[2014.08.22-22.47.52:061][327]LogBlueprintUserMessages: X=0.000 Y=0.000 Z=0.000
+[2014.08.22-22.47.52:061][327]LogBlueprintUserMessages: X=0.000 Y=0.000 Z=0.000
+[2014.08.22-22.47.52:065][328]LogBlueprintUserMessages: X=0.000 Y=0.000 Z=0.000
+[2014.08.22-22.47.52:065][328]LogBlueprintUserMessages: X=0.000 Y=0.000 Z=0.000
+[2014.08.22-22.47.52:076][329]LogBlueprintUserMessages: X=0.000 Y=0.000 Z=0.000
+[2014.08.22-22.47.52:076][329]LogBlueprintUserMessages: X=0.000 Y=0.000 Z=0.000
+[2014.08.22-22.47.52:080][330]LogBlueprintUserMessages: X=0.000 Y=0.000 Z=0.000
+[2014.08.22-22.47.52:080][330]LogBlueprintUserMessages: X=0.000 Y=0.000 Z=0.000
+[2014.08.22-22.47.52:091][331]LogBlueprintUserMessages: X=0.000 Y=0.000 Z=0.000
+[2014.08.22-22.47.52:092][331]LogBlueprintUserMessages: X=0.000 Y=0.000 Z=0.000
+[2014.08.22-22.47.52:096][332]LogBlueprintUserMessages: X=0.000 Y=0.000 Z=0.000
+[2014.08.22-22.47.52:096][332]LogBlueprintUserMessages: X=0.000 Y=0.000 Z=0.000
+[2014.08.22-22.47.52:107][333]LogBlueprintUserMessages: X=0.000 Y=0.000 Z=0.000
+[2014.08.22-22.47.52:107][333]LogBlueprintUserMessages: X=0.000 Y=0.000 Z=0.000
+[2014.08.22-22.47.52:118][334]LogBlueprintUserMessages: X=0.000 Y=0.000 Z=0.000
+[2014.08.22-22.47.52:118][334]LogBlueprintUserMessages: X=0.000 Y=0.000 Z=0.000
+[2014.08.22-22.47.52:123][335]LogBlueprintUserMessages: X=0.000 Y=0.000 Z=0.000
+[2014.08.22-22.47.52:123][335]LogBlueprintUserMessages: X=0.000 Y=0.000 Z=0.000
+[2014.08.22-22.47.52:133][336]LogBlueprintUserMessages: X=0.000 Y=0.000 Z=0.000
+[2014.08.22-22.47.52:133][336]LogBlueprintUserMessages: X=0.000 Y=0.000 Z=0.000
+[2014.08.22-22.47.52:138][337]LogBlueprintUserMessages: X=0.000 Y=0.000 Z=0.000
+[2014.08.22-22.47.52:138][337]LogBlueprintUserMessages: X=0.000 Y=0.000 Z=0.000
+[2014.08.22-22.47.52:149][338]LogBlueprintUserMessages: X=0.000 Y=0.000 Z=0.000
+[2014.08.22-22.47.52:149][338]LogBlueprintUserMessages: X=0.000 Y=0.000 Z=0.000
+[2014.08.22-22.47.52:153][339]LogBlueprintUserMessages: X=0.000 Y=0.000 Z=0.000
+[2014.08.22-22.47.52:153][339]LogBlueprintUserMessages: X=0.000 Y=0.000 Z=0.000
+[2014.08.22-22.47.52:164][340]LogBlueprintUserMessages: X=0.000 Y=0.000 Z=0.000
+[2014.08.22-22.47.52:164][340]LogBlueprintUserMessages: X=0.000 Y=0.000 Z=0.000
+[2014.08.22-22.47.52:168][341]LogBlueprintUserMessages: X=0.000 Y=0.000 Z=0.000
+[2014.08.22-22.47.52:168][341]LogBlueprintUserMessages: X=0.000 Y=0.000 Z=0.000
+[2014.08.22-22.47.52:179][342]LogBlueprintUserMessages: X=0.000 Y=0.000 Z=0.000
+[2014.08.22-22.47.52:179][342]LogBlueprintUserMessages: X=0.000 Y=0.000 Z=0.000
+[2014.08.22-22.47.52:183][343]LogBlueprintUserMessages: X=0.000 Y=0.000 Z=0.000
+[2014.08.22-22.47.52:183][343]LogBlueprintUserMessages: X=0.000 Y=0.000 Z=0.000
+[2014.08.22-22.47.52:195][344]LogBlueprintUserMessages: X=0.000 Y=0.000 Z=0.000
+[2014.08.22-22.47.52:195][344]LogBlueprintUserMessages: X=0.000 Y=0.000 Z=0.000
+[2014.08.22-22.47.52:198][345]LogBlueprintUserMessages: X=0.000 Y=0.000 Z=0.000
+[2014.08.22-22.47.52:199][345]LogBlueprintUserMessages: X=0.000 Y=0.000 Z=0.000
+[2014.08.22-22.47.52:210][346]LogBlueprintUserMessages: X=0.000 Y=0.000 Z=0.000
+[2014.08.22-22.47.52:210][346]LogBlueprintUserMessages: X=0.000 Y=0.000 Z=0.000
+[2014.08.22-22.47.52:214][347]LogBlueprintUserMessages: X=0.000 Y=0.000 Z=0.000
+[2014.08.22-22.47.52:214][347]LogBlueprintUserMessages: X=0.000 Y=0.000 Z=0.000
+[2014.08.22-22.47.52:225][348]LogBlueprintUserMessages: X=0.000 Y=0.000 Z=0.000
+[2014.08.22-22.47.52:225][348]LogBlueprintUserMessages: X=0.000 Y=0.000 Z=0.000
+[2014.08.22-22.47.52:230][349]LogBlueprintUserMessages: X=0.000 Y=0.000 Z=0.000
+[2014.08.22-22.47.52:230][349]LogBlueprintUserMessages: X=0.000 Y=0.000 Z=0.000
+[2014.08.22-22.47.52:241][350]LogBlueprintUserMessages: X=0.000 Y=0.000 Z=0.000
+[2014.08.22-22.47.52:241][350]LogBlueprintUserMessages: X=0.000 Y=0.000 Z=0.000
+[2014.08.22-22.47.52:252][351]LogBlueprintUserMessages: X=0.000 Y=0.000 Z=0.000
+[2014.08.22-22.47.52:252][351]LogBlueprintUserMessages: X=0.000 Y=0.000 Z=0.000
+[2014.08.22-22.47.52:256][352]LogBlueprintUserMessages: X=0.000 Y=0.000 Z=0.000
+[2014.08.22-22.47.52:256][352]LogBlueprintUserMessages: X=0.000 Y=0.000 Z=0.000
+[2014.08.22-22.47.52:267][353]LogBlueprintUserMessages: X=0.000 Y=0.000 Z=0.000
+[2014.08.22-22.47.52:267][353]LogBlueprintUserMessages: X=0.000 Y=0.000 Z=0.000
+[2014.08.22-22.47.52:278][354]LogBlueprintUserMessages: X=0.000 Y=0.000 Z=0.000
+[2014.08.22-22.47.52:279][354]LogBlueprintUserMessages: X=0.000 Y=0.000 Z=0.000
+[2014.08.22-22.47.52:282][355]LogBlueprintUserMessages: X=0.000 Y=0.000 Z=0.000
+[2014.08.22-22.47.52:283][355]LogBlueprintUserMessages: X=0.000 Y=0.000 Z=0.000
+[2014.08.22-22.47.52:294][356]LogBlueprintUserMessages: X=0.000 Y=0.000 Z=0.000
+[2014.08.22-22.47.52:294][356]LogBlueprintUserMessages: X=0.000 Y=0.000 Z=0.000
+[2014.08.22-22.47.52:298][357]LogBlueprintUserMessages: X=0.000 Y=0.000 Z=0.000
+[2014.08.22-22.47.52:298][357]LogBlueprintUserMessages: X=0.000 Y=0.000 Z=0.000
+[2014.08.22-22.47.52:309][358]LogBlueprintUserMessages: X=0.000 Y=0.000 Z=0.000
+[2014.08.22-22.47.52:309][358]LogBlueprintUserMessages: X=0.000 Y=0.000 Z=0.000
+[2014.08.22-22.47.52:313][359]LogBlueprintUserMessages: X=0.000 Y=0.000 Z=0.000
+[2014.08.22-22.47.52:313][359]LogBlueprintUserMessages: X=0.000 Y=0.000 Z=0.000
+[2014.08.22-22.47.52:325][360]LogBlueprintUserMessages: X=0.000 Y=0.000 Z=0.000
+[2014.08.22-22.47.52:325][360]LogBlueprintUserMessages: X=0.000 Y=0.000 Z=0.000
+[2014.08.22-22.47.52:329][361]LogBlueprintUserMessages: X=0.000 Y=0.000 Z=0.000
+[2014.08.22-22.47.52:329][361]LogBlueprintUserMessages: X=0.000 Y=0.000 Z=0.000
+[2014.08.22-22.47.52:340][362]LogBlueprintUserMessages: X=0.000 Y=0.000 Z=0.000
+[2014.08.22-22.47.52:340][362]LogBlueprintUserMessages: X=0.000 Y=0.000 Z=0.000
+[2014.08.22-22.47.52:345][363]LogBlueprintUserMessages: X=0.000 Y=0.000 Z=0.000
+[2014.08.22-22.47.52:345][363]LogBlueprintUserMessages: X=0.000 Y=0.000 Z=0.000
+[2014.08.22-22.47.52:355][364]LogBlueprintUserMessages: X=0.000 Y=0.000 Z=0.000
+[2014.08.22-22.47.52:355][364]LogBlueprintUserMessages: X=0.000 Y=0.000 Z=0.000
+[2014.08.22-22.47.52:360][365]LogBlueprintUserMessages: X=0.000 Y=0.000 Z=0.000
+[2014.08.22-22.47.52:360][365]LogBlueprintUserMessages: X=0.000 Y=0.000 Z=0.000
+[2014.08.22-22.47.52:371][366]LogBlueprintUserMessages: X=0.000 Y=0.000 Z=0.000
+[2014.08.22-22.47.52:371][366]LogBlueprintUserMessages: X=0.000 Y=0.000 Z=0.000
+[2014.08.22-22.47.52:382][367]LogBlueprintUserMessages: X=0.000 Y=0.000 Z=0.000
+[2014.08.22-22.47.52:382][367]LogBlueprintUserMessages: X=0.000 Y=0.000 Z=0.000
+[2014.08.22-22.47.52:386][368]LogBlueprintUserMessages: X=0.000 Y=0.000 Z=0.000
+[2014.08.22-22.47.52:386][368]LogBlueprintUserMessages: X=0.000 Y=0.000 Z=0.000
+[2014.08.22-22.47.52:397][369]LogBlueprintUserMessages: X=0.000 Y=0.000 Z=0.000
+[2014.08.22-22.47.52:397][369]LogBlueprintUserMessages: X=0.000 Y=0.000 Z=0.000
+[2014.08.22-22.47.52:401][370]LogBlueprintUserMessages: X=0.000 Y=0.000 Z=0.000
+[2014.08.22-22.47.52:401][370]LogBlueprintUserMessages: X=0.000 Y=0.000 Z=0.000
+[2014.08.22-22.47.52:413][371]LogBlueprintUserMessages: X=0.000 Y=0.000 Z=0.000
+[2014.08.22-22.47.52:413][371]LogBlueprintUserMessages: X=0.000 Y=0.000 Z=0.000
+[2014.08.22-22.47.52:417][372]LogBlueprintUserMessages: X=0.000 Y=0.000 Z=0.000
+[2014.08.22-22.47.52:417][372]LogBlueprintUserMessages: X=0.000 Y=0.000 Z=0.000
+[2014.08.22-22.47.52:428][373]LogBlueprintUserMessages: X=0.000 Y=0.000 Z=0.000
+[2014.08.22-22.47.52:428][373]LogBlueprintUserMessages: X=0.000 Y=0.000 Z=0.000
+[2014.08.22-22.47.52:433][374]LogBlueprintUserMessages: X=0.000 Y=0.000 Z=0.000
+[2014.08.22-22.47.52:433][374]LogBlueprintUserMessages: X=0.000 Y=0.000 Z=0.000
+[2014.08.22-22.47.52:444][375]LogBlueprintUserMessages: X=0.000 Y=0.000 Z=0.000
+[2014.08.22-22.47.52:444][375]LogBlueprintUserMessages: X=0.000 Y=0.000 Z=0.000
+[2014.08.22-22.47.52:455][376]LogBlueprintUserMessages: X=0.000 Y=0.000 Z=0.000
+[2014.08.22-22.47.52:455][376]LogBlueprintUserMessages: X=0.000 Y=0.000 Z=0.000
+[2014.08.22-22.47.52:459][377]LogBlueprintUserMessages: X=0.000 Y=0.000 Z=0.000
+[2014.08.22-22.47.52:459][377]LogBlueprintUserMessages: X=0.000 Y=0.000 Z=0.000
+[2014.08.22-22.47.52:470][378]LogBlueprintUserMessages: X=0.000 Y=0.000 Z=0.000
+[2014.08.22-22.47.52:470][378]LogBlueprintUserMessages: X=0.000 Y=0.000 Z=0.000
+[2014.08.22-22.47.52:482][379]LogBlueprintUserMessages: X=0.000 Y=0.000 Z=0.000
+[2014.08.22-22.47.52:482][379]LogBlueprintUserMessages: X=0.000 Y=0.000 Z=0.000
+[2014.08.22-22.47.52:486][380]LogBlueprintUserMessages: X=0.000 Y=0.000 Z=0.000
+[2014.08.22-22.47.52:486][380]LogBlueprintUserMessages: X=0.000 Y=0.000 Z=0.000
+[2014.08.22-22.47.52:497][381]LogBlueprintUserMessages: X=0.000 Y=0.000 Z=0.000
+[2014.08.22-22.47.52:497][381]LogBlueprintUserMessages: X=0.000 Y=0.000 Z=0.000
+[2014.08.22-22.47.52:501][382]LogBlueprintUserMessages: X=0.000 Y=0.000 Z=0.000
+[2014.08.22-22.47.52:502][382]LogBlueprintUserMessages: X=0.000 Y=0.000 Z=0.000
+[2014.08.22-22.47.52:512][383]LogBlueprintUserMessages: X=0.000 Y=0.000 Z=0.000
+[2014.08.22-22.47.52:512][383]LogBlueprintUserMessages: X=0.000 Y=0.000 Z=0.000
+[2014.08.22-22.47.52:516][384]LogBlueprintUserMessages: X=0.000 Y=0.000 Z=0.000
+[2014.08.22-22.47.52:516][384]LogBlueprintUserMessages: X=0.000 Y=0.000 Z=0.000
+[2014.08.22-22.47.52:528][385]LogBlueprintUserMessages: X=0.000 Y=0.000 Z=0.000
+[2014.08.22-22.47.52:528][385]LogBlueprintUserMessages: X=0.000 Y=0.000 Z=0.000
+[2014.08.22-22.47.52:532][386]LogBlueprintUserMessages: X=0.000 Y=0.000 Z=0.000
+[2014.08.22-22.47.52:532][386]LogBlueprintUserMessages: X=0.000 Y=0.000 Z=0.000
+[2014.08.22-22.47.52:543][387]LogBlueprintUserMessages: X=0.000 Y=0.000 Z=0.000
+[2014.08.22-22.47.52:543][387]LogBlueprintUserMessages: X=0.000 Y=0.000 Z=0.000
+[2014.08.22-22.47.52:547][388]LogBlueprintUserMessages: X=0.000 Y=0.000 Z=0.000
+[2014.08.22-22.47.52:547][388]LogBlueprintUserMessages: X=0.000 Y=0.000 Z=0.000
+[2014.08.22-22.47.52:559][389]LogBlueprintUserMessages: X=0.000 Y=0.000 Z=0.000
+[2014.08.22-22.47.52:559][389]LogBlueprintUserMessages: X=0.000 Y=0.000 Z=0.000
+[2014.08.22-22.47.52:562][390]LogBlueprintUserMessages: X=0.000 Y=0.000 Z=0.000
+[2014.08.22-22.47.52:563][390]LogBlueprintUserMessages: X=0.000 Y=0.000 Z=0.000
+[2014.08.22-22.47.52:574][391]LogBlueprintUserMessages: X=0.000 Y=0.000 Z=0.000
+[2014.08.22-22.47.52:574][391]LogBlueprintUserMessages: X=0.000 Y=0.000 Z=0.000
+[2014.08.22-22.47.52:578][392]LogBlueprintUserMessages: X=0.000 Y=0.000 Z=0.000
+[2014.08.22-22.47.52:578][392]LogBlueprintUserMessages: X=0.000 Y=0.000 Z=0.000
+[2014.08.22-22.47.52:589][393]LogBlueprintUserMessages: X=0.000 Y=0.000 Z=0.000
+[2014.08.22-22.47.52:589][393]LogBlueprintUserMessages: X=0.000 Y=0.000 Z=0.000
+[2014.08.22-22.47.52:593][394]LogBlueprintUserMessages: X=0.000 Y=0.000 Z=0.000
+[2014.08.22-22.47.52:593][394]LogBlueprintUserMessages: X=0.000 Y=0.000 Z=0.000
+[2014.08.22-22.47.52:604][395]LogBlueprintUserMessages: X=0.000 Y=0.000 Z=0.000
+[2014.08.22-22.47.52:605][395]LogBlueprintUserMessages: X=0.000 Y=0.000 Z=0.000
+[2014.08.22-22.47.52:609][396]LogBlueprintUserMessages: X=0.000 Y=0.000 Z=0.000
+[2014.08.22-22.47.52:609][396]LogBlueprintUserMessages: X=0.000 Y=0.000 Z=0.000
+[2014.08.22-22.47.52:620][397]LogBlueprintUserMessages: X=0.000 Y=0.000 Z=0.000
+[2014.08.22-22.47.52:620][397]LogBlueprintUserMessages: X=0.000 Y=0.000 Z=0.000
+[2014.08.22-22.47.52:624][398]LogBlueprintUserMessages: X=0.000 Y=0.000 Z=0.000
+[2014.08.22-22.47.52:624][398]LogBlueprintUserMessages: X=0.000 Y=0.000 Z=0.000
+[2014.08.22-22.47.52:635][399]LogBlueprintUserMessages: X=0.000 Y=0.000 Z=0.000
+[2014.08.22-22.47.52:635][399]LogBlueprintUserMessages: X=0.000 Y=0.000 Z=0.000
+[2014.08.22-22.47.52:646][400]LogBlueprintUserMessages: X=0.000 Y=0.000 Z=0.000
+[2014.08.22-22.47.52:647][400]LogBlueprintUserMessages: X=0.000 Y=0.000 Z=0.000
+[2014.08.22-22.47.52:650][401]LogBlueprintUserMessages: X=0.000 Y=0.000 Z=0.000
+[2014.08.22-22.47.52:650][401]LogBlueprintUserMessages: X=0.000 Y=0.000 Z=0.000
+[2014.08.22-22.47.52:662][402]LogBlueprintUserMessages: X=0.000 Y=0.000 Z=0.000
+[2014.08.22-22.47.52:662][402]LogBlueprintUserMessages: X=0.000 Y=0.000 Z=0.000
+[2014.08.22-22.47.52:673][403]LogBlueprintUserMessages: X=0.000 Y=0.000 Z=0.000
+[2014.08.22-22.47.52:673][403]LogBlueprintUserMessages: X=0.000 Y=0.000 Z=0.000
+[2014.08.22-22.47.52:678][404]LogBlueprintUserMessages: X=0.000 Y=0.000 Z=0.000
+[2014.08.22-22.47.52:678][404]LogBlueprintUserMessages: X=0.000 Y=0.000 Z=0.000
+[2014.08.22-22.47.52:689][405]LogBlueprintUserMessages: X=0.000 Y=0.000 Z=0.000
+[2014.08.22-22.47.52:689][405]LogBlueprintUserMessages: X=0.000 Y=0.000 Z=0.000
+[2014.08.22-22.47.52:693][406]LogBlueprintUserMessages: X=0.000 Y=0.000 Z=0.000
+[2014.08.22-22.47.52:693][406]LogBlueprintUserMessages: X=0.000 Y=0.000 Z=0.000
+[2014.08.22-22.47.52:704][407]LogBlueprintUserMessages: X=0.000 Y=0.000 Z=0.000
+[2014.08.22-22.47.52:704][407]LogBlueprintUserMessages: X=0.000 Y=0.000 Z=0.000
+[2014.08.22-22.47.52:708][408]LogBlueprintUserMessages: X=0.000 Y=0.000 Z=0.000
+[2014.08.22-22.47.52:708][408]LogBlueprintUserMessages: X=0.000 Y=0.000 Z=0.000
+[2014.08.22-22.47.52:719][409]LogBlueprintUserMessages: X=0.000 Y=0.000 Z=0.000
+[2014.08.22-22.47.52:720][409]LogBlueprintUserMessages: X=0.000 Y=0.000 Z=0.000
+[2014.08.22-22.47.52:723][410]LogBlueprintUserMessages: X=0.000 Y=0.000 Z=0.000
+[2014.08.22-22.47.52:723][410]LogBlueprintUserMessages: X=0.000 Y=0.000 Z=0.000
+[2014.08.22-22.47.52:734][411]LogBlueprintUserMessages: X=0.000 Y=0.000 Z=0.000
+[2014.08.22-22.47.52:734][411]LogBlueprintUserMessages: X=0.000 Y=0.000 Z=0.000
+[2014.08.22-22.47.52:739][412]LogBlueprintUserMessages: X=0.000 Y=0.000 Z=0.000
+[2014.08.22-22.47.52:739][412]LogBlueprintUserMessages: X=0.000 Y=0.000 Z=0.000
+[2014.08.22-22.47.52:750][413]LogBlueprintUserMessages: X=0.000 Y=0.000 Z=0.000
+[2014.08.22-22.47.52:750][413]LogBlueprintUserMessages: X=0.000 Y=0.000 Z=0.000
+[2014.08.22-22.47.52:754][414]LogBlueprintUserMessages: X=0.000 Y=0.000 Z=0.000
+[2014.08.22-22.47.52:754][414]LogBlueprintUserMessages: X=0.000 Y=0.000 Z=0.000
+[2014.08.22-22.47.52:765][415]LogBlueprintUserMessages: X=0.000 Y=0.000 Z=0.000
+[2014.08.22-22.47.52:765][415]LogBlueprintUserMessages: X=0.000 Y=0.000 Z=0.000
+[2014.08.22-22.47.52:770][416]LogBlueprintUserMessages: X=0.000 Y=0.000 Z=0.000
+[2014.08.22-22.47.52:770][416]LogBlueprintUserMessages: X=0.000 Y=0.000 Z=0.000
+[2014.08.22-22.47.52:781][417]LogBlueprintUserMessages: X=0.000 Y=0.000 Z=0.000
+[2014.08.22-22.47.52:781][417]LogBlueprintUserMessages: X=0.000 Y=0.000 Z=0.000
+[2014.08.22-22.47.52:785][418]LogBlueprintUserMessages: X=0.000 Y=0.000 Z=0.000
+[2014.08.22-22.47.52:785][418]LogBlueprintUserMessages: X=0.000 Y=0.000 Z=0.000
+[2014.08.22-22.47.52:796][419]LogBlueprintUserMessages: X=0.000 Y=0.000 Z=0.000
+[2014.08.22-22.47.52:796][419]LogBlueprintUserMessages: X=0.000 Y=0.000 Z=0.000
+[2014.08.22-22.47.52:807][420]LogBlueprintUserMessages: X=0.000 Y=0.000 Z=0.000
+[2014.08.22-22.47.52:807][420]LogBlueprintUserMessages: X=0.000 Y=0.000 Z=0.000
+[2014.08.22-22.47.52:812][421]LogBlueprintUserMessages: X=0.000 Y=0.000 Z=0.000
+[2014.08.22-22.47.52:812][421]LogBlueprintUserMessages: X=0.000 Y=0.000 Z=0.000
+[2014.08.22-22.47.52:823][422]LogBlueprintUserMessages: X=0.000 Y=0.000 Z=0.000
+[2014.08.22-22.47.52:823][422]LogBlueprintUserMessages: X=0.000 Y=0.000 Z=0.000
+[2014.08.22-22.47.52:827][423]LogBlueprintUserMessages: X=0.000 Y=0.000 Z=0.000
+[2014.08.22-22.47.52:827][423]LogBlueprintUserMessages: X=0.000 Y=0.000 Z=0.000
+[2014.08.22-22.47.52:838][424]LogBlueprintUserMessages: X=0.000 Y=0.000 Z=0.000
+[2014.08.22-22.47.52:838][424]LogBlueprintUserMessages: X=0.000 Y=0.000 Z=0.000
+[2014.08.22-22.47.52:842][425]LogBlueprintUserMessages: X=0.000 Y=0.000 Z=0.000
+[2014.08.22-22.47.52:842][425]LogBlueprintUserMessages: X=0.000 Y=0.000 Z=0.000
+[2014.08.22-22.47.52:854][426]LogBlueprintUserMessages: X=0.000 Y=0.000 Z=0.000
+[2014.08.22-22.47.52:854][426]LogBlueprintUserMessages: X=0.000 Y=0.000 Z=0.000
+[2014.08.22-22.47.52:857][427]LogBlueprintUserMessages: X=0.000 Y=0.000 Z=0.000
+[2014.08.22-22.47.52:857][427]LogBlueprintUserMessages: X=0.000 Y=0.000 Z=0.000
+[2014.08.22-22.47.52:869][428]LogBlueprintUserMessages: X=0.000 Y=0.000 Z=0.000
+[2014.08.22-22.47.52:869][428]LogBlueprintUserMessages: X=0.000 Y=0.000 Z=0.000
+[2014.08.22-22.47.52:873][429]LogBlueprintUserMessages: X=0.000 Y=0.000 Z=0.000
+[2014.08.22-22.47.52:873][429]LogBlueprintUserMessages: X=0.000 Y=0.000 Z=0.000
+[2014.08.22-22.47.52:884][430]LogBlueprintUserMessages: X=0.000 Y=0.000 Z=0.000
+[2014.08.22-22.47.52:884][430]LogBlueprintUserMessages: X=0.000 Y=0.000 Z=0.000
+[2014.08.22-22.47.52:888][431]LogBlueprintUserMessages: X=0.000 Y=0.000 Z=0.000
+[2014.08.22-22.47.52:888][431]LogBlueprintUserMessages: X=0.000 Y=0.000 Z=0.000
+[2014.08.22-22.47.52:899][432]LogBlueprintUserMessages: X=0.000 Y=0.000 Z=0.000
+[2014.08.22-22.47.52:899][432]LogBlueprintUserMessages: X=0.000 Y=0.000 Z=0.000
+[2014.08.22-22.47.52:904][433]LogBlueprintUserMessages: X=0.000 Y=0.000 Z=0.000
+[2014.08.22-22.47.52:904][433]LogBlueprintUserMessages: X=0.000 Y=0.000 Z=0.000
+[2014.08.22-22.47.52:915][434]LogBlueprintUserMessages: X=0.000 Y=0.000 Z=0.000
+[2014.08.22-22.47.52:915][434]LogBlueprintUserMessages: X=0.000 Y=0.000 Z=0.000
+[2014.08.22-22.47.52:919][435]LogBlueprintUserMessages: X=0.000 Y=0.000 Z=0.000
+[2014.08.22-22.47.52:919][435]LogBlueprintUserMessages: X=0.000 Y=0.000 Z=0.000
+[2014.08.22-22.47.52:930][436]LogBlueprintUserMessages: X=0.000 Y=0.000 Z=0.000
+[2014.08.22-22.47.52:930][436]LogBlueprintUserMessages: X=0.000 Y=0.000 Z=0.000
+[2014.08.22-22.47.52:935][437]LogBlueprintUserMessages: X=0.000 Y=0.000 Z=0.000
+[2014.08.22-22.47.52:935][437]LogBlueprintUserMessages: X=0.000 Y=0.000 Z=0.000
+[2014.08.22-22.47.52:945][438]LogBlueprintUserMessages: X=0.000 Y=0.000 Z=0.000
+[2014.08.22-22.47.52:945][438]LogBlueprintUserMessages: X=0.000 Y=0.000 Z=0.000
+[2014.08.22-22.47.52:957][439]LogBlueprintUserMessages: X=0.000 Y=0.000 Z=0.000
+[2014.08.22-22.47.52:957][439]LogBlueprintUserMessages: X=0.000 Y=0.000 Z=0.000
+[2014.08.22-22.47.52:961][440]LogBlueprintUserMessages: X=0.000 Y=0.000 Z=0.000
+[2014.08.22-22.47.52:961][440]LogBlueprintUserMessages: X=0.000 Y=0.000 Z=0.000
+[2014.08.22-22.47.52:972][441]LogBlueprintUserMessages: X=0.000 Y=0.000 Z=0.000
+[2014.08.22-22.47.52:972][441]LogBlueprintUserMessages: X=0.000 Y=0.000 Z=0.000
+[2014.08.22-22.47.52:983][442]LogBlueprintUserMessages: X=0.000 Y=0.000 Z=0.000
+[2014.08.22-22.47.52:983][442]LogBlueprintUserMessages: X=0.000 Y=0.000 Z=0.000
+[2014.08.22-22.47.52:988][443]LogBlueprintUserMessages: X=0.000 Y=0.000 Z=0.000
+[2014.08.22-22.47.52:988][443]LogBlueprintUserMessages: X=0.000 Y=0.000 Z=0.000
+[2014.08.22-22.47.52:999][444]LogBlueprintUserMessages: X=0.000 Y=0.000 Z=0.000
+[2014.08.22-22.47.52:999][444]LogBlueprintUserMessages: X=0.000 Y=0.000 Z=0.000
+[2014.08.22-22.47.53:003][445]LogBlueprintUserMessages: X=0.000 Y=0.000 Z=0.000
+[2014.08.22-22.47.53:003][445]LogBlueprintUserMessages: X=0.000 Y=0.000 Z=0.000
+[2014.08.22-22.47.53:014][446]LogBlueprintUserMessages: X=0.000 Y=0.000 Z=0.000
+[2014.08.22-22.47.53:014][446]LogBlueprintUserMessages: X=0.000 Y=0.000 Z=0.000
+[2014.08.22-22.47.53:025][447]LogBlueprintUserMessages: X=0.000 Y=0.000 Z=0.000
+[2014.08.22-22.47.53:025][447]LogBlueprintUserMessages: X=0.000 Y=0.000 Z=0.000
+[2014.08.22-22.47.53:030][448]LogBlueprintUserMessages: X=0.000 Y=0.000 Z=0.000
+[2014.08.22-22.47.53:030][448]LogBlueprintUserMessages: X=0.000 Y=0.000 Z=0.000
+[2014.08.22-22.47.53:041][449]LogBlueprintUserMessages: X=0.000 Y=0.000 Z=0.000
+[2014.08.22-22.47.53:041][449]LogBlueprintUserMessages: X=0.000 Y=0.000 Z=0.000
+[2014.08.22-22.47.53:045][450]LogBlueprintUserMessages: X=0.000 Y=0.000 Z=0.000
+[2014.08.22-22.47.53:045][450]LogBlueprintUserMessages: X=0.000 Y=0.000 Z=0.000
+[2014.08.22-22.47.53:056][451]LogBlueprintUserMessages: X=0.000 Y=0.000 Z=0.000
+[2014.08.22-22.47.53:056][451]LogBlueprintUserMessages: X=0.000 Y=0.000 Z=0.000
+[2014.08.22-22.47.53:060][452]LogBlueprintUserMessages: X=0.000 Y=0.000 Z=0.000
+[2014.08.22-22.47.53:060][452]LogBlueprintUserMessages: X=0.000 Y=0.000 Z=0.000
+[2014.08.22-22.47.53:072][453]LogBlueprintUserMessages: X=0.000 Y=0.000 Z=0.000
+[2014.08.22-22.47.53:072][453]LogBlueprintUserMessages: X=0.000 Y=0.000 Z=0.000
+[2014.08.22-22.47.53:075][454]LogBlueprintUserMessages: X=0.000 Y=0.000 Z=0.000
+[2014.08.22-22.47.53:076][454]LogBlueprintUserMessages: X=0.000 Y=0.000 Z=0.000
+[2014.08.22-22.47.53:087][455]LogBlueprintUserMessages: X=0.000 Y=0.000 Z=0.000
+[2014.08.22-22.47.53:087][455]LogBlueprintUserMessages: X=0.000 Y=0.000 Z=0.000
+[2014.08.22-22.47.53:091][456]LogBlueprintUserMessages: X=0.000 Y=0.000 Z=0.000
+[2014.08.22-22.47.53:091][456]LogBlueprintUserMessages: X=0.000 Y=0.000 Z=0.000
+[2014.08.22-22.47.53:103][457]LogBlueprintUserMessages: X=0.000 Y=0.000 Z=0.000
+[2014.08.22-22.47.53:103][457]LogBlueprintUserMessages: X=0.000 Y=0.000 Z=0.000
+[2014.08.22-22.47.53:106][458]LogBlueprintUserMessages: X=0.000 Y=0.000 Z=0.000
+[2014.08.22-22.47.53:106][458]LogBlueprintUserMessages: X=0.000 Y=0.000 Z=0.000
+[2014.08.22-22.47.53:117][459]LogBlueprintUserMessages: X=0.000 Y=0.000 Z=0.000
+[2014.08.22-22.47.53:118][459]LogBlueprintUserMessages: X=0.000 Y=0.000 Z=0.000
+[2014.08.22-22.47.53:122][460]LogBlueprintUserMessages: X=0.000 Y=0.000 Z=0.000
+[2014.08.22-22.47.53:122][460]LogBlueprintUserMessages: X=0.000 Y=0.000 Z=0.000
+[2014.08.22-22.47.53:133][461]LogBlueprintUserMessages: X=0.000 Y=0.000 Z=0.000
+[2014.08.22-22.47.53:133][461]LogBlueprintUserMessages: X=0.000 Y=0.000 Z=0.000
+[2014.08.22-22.47.53:137][462]LogBlueprintUserMessages: X=0.000 Y=0.000 Z=0.000
+[2014.08.22-22.47.53:137][462]LogBlueprintUserMessages: X=0.000 Y=0.000 Z=0.000
+[2014.08.22-22.47.53:148][463]LogBlueprintUserMessages: X=0.000 Y=0.000 Z=0.000
+[2014.08.22-22.47.53:148][463]LogBlueprintUserMessages: X=0.000 Y=0.000 Z=0.000
+[2014.08.22-22.47.53:153][464]LogBlueprintUserMessages: X=0.000 Y=0.000 Z=0.000
+[2014.08.22-22.47.53:153][464]LogBlueprintUserMessages: X=0.000 Y=0.000 Z=0.000
+[2014.08.22-22.47.53:163][465]LogBlueprintUserMessages: X=0.000 Y=0.000 Z=0.000
+[2014.08.22-22.47.53:163][465]LogBlueprintUserMessages: X=0.000 Y=0.000 Z=0.000
+[2014.08.22-22.47.53:168][466]LogBlueprintUserMessages: X=0.000 Y=0.000 Z=0.000
+[2014.08.22-22.47.53:168][466]LogBlueprintUserMessages: X=0.000 Y=0.000 Z=0.000
+[2014.08.22-22.47.53:178][467]LogBlueprintUserMessages: X=0.000 Y=0.000 Z=0.000
+[2014.08.22-22.47.53:178][467]LogBlueprintUserMessages: X=0.000 Y=0.000 Z=0.000
+[2014.08.22-22.47.53:183][468]LogBlueprintUserMessages: X=0.000 Y=0.000 Z=0.000
+[2014.08.22-22.47.53:183][468]LogBlueprintUserMessages: X=0.000 Y=0.000 Z=0.000
+[2014.08.22-22.47.53:194][469]LogBlueprintUserMessages: X=0.000 Y=0.000 Z=0.000
+[2014.08.22-22.47.53:194][469]LogBlueprintUserMessages: X=0.000 Y=0.000 Z=0.000
+[2014.08.22-22.47.53:198][470]LogBlueprintUserMessages: X=0.000 Y=0.000 Z=0.000
+[2014.08.22-22.47.53:198][470]LogBlueprintUserMessages: X=0.000 Y=0.000 Z=0.000
+[2014.08.22-22.47.53:209][471]LogBlueprintUserMessages: X=0.000 Y=0.000 Z=0.000
+[2014.08.22-22.47.53:209][471]LogBlueprintUserMessages: X=0.000 Y=0.000 Z=0.000
+[2014.08.22-22.47.53:213][472]LogBlueprintUserMessages: X=0.000 Y=0.000 Z=0.000
+[2014.08.22-22.47.53:213][472]LogBlueprintUserMessages: X=0.000 Y=0.000 Z=0.000
+[2014.08.22-22.47.53:224][473]LogBlueprintUserMessages: X=0.000 Y=0.000 Z=0.000
+[2014.08.22-22.47.53:224][473]LogBlueprintUserMessages: X=0.000 Y=0.000 Z=0.000
+[2014.08.22-22.47.53:228][474]LogBlueprintUserMessages: X=0.000 Y=0.000 Z=0.000
+[2014.08.22-22.47.53:228][474]LogBlueprintUserMessages: X=0.000 Y=0.000 Z=0.000
+[2014.08.22-22.47.53:240][475]LogBlueprintUserMessages: X=0.000 Y=0.000 Z=0.000
+[2014.08.22-22.47.53:240][475]LogBlueprintUserMessages: X=0.000 Y=0.000 Z=0.000
+[2014.08.22-22.47.53:244][476]LogBlueprintUserMessages: X=0.000 Y=0.000 Z=0.000
+[2014.08.22-22.47.53:244][476]LogBlueprintUserMessages: X=0.000 Y=0.000 Z=0.000
+[2014.08.22-22.47.53:256][477]LogBlueprintUserMessages: X=0.000 Y=0.000 Z=0.000
+[2014.08.22-22.47.53:256][477]LogBlueprintUserMessages: X=0.000 Y=0.000 Z=0.000
+[2014.08.22-22.47.53:260][478]LogBlueprintUserMessages: X=0.000 Y=0.000 Z=0.000
+[2014.08.22-22.47.53:260][478]LogBlueprintUserMessages: X=0.000 Y=0.000 Z=0.000
+[2014.08.22-22.47.53:272][479]LogBlueprintUserMessages: X=0.000 Y=0.000 Z=0.000
+[2014.08.22-22.47.53:272][479]LogBlueprintUserMessages: X=0.000 Y=0.000 Z=0.000
+[2014.08.22-22.47.53:276][480]LogBlueprintUserMessages: X=0.000 Y=0.000 Z=0.000
+[2014.08.22-22.47.53:276][480]LogBlueprintUserMessages: X=0.000 Y=0.000 Z=0.000
+[2014.08.22-22.47.53:287][481]LogBlueprintUserMessages: X=0.000 Y=0.000 Z=0.000
+[2014.08.22-22.47.53:287][481]LogBlueprintUserMessages: X=0.000 Y=0.000 Z=0.000
+[2014.08.22-22.47.53:291][482]LogBlueprintUserMessages: X=0.000 Y=0.000 Z=0.000
+[2014.08.22-22.47.53:291][482]LogBlueprintUserMessages: X=0.000 Y=0.000 Z=0.000
+[2014.08.22-22.47.53:302][483]LogBlueprintUserMessages: X=0.000 Y=0.000 Z=0.000
+[2014.08.22-22.47.53:302][483]LogBlueprintUserMessages: X=0.000 Y=0.000 Z=0.000
+[2014.08.22-22.47.53:313][484]LogBlueprintUserMessages: X=0.000 Y=0.000 Z=0.000
+[2014.08.22-22.47.53:313][484]LogBlueprintUserMessages: X=0.000 Y=0.000 Z=0.000
+[2014.08.22-22.47.53:318][485]LogBlueprintUserMessages: X=0.000 Y=0.000 Z=0.000
+[2014.08.22-22.47.53:318][485]LogBlueprintUserMessages: X=0.000 Y=0.000 Z=0.000
+[2014.08.22-22.47.53:329][486]LogBlueprintUserMessages: X=0.000 Y=0.000 Z=0.000
+[2014.08.22-22.47.53:329][486]LogBlueprintUserMessages: X=0.000 Y=0.000 Z=0.000
+[2014.08.22-22.47.53:334][487]LogBlueprintUserMessages: X=0.000 Y=0.000 Z=0.000
+[2014.08.22-22.47.53:334][487]LogBlueprintUserMessages: X=0.000 Y=0.000 Z=0.000
+[2014.08.22-22.47.53:345][488]LogBlueprintUserMessages: X=0.000 Y=0.000 Z=0.000
+[2014.08.22-22.47.53:345][488]LogBlueprintUserMessages: X=0.000 Y=0.000 Z=0.000
+[2014.08.22-22.47.53:359][489]LogBlueprintUserMessages: X=0.000 Y=0.000 Z=0.000
+[2014.08.22-22.47.53:359][489]LogBlueprintUserMessages: X=0.000 Y=0.000 Z=0.000
+[2014.08.22-22.47.53:361][490]LogBlueprintUserMessages: X=0.000 Y=0.000 Z=0.000
+[2014.08.22-22.47.53:361][490]LogBlueprintUserMessages: X=0.000 Y=0.000 Z=0.000
+[2014.08.22-22.47.53:365][491]LogBlueprintUserMessages: X=0.000 Y=0.000 Z=0.000
+[2014.08.22-22.47.53:365][491]LogBlueprintUserMessages: X=0.000 Y=0.000 Z=0.000
+[2014.08.22-22.47.53:377][492]LogBlueprintUserMessages: X=0.000 Y=0.000 Z=0.000
+[2014.08.22-22.47.53:377][492]LogBlueprintUserMessages: X=0.000 Y=0.000 Z=0.000
+[2014.08.22-22.47.53:381][493]LogBlueprintUserMessages: X=0.000 Y=0.000 Z=0.000
+[2014.08.22-22.47.53:381][493]LogBlueprintUserMessages: X=0.000 Y=0.000 Z=0.000
+[2014.08.22-22.47.53:393][494]LogBlueprintUserMessages: X=0.000 Y=0.000 Z=0.000
+[2014.08.22-22.47.53:393][494]LogBlueprintUserMessages: X=0.000 Y=0.000 Z=0.000
+[2014.08.22-22.47.53:397][495]LogBlueprintUserMessages: X=0.000 Y=0.000 Z=0.000
+[2014.08.22-22.47.53:397][495]LogBlueprintUserMessages: X=0.000 Y=0.000 Z=0.000
+[2014.08.22-22.47.53:408][496]LogBlueprintUserMessages: X=0.000 Y=0.000 Z=0.000
+[2014.08.22-22.47.53:408][496]LogBlueprintUserMessages: X=0.000 Y=0.000 Z=0.000
+[2014.08.22-22.47.53:412][497]LogBlueprintUserMessages: X=0.000 Y=0.000 Z=0.000
+[2014.08.22-22.47.53:412][497]LogBlueprintUserMessages: X=0.000 Y=0.000 Z=0.000
+[2014.08.22-22.47.53:424][498]LogBlueprintUserMessages: X=0.000 Y=0.000 Z=0.000
+[2014.08.22-22.47.53:424][498]LogBlueprintUserMessages: X=0.000 Y=0.000 Z=0.000
+[2014.08.22-22.47.53:428][499]LogBlueprintUserMessages: X=0.000 Y=0.000 Z=0.000
+[2014.08.22-22.47.53:428][499]LogBlueprintUserMessages: X=0.000 Y=0.000 Z=0.000
+[2014.08.22-22.47.53:439][500]LogBlueprintUserMessages: X=0.000 Y=0.000 Z=0.000
+[2014.08.22-22.47.53:439][500]LogBlueprintUserMessages: X=0.000 Y=0.000 Z=0.000
+[2014.08.22-22.47.53:443][501]LogBlueprintUserMessages: X=0.000 Y=0.000 Z=0.000
+[2014.08.22-22.47.53:443][501]LogBlueprintUserMessages: X=0.000 Y=0.000 Z=0.000
+[2014.08.22-22.47.53:455][502]LogBlueprintUserMessages: X=0.000 Y=0.000 Z=0.000
+[2014.08.22-22.47.53:455][502]LogBlueprintUserMessages: X=0.000 Y=0.000 Z=0.000
+[2014.08.22-22.47.53:459][503]LogBlueprintUserMessages: X=0.000 Y=0.000 Z=0.000
+[2014.08.22-22.47.53:459][503]LogBlueprintUserMessages: X=0.000 Y=0.000 Z=0.000
+[2014.08.22-22.47.53:470][504]LogBlueprintUserMessages: X=0.000 Y=0.000 Z=0.000
+[2014.08.22-22.47.53:470][504]LogBlueprintUserMessages: X=0.000 Y=0.000 Z=0.000
+[2014.08.22-22.47.53:474][505]LogBlueprintUserMessages: X=0.000 Y=0.000 Z=0.000
+[2014.08.22-22.47.53:474][505]LogBlueprintUserMessages: X=0.000 Y=0.000 Z=0.000
+[2014.08.22-22.47.53:485][506]LogBlueprintUserMessages: X=0.000 Y=0.000 Z=0.000
+[2014.08.22-22.47.53:485][506]LogBlueprintUserMessages: X=0.000 Y=0.000 Z=0.000
+[2014.08.22-22.47.53:490][507]LogBlueprintUserMessages: X=0.000 Y=0.000 Z=0.000
+[2014.08.22-22.47.53:490][507]LogBlueprintUserMessages: X=0.000 Y=0.000 Z=0.000
+[2014.08.22-22.47.53:501][508]LogBlueprintUserMessages: X=0.000 Y=0.000 Z=0.000
+[2014.08.22-22.47.53:501][508]LogBlueprintUserMessages: X=0.000 Y=0.000 Z=0.000
+[2014.08.22-22.47.53:506][509]LogBlueprintUserMessages: X=0.000 Y=0.000 Z=0.000
+[2014.08.22-22.47.53:506][509]LogBlueprintUserMessages: X=0.000 Y=0.000 Z=0.000
+[2014.08.22-22.47.53:520][510]LogBlueprintUserMessages: X=0.000 Y=0.000 Z=0.000
+[2014.08.22-22.47.53:520][510]LogBlueprintUserMessages: X=0.000 Y=0.000 Z=0.000
+[2014.08.22-22.47.53:524][511]LogBlueprintUserMessages: X=0.000 Y=0.000 Z=0.000
+[2014.08.22-22.47.53:524][511]LogBlueprintUserMessages: X=0.000 Y=0.000 Z=0.000
+[2014.08.22-22.47.53:534][512]LogBlueprintUserMessages: X=0.000 Y=0.000 Z=0.000
+[2014.08.22-22.47.53:534][512]LogBlueprintUserMessages: X=0.000 Y=0.000 Z=0.000
+[2014.08.22-22.47.53:539][513]LogBlueprintUserMessages: X=0.000 Y=0.000 Z=0.000
+[2014.08.22-22.47.53:539][513]LogBlueprintUserMessages: X=0.000 Y=0.000 Z=0.000
+[2014.08.22-22.47.53:549][514]LogBlueprintUserMessages: X=0.000 Y=0.000 Z=0.000
+[2014.08.22-22.47.53:550][514]LogBlueprintUserMessages: X=0.000 Y=0.000 Z=0.000
+[2014.08.22-22.47.53:554][515]LogBlueprintUserMessages: X=0.000 Y=0.000 Z=0.000
+[2014.08.22-22.47.53:554][515]LogBlueprintUserMessages: X=0.000 Y=0.000 Z=0.000
+[2014.08.22-22.47.53:565][516]LogBlueprintUserMessages: X=0.000 Y=0.000 Z=0.000
+[2014.08.22-22.47.53:565][516]LogBlueprintUserMessages: X=0.000 Y=0.000 Z=0.000
+[2014.08.22-22.47.53:569][517]LogBlueprintUserMessages: X=0.000 Y=0.000 Z=0.000
+[2014.08.22-22.47.53:569][517]LogBlueprintUserMessages: X=0.000 Y=0.000 Z=0.000
+[2014.08.22-22.47.53:580][518]LogBlueprintUserMessages: X=0.000 Y=0.000 Z=0.000
+[2014.08.22-22.47.53:580][518]LogBlueprintUserMessages: X=0.000 Y=0.000 Z=0.000
+[2014.08.22-22.47.53:585][519]LogBlueprintUserMessages: X=0.000 Y=0.000 Z=0.000
+[2014.08.22-22.47.53:585][519]LogBlueprintUserMessages: X=0.000 Y=0.000 Z=0.000
+[2014.08.22-22.47.53:596][520]LogBlueprintUserMessages: X=0.000 Y=0.000 Z=0.000
+[2014.08.22-22.47.53:596][520]LogBlueprintUserMessages: X=0.000 Y=0.000 Z=0.000
+[2014.08.22-22.47.53:607][521]LogBlueprintUserMessages: X=0.000 Y=0.000 Z=0.000
+[2014.08.22-22.47.53:607][521]LogBlueprintUserMessages: X=0.000 Y=0.000 Z=0.000
+[2014.08.22-22.47.53:611][522]LogBlueprintUserMessages: X=0.000 Y=0.000 Z=0.000
+[2014.08.22-22.47.53:611][522]LogBlueprintUserMessages: X=0.000 Y=0.000 Z=0.000
+[2014.08.22-22.47.53:623][523]LogBlueprintUserMessages: X=0.000 Y=0.000 Z=0.000
+[2014.08.22-22.47.53:623][523]LogBlueprintUserMessages: X=0.000 Y=0.000 Z=0.000
+[2014.08.22-22.47.53:627][524]LogBlueprintUserMessages: X=0.000 Y=0.000 Z=0.000
+[2014.08.22-22.47.53:627][524]LogBlueprintUserMessages: X=0.000 Y=0.000 Z=0.000
+[2014.08.22-22.47.53:638][525]LogBlueprintUserMessages: X=0.000 Y=0.000 Z=0.000
+[2014.08.22-22.47.53:638][525]LogBlueprintUserMessages: X=0.000 Y=0.000 Z=0.000
+[2014.08.22-22.47.53:642][526]LogBlueprintUserMessages: X=0.000 Y=0.000 Z=0.000
+[2014.08.22-22.47.53:642][526]LogBlueprintUserMessages: X=0.000 Y=0.000 Z=0.000
+[2014.08.22-22.47.53:654][527]LogBlueprintUserMessages: X=0.000 Y=0.000 Z=0.000
+[2014.08.22-22.47.53:654][527]LogBlueprintUserMessages: X=0.000 Y=0.000 Z=0.000
+[2014.08.22-22.47.53:658][528]LogBlueprintUserMessages: X=0.000 Y=0.000 Z=0.000
+[2014.08.22-22.47.53:658][528]LogBlueprintUserMessages: X=0.000 Y=0.000 Z=0.000
+[2014.08.22-22.47.53:668][529]LogBlueprintUserMessages: X=0.000 Y=0.000 Z=0.000
+[2014.08.22-22.47.53:668][529]LogBlueprintUserMessages: X=0.000 Y=0.000 Z=0.000
+[2014.08.22-22.47.53:673][530]LogBlueprintUserMessages: X=0.000 Y=0.000 Z=0.000
+[2014.08.22-22.47.53:673][530]LogBlueprintUserMessages: X=0.000 Y=0.000 Z=0.000
+[2014.08.22-22.47.53:684][531]LogBlueprintUserMessages: X=0.000 Y=0.000 Z=0.000
+[2014.08.22-22.47.53:684][531]LogBlueprintUserMessages: X=0.000 Y=0.000 Z=0.000
+[2014.08.22-22.47.53:689][532]LogBlueprintUserMessages: X=0.000 Y=0.000 Z=0.000
+[2014.08.22-22.47.53:689][532]LogBlueprintUserMessages: X=0.000 Y=0.000 Z=0.000
+[2014.08.22-22.47.53:699][533]LogBlueprintUserMessages: X=0.000 Y=0.000 Z=0.000
+[2014.08.22-22.47.53:699][533]LogBlueprintUserMessages: X=0.000 Y=0.000 Z=0.000
+[2014.08.22-22.47.53:703][534]LogBlueprintUserMessages: X=0.000 Y=0.000 Z=0.000
+[2014.08.22-22.47.53:703][534]LogBlueprintUserMessages: X=0.000 Y=0.000 Z=0.000
+[2014.08.22-22.47.53:714][535]LogBlueprintUserMessages: X=0.000 Y=0.000 Z=0.000
+[2014.08.22-22.47.53:714][535]LogBlueprintUserMessages: X=0.000 Y=0.000 Z=0.000
+[2014.08.22-22.47.53:718][536]LogBlueprintUserMessages: X=0.000 Y=0.000 Z=0.000
+[2014.08.22-22.47.53:719][536]LogBlueprintUserMessages: X=0.000 Y=0.000 Z=0.000
+[2014.08.22-22.47.53:730][537]LogBlueprintUserMessages: X=0.000 Y=0.000 Z=0.000
+[2014.08.22-22.47.53:730][537]LogBlueprintUserMessages: X=0.000 Y=0.000 Z=0.000
+[2014.08.22-22.47.53:734][538]LogBlueprintUserMessages: X=0.000 Y=0.000 Z=0.000
+[2014.08.22-22.47.53:734][538]LogBlueprintUserMessages: X=0.000 Y=0.000 Z=0.000
+[2014.08.22-22.47.53:745][539]LogBlueprintUserMessages: X=0.000 Y=0.000 Z=0.000
+[2014.08.22-22.47.53:746][539]LogBlueprintUserMessages: X=0.000 Y=0.000 Z=0.000
+[2014.08.22-22.47.53:749][540]LogBlueprintUserMessages: X=0.000 Y=0.000 Z=0.000
+[2014.08.22-22.47.53:749][540]LogBlueprintUserMessages: X=0.000 Y=0.000 Z=0.000
+[2014.08.22-22.47.53:761][541]LogBlueprintUserMessages: X=0.000 Y=0.000 Z=0.000
+[2014.08.22-22.47.53:761][541]LogBlueprintUserMessages: X=0.000 Y=0.000 Z=0.000
+[2014.08.22-22.47.53:765][542]LogBlueprintUserMessages: X=0.000 Y=0.000 Z=0.000
+[2014.08.22-22.47.53:765][542]LogBlueprintUserMessages: X=0.000 Y=0.000 Z=0.000
+[2014.08.22-22.47.53:776][543]LogBlueprintUserMessages: X=0.000 Y=0.000 Z=0.000
+[2014.08.22-22.47.53:776][543]LogBlueprintUserMessages: X=0.000 Y=0.000 Z=0.000
+[2014.08.22-22.47.53:781][544]LogBlueprintUserMessages: X=0.000 Y=0.000 Z=0.000
+[2014.08.22-22.47.53:781][544]LogBlueprintUserMessages: X=0.000 Y=0.000 Z=0.000
+[2014.08.22-22.47.53:791][545]LogBlueprintUserMessages: X=0.000 Y=0.000 Z=0.000
+[2014.08.22-22.47.53:792][545]LogBlueprintUserMessages: X=0.000 Y=0.000 Z=0.000
+[2014.08.22-22.47.53:795][546]LogBlueprintUserMessages: X=0.000 Y=0.000 Z=0.000
+[2014.08.22-22.47.53:795][546]LogBlueprintUserMessages: X=0.000 Y=0.000 Z=0.000
+[2014.08.22-22.47.53:807][547]LogBlueprintUserMessages: X=0.000 Y=0.000 Z=0.000
+[2014.08.22-22.47.53:807][547]LogBlueprintUserMessages: X=0.000 Y=0.000 Z=0.000
+[2014.08.22-22.47.53:811][548]LogBlueprintUserMessages: X=0.000 Y=0.000 Z=0.000
+[2014.08.22-22.47.53:811][548]LogBlueprintUserMessages: X=0.000 Y=0.000 Z=0.000
+[2014.08.22-22.47.53:822][549]LogBlueprintUserMessages: X=0.000 Y=0.000 Z=0.000
+[2014.08.22-22.47.53:822][549]LogBlueprintUserMessages: X=0.000 Y=0.000 Z=0.000
+[2014.08.22-22.47.53:826][550]LogBlueprintUserMessages: X=0.000 Y=0.000 Z=0.000
+[2014.08.22-22.47.53:826][550]LogBlueprintUserMessages: X=0.000 Y=0.000 Z=0.000
+[2014.08.22-22.47.53:838][551]LogBlueprintUserMessages: X=0.000 Y=0.000 Z=0.000
+[2014.08.22-22.47.53:838][551]LogBlueprintUserMessages: X=0.000 Y=0.000 Z=0.000
+[2014.08.22-22.47.53:843][552]LogBlueprintUserMessages: X=0.000 Y=0.000 Z=0.000
+[2014.08.22-22.47.53:843][552]LogBlueprintUserMessages: X=0.000 Y=0.000 Z=0.000
+[2014.08.22-22.47.53:852][553]LogBlueprintUserMessages: X=0.000 Y=0.000 Z=0.000
+[2014.08.22-22.47.53:853][553]LogBlueprintUserMessages: X=0.000 Y=0.000 Z=0.000
+[2014.08.22-22.47.53:864][554]LogBlueprintUserMessages: X=0.000 Y=0.000 Z=0.000
+[2014.08.22-22.47.53:864][554]LogBlueprintUserMessages: X=0.000 Y=0.000 Z=0.000
+[2014.08.22-22.47.53:868][555]LogBlueprintUserMessages: X=0.000 Y=0.000 Z=0.000
+[2014.08.22-22.47.53:868][555]LogBlueprintUserMessages: X=0.000 Y=0.000 Z=0.000
+[2014.08.22-22.47.53:879][556]LogBlueprintUserMessages: X=0.000 Y=0.000 Z=0.000
+[2014.08.22-22.47.53:880][556]LogBlueprintUserMessages: X=0.000 Y=0.000 Z=0.000
+[2014.08.22-22.47.53:883][557]LogBlueprintUserMessages: X=0.000 Y=0.000 Z=0.000
+[2014.08.22-22.47.53:884][557]LogBlueprintUserMessages: X=0.000 Y=0.000 Z=0.000
+[2014.08.22-22.47.53:895][558]LogBlueprintUserMessages: X=0.000 Y=0.000 Z=0.000
+[2014.08.22-22.47.53:895][558]LogBlueprintUserMessages: X=0.000 Y=0.000 Z=0.000
+[2014.08.22-22.47.53:899][559]LogBlueprintUserMessages: X=0.000 Y=0.000 Z=0.000
+[2014.08.22-22.47.53:899][559]LogBlueprintUserMessages: X=0.000 Y=0.000 Z=0.000
+[2014.08.22-22.47.53:910][560]LogBlueprintUserMessages: X=0.000 Y=0.000 Z=0.000
+[2014.08.22-22.47.53:910][560]LogBlueprintUserMessages: X=0.000 Y=0.000 Z=0.000
+[2014.08.22-22.47.53:915][561]LogBlueprintUserMessages: X=0.000 Y=0.000 Z=0.000
+[2014.08.22-22.47.53:915][561]LogBlueprintUserMessages: X=0.000 Y=0.000 Z=0.000
+[2014.08.22-22.47.53:926][562]LogBlueprintUserMessages: X=0.000 Y=0.000 Z=0.000
+[2014.08.22-22.47.53:926][562]LogBlueprintUserMessages: X=0.000 Y=0.000 Z=0.000
+[2014.08.22-22.47.53:930][563]LogBlueprintUserMessages: X=0.000 Y=0.000 Z=0.000
+[2014.08.22-22.47.53:930][563]LogBlueprintUserMessages: X=0.000 Y=0.000 Z=0.000
+[2014.08.22-22.47.53:941][564]LogBlueprintUserMessages: X=0.000 Y=0.000 Z=0.000
+[2014.08.22-22.47.53:941][564]LogBlueprintUserMessages: X=0.000 Y=0.000 Z=0.000
+[2014.08.22-22.47.53:945][565]LogBlueprintUserMessages: X=0.000 Y=0.000 Z=0.000
+[2014.08.22-22.47.53:945][565]LogBlueprintUserMessages: X=0.000 Y=0.000 Z=0.000
+[2014.08.22-22.47.53:957][566]LogBlueprintUserMessages: X=0.000 Y=0.000 Z=0.000
+[2014.08.22-22.47.53:957][566]LogBlueprintUserMessages: X=0.000 Y=0.000 Z=0.000
+[2014.08.22-22.47.53:961][567]LogBlueprintUserMessages: X=0.000 Y=0.000 Z=0.000
+[2014.08.22-22.47.53:961][567]LogBlueprintUserMessages: X=0.000 Y=0.000 Z=0.000
+[2014.08.22-22.47.53:972][568]LogBlueprintUserMessages: X=0.000 Y=0.000 Z=0.000
+[2014.08.22-22.47.53:972][568]LogBlueprintUserMessages: X=0.000 Y=0.000 Z=0.000
+[2014.08.22-22.47.53:976][569]LogBlueprintUserMessages: X=0.000 Y=0.000 Z=0.000
+[2014.08.22-22.47.53:976][569]LogBlueprintUserMessages: X=0.000 Y=0.000 Z=0.000
+[2014.08.22-22.47.53:987][570]LogBlueprintUserMessages: X=0.000 Y=0.000 Z=0.000
+[2014.08.22-22.47.53:988][570]LogBlueprintUserMessages: X=0.000 Y=0.000 Z=0.000
+[2014.08.22-22.47.53:992][571]LogBlueprintUserMessages: X=0.000 Y=0.000 Z=0.000
+[2014.08.22-22.47.53:992][571]LogBlueprintUserMessages: X=0.000 Y=0.000 Z=0.000
+[2014.08.22-22.47.54:002][572]LogBlueprintUserMessages: X=0.000 Y=0.000 Z=0.000
+[2014.08.22-22.47.54:002][572]LogBlueprintUserMessages: X=0.000 Y=0.000 Z=0.000
+[2014.08.22-22.47.54:007][573]LogBlueprintUserMessages: X=0.000 Y=0.000 Z=0.000
+[2014.08.22-22.47.54:007][573]LogBlueprintUserMessages: X=0.000 Y=0.000 Z=0.000
+[2014.08.22-22.47.54:018][574]LogBlueprintUserMessages: X=0.000 Y=0.000 Z=0.000
+[2014.08.22-22.47.54:018][574]LogBlueprintUserMessages: X=0.000 Y=0.000 Z=0.000
+[2014.08.22-22.47.54:022][575]LogBlueprintUserMessages: X=0.000 Y=0.000 Z=0.000
+[2014.08.22-22.47.54:022][575]LogBlueprintUserMessages: X=0.000 Y=0.000 Z=0.000
+[2014.08.22-22.47.54:033][576]LogBlueprintUserMessages: X=0.000 Y=0.000 Z=0.000
+[2014.08.22-22.47.54:033][576]LogBlueprintUserMessages: X=0.000 Y=0.000 Z=0.000
+[2014.08.22-22.47.54:037][577]LogBlueprintUserMessages: X=0.000 Y=0.000 Z=0.000
+[2014.08.22-22.47.54:037][577]LogBlueprintUserMessages: X=0.000 Y=0.000 Z=0.000
+[2014.08.22-22.47.54:048][578]LogBlueprintUserMessages: X=0.000 Y=0.000 Z=0.000
+[2014.08.22-22.47.54:048][578]LogBlueprintUserMessages: X=0.000 Y=0.000 Z=0.000
+[2014.08.22-22.47.54:052][579]LogBlueprintUserMessages: X=0.000 Y=0.000 Z=0.000
+[2014.08.22-22.47.54:052][579]LogBlueprintUserMessages: X=0.000 Y=0.000 Z=0.000
+[2014.08.22-22.47.54:064][580]LogBlueprintUserMessages: X=0.000 Y=0.000 Z=0.000
+[2014.08.22-22.47.54:064][580]LogBlueprintUserMessages: X=0.000 Y=0.000 Z=0.000
+[2014.08.22-22.47.54:068][581]LogBlueprintUserMessages: X=0.000 Y=0.000 Z=0.000
+[2014.08.22-22.47.54:068][581]LogBlueprintUserMessages: X=0.000 Y=0.000 Z=0.000
+[2014.08.22-22.47.54:079][582]LogBlueprintUserMessages: X=0.000 Y=0.000 Z=0.000
+[2014.08.22-22.47.54:079][582]LogBlueprintUserMessages: X=0.000 Y=0.000 Z=0.000
+[2014.08.22-22.47.54:084][583]LogBlueprintUserMessages: X=0.000 Y=0.000 Z=0.000
+[2014.08.22-22.47.54:084][583]LogBlueprintUserMessages: X=0.000 Y=0.000 Z=0.000
+[2014.08.22-22.47.54:094][584]LogBlueprintUserMessages: X=0.000 Y=0.000 Z=0.000
+[2014.08.22-22.47.54:094][584]LogBlueprintUserMessages: X=0.000 Y=0.000 Z=0.000
+[2014.08.22-22.47.54:098][585]LogBlueprintUserMessages: X=0.000 Y=0.000 Z=0.000
+[2014.08.22-22.47.54:098][585]LogBlueprintUserMessages: X=0.000 Y=0.000 Z=0.000
+[2014.08.22-22.47.54:110][586]LogBlueprintUserMessages: X=0.000 Y=0.000 Z=0.000
+[2014.08.22-22.47.54:110][586]LogBlueprintUserMessages: X=0.000 Y=0.000 Z=0.000
+[2014.08.22-22.47.54:114][587]LogBlueprintUserMessages: X=0.000 Y=0.000 Z=0.000
+[2014.08.22-22.47.54:114][587]LogBlueprintUserMessages: X=0.000 Y=0.000 Z=0.000
+[2014.08.22-22.47.54:125][588]LogBlueprintUserMessages: X=0.000 Y=0.000 Z=0.000
+[2014.08.22-22.47.54:125][588]LogBlueprintUserMessages: X=0.000 Y=0.000 Z=0.000
+[2014.08.22-22.47.54:129][589]LogBlueprintUserMessages: X=0.000 Y=0.000 Z=0.000
+[2014.08.22-22.47.54:129][589]LogBlueprintUserMessages: X=0.000 Y=0.000 Z=0.000
+[2014.08.22-22.47.54:141][590]LogBlueprintUserMessages: X=0.000 Y=0.000 Z=0.000
+[2014.08.22-22.47.54:141][590]LogBlueprintUserMessages: X=0.000 Y=0.000 Z=0.000
+[2014.08.22-22.47.54:145][591]LogBlueprintUserMessages: X=0.000 Y=0.000 Z=0.000
+[2014.08.22-22.47.54:145][591]LogBlueprintUserMessages: X=0.000 Y=0.000 Z=0.000
+[2014.08.22-22.47.54:156][592]LogBlueprintUserMessages: X=0.000 Y=0.000 Z=0.000
+[2014.08.22-22.47.54:156][592]LogBlueprintUserMessages: X=0.000 Y=0.000 Z=0.000
+[2014.08.22-22.47.54:160][593]LogBlueprintUserMessages: X=0.000 Y=0.000 Z=0.000
+[2014.08.22-22.47.54:160][593]LogBlueprintUserMessages: X=0.000 Y=0.000 Z=0.000
+[2014.08.22-22.47.54:172][594]LogBlueprintUserMessages: X=0.000 Y=0.000 Z=0.000
+[2014.08.22-22.47.54:172][594]LogBlueprintUserMessages: X=0.000 Y=0.000 Z=0.000
+[2014.08.22-22.47.54:182][595]LogBlueprintUserMessages: X=0.000 Y=0.000 Z=0.000
+[2014.08.22-22.47.54:182][595]LogBlueprintUserMessages: X=0.000 Y=0.000 Z=0.000
+[2014.08.22-22.47.54:187][596]LogBlueprintUserMessages: X=0.000 Y=0.000 Z=0.000
+[2014.08.22-22.47.54:187][596]LogBlueprintUserMessages: X=0.000 Y=0.000 Z=0.000
+[2014.08.22-22.47.54:198][597]LogBlueprintUserMessages: X=0.000 Y=0.000 Z=0.000
+[2014.08.22-22.47.54:198][597]LogBlueprintUserMessages: X=0.000 Y=0.000 Z=0.000
+[2014.08.22-22.47.54:202][598]LogBlueprintUserMessages: X=0.000 Y=0.000 Z=0.000
+[2014.08.22-22.47.54:202][598]LogBlueprintUserMessages: X=0.000 Y=0.000 Z=0.000
+[2014.08.22-22.47.54:213][599]LogBlueprintUserMessages: X=0.000 Y=0.000 Z=0.000
+[2014.08.22-22.47.54:213][599]LogBlueprintUserMessages: X=0.000 Y=0.000 Z=0.000
+[2014.08.22-22.47.54:217][600]LogBlueprintUserMessages: X=0.000 Y=0.000 Z=0.000
+[2014.08.22-22.47.54:217][600]LogBlueprintUserMessages: X=0.000 Y=0.000 Z=0.000
+[2014.08.22-22.47.54:229][601]LogBlueprintUserMessages: X=0.000 Y=0.000 Z=0.000
+[2014.08.22-22.47.54:229][601]LogBlueprintUserMessages: X=0.000 Y=0.000 Z=0.000
+[2014.08.22-22.47.54:233][602]LogBlueprintUserMessages: X=0.000 Y=0.000 Z=0.000
+[2014.08.22-22.47.54:233][602]LogBlueprintUserMessages: X=0.000 Y=0.000 Z=0.000
+[2014.08.22-22.47.54:244][603]LogBlueprintUserMessages: X=0.000 Y=0.000 Z=0.000
+[2014.08.22-22.47.54:244][603]LogBlueprintUserMessages: X=0.000 Y=0.000 Z=0.000
+[2014.08.22-22.47.54:248][604]LogBlueprintUserMessages: X=0.000 Y=0.000 Z=0.000
+[2014.08.22-22.47.54:248][604]LogBlueprintUserMessages: X=0.000 Y=0.000 Z=0.000
+[2014.08.22-22.47.54:259][605]LogBlueprintUserMessages: X=0.000 Y=0.000 Z=0.000
+[2014.08.22-22.47.54:259][605]LogBlueprintUserMessages: X=0.000 Y=0.000 Z=0.000
+[2014.08.22-22.47.54:263][606]LogBlueprintUserMessages: X=0.000 Y=0.000 Z=0.000
+[2014.08.22-22.47.54:263][606]LogBlueprintUserMessages: X=0.000 Y=0.000 Z=0.000
+[2014.08.22-22.47.54:275][607]LogBlueprintUserMessages: X=0.000 Y=0.000 Z=0.000
+[2014.08.22-22.47.54:275][607]LogBlueprintUserMessages: X=0.000 Y=0.000 Z=0.000
+[2014.08.22-22.47.54:279][608]LogBlueprintUserMessages: X=0.000 Y=0.000 Z=0.000
+[2014.08.22-22.47.54:279][608]LogBlueprintUserMessages: X=0.000 Y=0.000 Z=0.000
+[2014.08.22-22.47.54:290][609]LogBlueprintUserMessages: X=0.000 Y=0.000 Z=0.000
+[2014.08.22-22.47.54:290][609]LogBlueprintUserMessages: X=0.000 Y=0.000 Z=0.000
+[2014.08.22-22.47.54:294][610]LogBlueprintUserMessages: X=0.000 Y=0.000 Z=0.000
+[2014.08.22-22.47.54:294][610]LogBlueprintUserMessages: X=0.000 Y=0.000 Z=0.000
+[2014.08.22-22.47.54:306][611]LogBlueprintUserMessages: X=0.000 Y=0.000 Z=0.000
+[2014.08.22-22.47.54:306][611]LogBlueprintUserMessages: X=0.000 Y=0.000 Z=0.000
+[2014.08.22-22.47.54:310][612]LogBlueprintUserMessages: X=0.000 Y=0.000 Z=0.000
+[2014.08.22-22.47.54:310][612]LogBlueprintUserMessages: X=0.000 Y=0.000 Z=0.000
+[2014.08.22-22.47.54:321][613]LogBlueprintUserMessages: X=0.000 Y=0.000 Z=0.000
+[2014.08.22-22.47.54:321][613]LogBlueprintUserMessages: X=0.000 Y=0.000 Z=0.000
+[2014.08.22-22.47.54:326][614]LogBlueprintUserMessages: X=0.000 Y=0.000 Z=0.000
+[2014.08.22-22.47.54:326][614]LogBlueprintUserMessages: X=0.000 Y=0.000 Z=0.000
+[2014.08.22-22.47.54:336][615]LogBlueprintUserMessages: X=0.000 Y=0.000 Z=0.000
+[2014.08.22-22.47.54:337][615]LogBlueprintUserMessages: X=0.000 Y=0.000 Z=0.000
+[2014.08.22-22.47.54:347][616]LogBlueprintUserMessages: X=0.000 Y=0.000 Z=0.000
+[2014.08.22-22.47.54:347][616]LogBlueprintUserMessages: X=0.000 Y=0.000 Z=0.000
+[2014.08.22-22.47.54:351][617]LogBlueprintUserMessages: X=0.000 Y=0.000 Z=0.000
+[2014.08.22-22.47.54:351][617]LogBlueprintUserMessages: X=0.000 Y=0.000 Z=0.000
+[2014.08.22-22.47.54:363][618]LogBlueprintUserMessages: X=0.000 Y=0.000 Z=0.000
+[2014.08.22-22.47.54:363][618]LogBlueprintUserMessages: X=0.000 Y=0.000 Z=0.000
+[2014.08.22-22.47.54:374][619]LogBlueprintUserMessages: X=0.000 Y=0.000 Z=0.000
+[2014.08.22-22.47.54:374][619]LogBlueprintUserMessages: X=0.000 Y=0.000 Z=0.000
+[2014.08.22-22.47.54:379][620]LogBlueprintUserMessages: X=0.000 Y=0.000 Z=0.000
+[2014.08.22-22.47.54:379][620]LogBlueprintUserMessages: X=0.000 Y=0.000 Z=0.000
+[2014.08.22-22.47.54:390][621]LogBlueprintUserMessages: X=0.000 Y=0.000 Z=0.000
+[2014.08.22-22.47.54:390][621]LogBlueprintUserMessages: X=0.000 Y=0.000 Z=0.000
+[2014.08.22-22.47.54:394][622]LogBlueprintUserMessages: X=0.000 Y=0.000 Z=0.000
+[2014.08.22-22.47.54:394][622]LogBlueprintUserMessages: X=0.000 Y=0.000 Z=0.000
+[2014.08.22-22.47.54:405][623]LogBlueprintUserMessages: X=0.000 Y=0.000 Z=0.000
+[2014.08.22-22.47.54:405][623]LogBlueprintUserMessages: X=0.000 Y=0.000 Z=0.000
+[2014.08.22-22.47.54:409][624]LogBlueprintUserMessages: X=0.000 Y=0.000 Z=0.000
+[2014.08.22-22.47.54:409][624]LogBlueprintUserMessages: X=0.000 Y=0.000 Z=0.000
+[2014.08.22-22.47.54:420][625]LogBlueprintUserMessages: X=0.000 Y=0.000 Z=0.000
+[2014.08.22-22.47.54:421][625]LogBlueprintUserMessages: X=0.000 Y=0.000 Z=0.000
+[2014.08.22-22.47.54:424][626]LogBlueprintUserMessages: X=0.000 Y=0.000 Z=0.000
+[2014.08.22-22.47.54:424][626]LogBlueprintUserMessages: X=0.000 Y=0.000 Z=0.000
+[2014.08.22-22.47.54:435][627]LogBlueprintUserMessages: X=0.000 Y=0.000 Z=0.000
+[2014.08.22-22.47.54:435][627]LogBlueprintUserMessages: X=0.000 Y=0.000 Z=0.000
+[2014.08.22-22.47.54:440][628]LogBlueprintUserMessages: X=0.000 Y=0.000 Z=0.000
+[2014.08.22-22.47.54:440][628]LogBlueprintUserMessages: X=0.000 Y=0.000 Z=0.000
+[2014.08.22-22.47.54:450][629]LogBlueprintUserMessages: X=0.000 Y=0.000 Z=0.000
+[2014.08.22-22.47.54:451][629]LogBlueprintUserMessages: X=0.000 Y=0.000 Z=0.000
+[2014.08.22-22.47.54:455][630]LogBlueprintUserMessages: X=0.000 Y=0.000 Z=0.000
+[2014.08.22-22.47.54:455][630]LogBlueprintUserMessages: X=0.000 Y=0.000 Z=0.000
+[2014.08.22-22.47.54:466][631]LogBlueprintUserMessages: X=0.000 Y=0.000 Z=0.000
+[2014.08.22-22.47.54:466][631]LogBlueprintUserMessages: X=0.000 Y=0.000 Z=0.000
+[2014.08.22-22.47.54:477][632]LogBlueprintUserMessages: X=0.000 Y=0.000 Z=0.000
+[2014.08.22-22.47.54:477][632]LogBlueprintUserMessages: X=0.000 Y=0.000 Z=0.000
+[2014.08.22-22.47.54:481][633]LogBlueprintUserMessages: X=0.000 Y=0.000 Z=0.000
+[2014.08.22-22.47.54:481][633]LogBlueprintUserMessages: X=0.000 Y=0.000 Z=0.000
+[2014.08.22-22.47.54:493][634]LogBlueprintUserMessages: X=0.000 Y=0.000 Z=0.000
+[2014.08.22-22.47.54:493][634]LogBlueprintUserMessages: X=0.000 Y=0.000 Z=0.000
+[2014.08.22-22.47.54:498][635]LogBlueprintUserMessages: X=0.000 Y=0.000 Z=0.000
+[2014.08.22-22.47.54:498][635]LogBlueprintUserMessages: X=0.000 Y=0.000 Z=0.000
+[2014.08.22-22.47.54:509][636]LogBlueprintUserMessages: X=0.000 Y=0.000 Z=0.000
+[2014.08.22-22.47.54:509][636]LogBlueprintUserMessages: X=0.000 Y=0.000 Z=0.000
+[2014.08.22-22.47.54:512][637]LogBlueprintUserMessages: X=0.000 Y=0.000 Z=0.000
+[2014.08.22-22.47.54:512][637]LogBlueprintUserMessages: X=0.000 Y=0.000 Z=0.000
+[2014.08.22-22.47.54:524][638]LogBlueprintUserMessages: X=0.000 Y=0.000 Z=0.000
+[2014.08.22-22.47.54:524][638]LogBlueprintUserMessages: X=0.000 Y=0.000 Z=0.000
+[2014.08.22-22.47.54:528][639]LogBlueprintUserMessages: X=0.000 Y=0.000 Z=0.000
+[2014.08.22-22.47.54:528][639]LogBlueprintUserMessages: X=0.000 Y=0.000 Z=0.000
+[2014.08.22-22.47.54:539][640]LogBlueprintUserMessages: X=0.000 Y=0.000 Z=0.000
+[2014.08.22-22.47.54:539][640]LogBlueprintUserMessages: X=0.000 Y=0.000 Z=0.000
+[2014.08.22-22.47.54:544][641]LogBlueprintUserMessages: X=0.000 Y=0.000 Z=0.000
+[2014.08.22-22.47.54:544][641]LogBlueprintUserMessages: X=0.000 Y=0.000 Z=0.000
+[2014.08.22-22.47.54:555][642]LogBlueprintUserMessages: X=0.000 Y=0.000 Z=0.000
+[2014.08.22-22.47.54:555][642]LogBlueprintUserMessages: X=0.000 Y=0.000 Z=0.000
+[2014.08.22-22.47.54:566][643]LogBlueprintUserMessages: X=0.000 Y=0.000 Z=0.000
+[2014.08.22-22.47.54:566][643]LogBlueprintUserMessages: X=0.000 Y=0.000 Z=0.000
+[2014.08.22-22.47.54:570][644]LogBlueprintUserMessages: X=0.000 Y=0.000 Z=0.000
+[2014.08.22-22.47.54:570][644]LogBlueprintUserMessages: X=0.000 Y=0.000 Z=0.000
+[2014.08.22-22.47.54:581][645]LogBlueprintUserMessages: X=0.000 Y=0.000 Z=0.000
+[2014.08.22-22.47.54:581][645]LogBlueprintUserMessages: X=0.000 Y=0.000 Z=0.000
+[2014.08.22-22.47.54:593][646]LogBlueprintUserMessages: X=0.000 Y=0.000 Z=0.000
+[2014.08.22-22.47.54:593][646]LogBlueprintUserMessages: X=0.000 Y=0.000 Z=0.000
+[2014.08.22-22.47.54:597][647]LogBlueprintUserMessages: X=0.000 Y=0.000 Z=0.000
+[2014.08.22-22.47.54:597][647]LogBlueprintUserMessages: X=0.000 Y=0.000 Z=0.000
+[2014.08.22-22.47.54:608][648]LogBlueprintUserMessages: X=0.000 Y=0.000 Z=0.000
+[2014.08.22-22.47.54:608][648]LogBlueprintUserMessages: X=0.000 Y=0.000 Z=0.000
+[2014.08.22-22.47.54:614][649]LogHMD:Warning: Vision Tracking Acquired
+[2014.08.22-22.47.54:614][649]LogBlueprintUserMessages: X=0.000 Y=0.000 Z=0.000
+[2014.08.22-22.47.54:614][649]LogBlueprintUserMessages: X=0.000 Y=0.000 Z=0.000
+[2014.08.22-22.47.54:878][649]LogWindows:Error: appError called: Rendering thread exception:
+Fatal error!
+
+Address = 0xa7e61f0  (filename not found) [in C:\Program Files\Unreal Engine\4.4\Engine\Binaries\Win64\UE4Editor-RHI.dll]
+Address = 0xf72d04d4 (filename not found) [in C:\Program Files\Unreal Engine\4.4\Engine\Binaries\Win64\UE4Editor-Renderer.dll]
+Address = 0xf71d7829 (filename not found) [in C:\Program Files\Unreal Engine\4.4\Engine\Binaries\Win64\UE4Editor-Renderer.dll]
+Address = 0xf7086538 (filename not found) [in C:\Program Files\Unreal Engine\4.4\Engine\Binaries\Win64\UE4Editor-Renderer.dll]
+Address = 0xf7200834 (filename not found) [in C:\Program Files\Unreal Engine\4.4\Engine\Binaries\Win64\UE4Editor-Renderer.dll]
+Address = 0xf71d6972 (filename not found) [in C:\Program Files\Unreal Engine\4.4\Engine\Binaries\Win64\UE4Editor-Renderer.dll]
+Address = 0x3c87002  (filename not found) [in C:\Program Files\Unreal Engine\4.4\Engine\Binaries\Win64\UE4Editor-Core.dll]
+Address = 0x3c8718d  (filename not found) [in C:\Program Files\Unreal Engine\4.4\Engine\Binaries\Win64\UE4Editor-Core.dll]
+Address = 0xb18c353  (filename not found) [in C:\Program Files\Unreal Engine\4.4\Engine\Binaries\Win64\UE4Editor-RenderCore.dll]
+Address = 0xb18c7e9  (filename not found) [in C:\Program Files\Unreal Engine\4.4\Engine\Binaries\Win64\UE4Editor-RenderCore.dll]
+Address = 0x3ec2ca6  (filename not found) [in C:\Program Files\Unreal Engine\4.4\Engine\Binaries\Win64\UE4Editor-Core.dll]
+Address = 0x3ebc26d  (filename not found) [in C:\Program Files\Unreal Engine\4.4\Engine\Binaries\Win64\UE4Editor-Core.dll]
+Address = 0x1a7516ad (filename not found) [in C:\WINDOWS\system32\KERNEL32.DLL]
+Address = 0x1d7934a5 (filename not found) [in C:\WINDOWS\SYSTEM32\ntdll.dll]
+Address = 0x1d7934a5 (filename not found) [in C:\WINDOWS\SYSTEM32\ntdll.dll]
+
+[2014.08.22-22.47.54:878][649]LogWindows:Error: Windows GetLastError: The operation completed successfully. (0)
+[2014.08.22-22.47.54:878][649]LogWindows: === Critical error: ===
+Unhandled Exception: EXCEPTION_ACCESS_VIOLATION reading address 0x00000040
+
+[2014.08.22-22.47.54:878][649]LogWindows: Rendering thread exception:
+Fatal error!
+
+Address = 0xa7e61f0  (filename not found) [in C:\Program Files\Unreal Engine\4.4\Engine\Binaries\Win64\UE4Editor-RHI.dll]
+Address = 0xf72d04d4 (filename not found) [in C:\Program Files\Unreal Engine\4.4\Engine\Binaries\Win64\UE4Editor-Renderer.dll]
+Address = 0xf71d7829 (filename not found) [in C:\Program Files\Unreal Engine\4.4\Engine\Binaries\Win64\UE4Editor-Renderer.dll]
+Address = 0xf7086538 (filename not found) [in C:\Program Files\Unreal Engine\4.4\Engine\Binaries\Win64\UE4Editor-Renderer.dll]
+Address = 0xf7200834 (filename not found) [in C:\Program Files\Unreal Engine\4.4\Engine\Binaries\Win64\UE4Editor-Renderer.dll]
+Address = 0xf71d6972 (filename not found) [in C:\Program Files\Unreal Engine\4.4\Engine\Binaries\Win64\UE4Editor-Renderer.dll]
+Address = 0x3c87002  (filename not found) [in C:\Program Files\Unreal Engine\4.4\Engine\Binaries\Win64\UE4Editor-Core.dll]
+Address = 0x3c8718d  (filename not found) [in C:\Program Files\Unreal Engine\4.4\Engine\Binaries\Win64\UE4Editor-Core.dll]
+Address = 0xb18c353  (filename not found) [in C:\Program Files\Unreal Engine\4.4\Engine\Binaries\Win64\UE4Editor-RenderCore.dll]
+Address = 0xb18c7e9  (filename not found) [in C:\Program Files\Unreal Engine\4.4\Engine\Binaries\Win64\UE4Editor-RenderCore.dll]
+Address = 0x3ec2ca6  (filename not found) [in C:\Program Files\Unreal Engine\4.4\Engine\Binaries\Win64\UE4Editor-Core.dll]
+Address = 0x3ebc26d  (filename not found) [in C:\Program Files\Unreal Engine\4.4\Engine\Binaries\Win64\UE4Editor-Core.dll]
+Address = 0x1a7516ad (filename not found) [in C:\WINDOWS\system32\KERNEL32.DLL]
+Address = 0x1d7934a5 (filename not found) [in C:\WINDOWS\SYSTEM32\ntdll.dll]
+Address = 0x1d7934a5 (filename not found) [in C:\WINDOWS\SYSTEM32\ntdll.dll]
+
+
+
+[2014.08.22-22.47.54:878][649]LogExit: Executing StaticShutdownAfterError
+[2014.08.22-22.47.54:897][649]LogWindows: FPlatformMisc::RequestExit(1)
+[2014.08.22-22.47.54:897][649]Log file closed, 08/23/14 08:47:54

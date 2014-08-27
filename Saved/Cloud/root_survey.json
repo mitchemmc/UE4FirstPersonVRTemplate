@@ -1,0 +1,128 @@
+{
+	"id": "3CB7C875-5919-46E9-A242-8D025EF37520",
+	"name": "UE4 Goals/Intent",
+	"survey_version": 2,
+	"instructions": "At Epic, our ambition is to provide you the best development experience possible. In this effort, there are occasions where it is valuable to reach out to you directly so we can prioritize features/content to your needs. We will make these interruptions as limited and respectful of your time as possible. This survey is focused on understanding your development experience and goals with UE4 and is limited to 6 questions. We understand if you do not wish to disclose information and participation is entirely voluntary.",
+	"banner": "survey_banner.png",
+	"branches":
+	[
+		{
+			"branch_name": "making_game",
+			"survey": "making_game_survey.json",
+			"threshold": 100
+		},
+	],
+	"blocks":
+	[
+		{
+			"style": "multiline",
+			"response": "multi",
+			"instructions": "Please specify your reasons for using UE4, INDICATE ALL THAT APPLY.",
+			"required": false,
+			"questions": 
+			[
+				"I am currently using UE4...",
+			],
+			"answers": 
+			[
+				"to tinker around, exploring the engine.",
+				"just for fun, to learn about making games.",
+				"to grow my skillset for getting a job in the game industry.",
+				"as part of a class curriculum.",
+				"to evaluate the engine for comparison purposes.",
+				"to create a plugin or asset to sell on the UE4 marketplace.",
+				{
+					"text": "to create a game just for myself.",
+					"branch_points":
+					[
+						{ "branch": "making_game", "points": 100	}
+					]
+				},
+				{
+					"text": "to publish a mobile/tablet game.",
+					"branch_points":
+					[
+						{ "branch": "making_game", "points": 100	}
+					]
+				},
+				{
+					"text": "to publish a console/PC game.",
+					"branch_points":
+					[
+						{ "branch": "making_game", "points": 100	}
+					]
+				},
+				{
+					"text": "to create a VR experience.",
+					"branch_points":
+					[
+						{ "branch": "making_game", "points": 100	}
+					]
+				},
+				"to create a non-gaming experience.",
+				"for reasons not mentioned above."
+			]
+		},
+		{
+			"style": "multiline",
+			"response": "single",
+			"instructions": "Please specify your most important reason for using UE4, PICK ONLY ONE (same options as above).",
+			"required": false,
+			"questions": 
+			[
+				"I am currently using UE4... "
+			],
+			"answers": 
+			[
+				"to tinker around, exploring the engine.",
+				"just for fun, to learn about making games.",
+				"to grow my skillset for getting a job in the game industry.",
+				"as part of a class curriculum.",
+				"to evaluate the engine for comparison purposes.",
+				"to create a plugin or asset to sell on the UE4 marketplace.",
+				"to create a game just for myself.",
+				"to publish a mobile/tablet game.",
+				"to publish a console/PC game.",
+				"to create a VR experience.",
+				"to create a non-gaming experience.",
+				"for reasons not mentioned above."
+			]
+		},
+		{
+			"style": "multiline",
+			"required": false,
+			"questions":
+			[
+				"How would you describe the team size of your primary UE4 project?",
+			],
+			"answers": 
+			[
+				"I am working alone",
+				"Less than 5 people",
+				"6 to 15 people",
+				"16 to 50 people",
+				"More than 50 people",
+			]
+		},
+		{
+			"style": "columns",
+			"instructions": "How would you categorize your experience using a game engine?",
+			"required": false,
+			"questions":
+			[
+				"I've worked with Crytek engine software",
+				"I've worked with Unity engine software",
+				"I've worked with Unreal engine software",
+				"I've worked with internally developed engine software",
+				"I've worked with other engine software",
+			],
+			"answers": 
+			[
+				"Not used",
+				"Less than 1 year",
+				"1 to 3 years",
+				"More than 3 years",
+			]
+		}
+	]
+}
