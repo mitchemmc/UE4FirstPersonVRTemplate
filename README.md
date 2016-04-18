@@ -1,5 +1,8 @@
 UE4 First Person VR Template
 ============================
+
+**Note I have stopped supporting this template please see this [thread](https://forums.unrealengine.com/showthread.php?96447-Tutorial-Mitch-s-VR-Lab-an-introduction-to-VR-in-UE4) for my new work**
+
 This is a template taking the base UE4 First Person template and making a from the ground up VR focused template with comfort and usability optimisations
 
 Current version **0.4.2**
